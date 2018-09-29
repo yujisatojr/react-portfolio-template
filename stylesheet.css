@@ -31,14 +31,11 @@
 .contents{
   float:right;
   height:620px;
-  width:1300px;
   text-align : center;
 }
 
 .footer{
   clear:both;
   float:none;
-  height:100px;
-  width:1300px;
   text-align : center;
 }
