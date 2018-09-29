@@ -1,22 +1,22 @@
 .header{
-  height:60px;
+  height:40px;
+  border-radius: 5px;
   background-color:#444444;
 }
 
 .header-left{
   float:left;
-  padding:15px 15px;
+  padding:8px 15px 20px;
   color:white;
   font-size:20px;
+  font-family: "Phosphate",Phosphate;
 }
 
-.header-right{
-  float:right;
-}
+
 
 .header-right li{
   float:right;
-  padding:5px 30px;
+  padding:12px 30px;
   list-style:none;
   font-size:15px;
   color:white;
@@ -29,11 +29,10 @@
 
 .sidebar{
   float:left;
-  height:600px;
+  height:550px;
   width:200px;
   margin-top:10px;
   padding:30px;
-  border-right:1px solid #DDDDDD;
 }
 
 .sidebar ul {
@@ -53,4 +52,5 @@
 .footer{
   clear:both;
   float:none;
+  text-align : center;
 }
