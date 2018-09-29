@@ -25,6 +25,16 @@
   float:right;
   height:620px;
   text-align : center;
+  font-family: "Papyrus",Papyrus;
+  font-size:25px;
+
+}
+
+.contents{
+  width:1200px;
+  height:500px;
+  text-align : center
+  font-family: "Papyrus",Papyrus;
 }
 
 .footer{
