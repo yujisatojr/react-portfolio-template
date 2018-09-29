@@ -23,15 +23,15 @@
 }
 
 .main{
-  width:1300px;
+  width:1200px;
+  float:right;
+  height:620px;
+  text-align : center;
   /*background-color:*/
 }
 
 
 .contents{
-  float:right;
-  height:620px;
-  text-align : center;
 }
 
 .footer{
