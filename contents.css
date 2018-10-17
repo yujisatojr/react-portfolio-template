@@ -30,15 +30,15 @@
 
 }
 
-.sidebar-right{
+.sidebar-left{
   width:600px;
   float:left;
   height:620px;
 }
 
-.sidebar-left{
+.sidebar-right{
   width:600px;
-  float:left;
+  float:right;
   height:620px;
   font-family: "mincho",mincho;
   font-size:15px;
