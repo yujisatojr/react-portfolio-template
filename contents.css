@@ -30,17 +30,38 @@
 
 }
 
-.contents{
-  width:1200px;
-  height:500px;
-  text-align : center
-  font-family: "Papyrus",Papyrus;
+.sidebar-right{
+  width:600px;
+  float:left;
+  height:620px;
+}
+
+.sidebar-left{
+  width:600px;
+  float:left;
+  height:620px;
+  font-family: "mincho",mincho;
+  font-size:15px;
+  vertical-align: middle;
 }
 
 .footer{
   clear:both;
   float:none;
   text-align : right;
+}
+
+.square_btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: double 4px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+.square_btn:hover {
+    background: #F2F2F2;
 }
 
 a {text-decoration:none}

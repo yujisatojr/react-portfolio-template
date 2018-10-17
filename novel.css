@@ -1,0 +1,72 @@
+.header{
+  height:40px;
+  border-radius: 5px;
+  background-color:#444444;
+}
+
+.header-left{
+  float:left;
+  padding:8px 15px 20px;
+  color:white;
+  font-size:20px;
+  font-family: "Phosphate",Phosphate;
+}
+
+.header-right li{
+  float:right;
+  padding:12px 30px;
+  list-style:none;
+  font-size:15px;
+  color:white;
+}
+
+.main{
+  width:1200px;
+  float:right;
+  height:650px;
+}
+
+.footer{
+  clear:both;
+  float:none;
+  text-align : right;
+}
+
+#honbun{
+    font-size: 1.2em;
+    line-height: 1.8em;
+    height: 28em;
+    overflow: auto;
+    margin: 30px 2%;
+    width: 86%;
+    padding: 30px 0;
+    float: left;
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    /writing-mode: tb-rl;
+    _writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;            /* IE用      */
+    -moz-writing-mode: vertical-rl;     /* firefox用 */
+    -webkit-writing-mode: vertical-rl;  /* chrome用  */
+    -o-writing-mode: vertical-rl;       /* opera用   */
+}
+.gothic{font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', 'Meiryo UI', 'メイリオ', Meiryo, 'ＭＳ ゴシック', 'MS Gothic', sans-serif;}
+.mincho{font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'HGS明朝E', 'HG明朝E', 'ＭＳ 明朝', 'MS Mincho', serif;}
+
+#honbun_prev, #honbun_next{
+    margin-top: 20em;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    float: left;
+    opacity: 0.5;
+    background-color: #fff;
+}
+#honbun_prev:hover, #honbun_next:hover{opacity: 1; cursor: pointer;}
+.opacity03{opacity: 0.3;}
+
+
+a {text-decoration:none}
+a {color: white}
+a:hover { color: #D8D8D8; }
