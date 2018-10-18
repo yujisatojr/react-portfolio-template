@@ -58,6 +58,9 @@
     }
 
     .main{
+      width:840px;
+      float:right;
+      height:620px;
       text-align : center;
     }
 
