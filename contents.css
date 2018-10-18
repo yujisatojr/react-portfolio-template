@@ -63,6 +63,43 @@
     background: #F2F2F2;
 }
 
+.iphone {
+    /* iPhoneのみ */
+    .header{
+      height:40px;
+      border-radius: 5px;
+      background-color:#444444;
+    }
+
+    .header-left{
+      float:left;
+      padding:8px 15px 20px;
+      color:white;
+      font-size:20px;
+      font-family: "Phosphate",Phosphate;
+    }
+
+    .header-right li{
+      float:right;
+      padding:12px 30px;
+      list-style:none;
+      font-size:15px;
+      color:white;
+    }
+
+    .main{
+      float:right;
+      height:620px;
+      text-align : center;
+    }
+
+    .footer{
+      clear:both;
+      float:none;
+      text-align : right;
+    }
+}
+
 a {text-decoration:none}
 a {color: white}
 a:hover { color: #D8D8D8; }
