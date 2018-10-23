@@ -1,11 +1,11 @@
-@media screen and (max-width: 480px) {
-  .header{
+@media screen and (max-width: 500px) {
+  header{
     height:65px;
     border-radius: 5px;
     background-color:#444444;
   }
 
-  .header-left{
+  header-left{
     float:left;
     padding:8px 15px 20px;
     color:white;
@@ -13,7 +13,7 @@
     font-family: "Phosphate",Phosphate;
   }
 
-  .header-right li{
+  header-right li{
     float:right;
     padding:12px 30px;
     list-style:none;
@@ -21,12 +21,12 @@
     color:white;
   }
 
-  .main{
+  main{
     height:620px;
     text-align : center;
   }
 
-  .footer{
+  footer{
     clear:both;
     float:none;
     text-align : right;
