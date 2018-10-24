@@ -19,7 +19,7 @@ body {
   padding: 0px 30px;
   color:white;
   font-size:20px;
-  font-family: "Phosphate",Phosphate;
+  font-family: "Phosphate",Phosphate,sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,6 @@ body {
   /* float:right; */
   height:620px;
   text-align : center;
-  font-family: "Papyrus",Papyrus;
   font-size:25px;
 
 }
@@ -58,7 +57,6 @@ body {
 .contents{
   height:500px;
   text-align : center;
-  font-family: "Papyrus",Papyrus;
 }
 
 .footer{
