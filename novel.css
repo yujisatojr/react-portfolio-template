@@ -1,29 +1,61 @@
+html {
+  padding: 0px;
+}
+body {
+  margin: 0px;
+}
 .header{
-  height:40px;
   border-radius: 5px;
   background-color:#444444;
 }
 
+
+.header, .header-left, .header-right {
+  height: 40px;
+}
+
 .header-left{
   float:left;
-  padding:8px 15px 20px;
+  padding: 0px 30px;
   color:white;
   font-size:20px;
   font-family: "Phosphate",Phosphate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  float:right;
 }
 
 .header-right li{
-  float:right;
-  padding:12px 30px;
+  padding:12px 20px;
   list-style:none;
   font-size:15px;
   color:white;
 }
 
+.header-right ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
 .main{
-  width:1200px;
-  float:right;
-  height:650px;
+  /* float:right; */
+  height:620px;
+  font-size:15px;
+
+}
+
+.contents{
+  height:500px;
+  text-align : center;
 }
 
 .footer{
@@ -31,6 +63,20 @@
   float:none;
   text-align : right;
 }
+
+a {text-decoration:none}
+a {color: white}
+a:hover { color: #D8D8D8; }
+
+@media screen and (max-width: 600px) {
+  .header-left,.header-right {
+    float: none;
+  }
+  .header {
+    height: 80px;
+  }
+ }
+
 
 #honbun{
     font-size: 1.2em;
