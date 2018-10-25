@@ -56,7 +56,11 @@ body {
 
 .contents{
   height:500px;
-  text-align : center;
+}
+
+.contents img {
+  width: 100%;
+  max-width: 510px; /* 最大幅 */
 }
 
 .footer{

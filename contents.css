@@ -60,6 +60,11 @@ body {
   font-size:15px;
 }
 
+.contents img {
+  width: 100%;
+  max-width: 450px; /* 最大幅 */
+}
+
 .square_btn {
     display: inline-block;
     padding: 0.5em 1em;
