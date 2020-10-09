@@ -38,6 +38,7 @@ body {
 }
 
 a {
+  color: #2f4454;
   text-decoration: none;
 }
 
@@ -85,6 +86,7 @@ main{
 }
 
 .experience {
+  display: grid;
   padding-top: 5%;
   padding-bottom: 5%;
   background-color: #92828f;
