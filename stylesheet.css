@@ -1,42 +1,32 @@
-html {
-  padding: 0px;
-}
 body {
   margin: 0px;
 }
-.header{
-  border-radius: 5px;
-  background-color:#444444;
+
+.nav-bar {
+  height: 55px;
 }
 
-
-.header, .header-left, .header-right {
-  height: 40px;
-}
-
-.header-left{
+.nav-left{
   float:left;
-  padding: 0px 30px;
-  color:white;
-  font-size:20px;
-  font-family: "Phosphate",Phosphate;
+  /*
   display: flex;
   justify-content: center;
   align-items: center;
+  */
 }
 
-.header-right {
+.nav-right {
   float:right;
 }
 
-.header-right li{
+.nav-right li{
   padding:12px 20px;
   list-style:none;
-  font-size:15px;
+  font-size:16px;
   color:white;
 }
 
-.header-right ul {
+.nav-right ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -44,40 +34,60 @@ body {
   justify-content: center;
   align-items: center;
   height: inherit;
+  font-family: Verdana, sans-serif;
 }
 
-.main{
-  /* float:right; */
-  height:620px;
+a {
+  text-decoration: none;
+}
+
+main{
   text-align : center;
-  font-size:25px;
-
+  font-size: 14px;
 }
 
-.contents{
-  height:500px;
+.main-content {
+  display: grid;
+  font-family: Verdana, sans-serif;
 }
 
-.contents img {
-  width: 100%;
-  max-width: 510px; /* 最大幅 */
+.introduction {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-size: 30px;
+  letter-spacing: 0.3em;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
-.footer{
-  clear:both;
-  float:none;
-  text-align : right;
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #2f4454;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 15px;
+  color: #f9fbfd;
 }
 
-a {text-decoration:none}
-a {color: white}
-a:hover { color: #D8D8D8; }
+.skills {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /*background-color: #676767;*/
+  background-color: #eae7dc;
+  font-size: 15px;
+}
 
-@media screen and (max-width: 600px) {
-  .header-left,.header-right {
-    float: none;
-  }
-  .header {
-    height: 80px;
-  }
- }
+.skills ul li {
+  display: inline-block;
+  list-style:none;
+  padding: 10px;
+}
+
+.experience {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #92828f;
+  padding-left: 15%;
+  padding-right: 15%;
+}
