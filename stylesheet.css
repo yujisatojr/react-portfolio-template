@@ -3,11 +3,13 @@ body {
 }
 
 .nav-bar {
-  height: 55px;
+  /*height: 55px;*/
+  height: 100px;
 }
 
 .nav-left{
   float:left;
+  padding-left: 20px;
   /*
   display: flex;
   justify-content: center;
@@ -17,6 +19,8 @@ body {
 
 .nav-right {
   float:right;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 .nav-right li{
@@ -53,7 +57,7 @@ main{
 }
 
 .introduction {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
   font-size: 30px;
   letter-spacing: 0.3em;
