@@ -69,9 +69,9 @@ main{
   padding-top: 5%;
   padding-bottom: 5%;
   background-color: #2f4454;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 17px;
   color: #f9fbfd;
 }
 
@@ -80,7 +80,12 @@ main{
   padding-bottom: 5%;
   /*background-color: #676767;*/
   background-color: #eae7dc;
-  font-size: 15px;
+  font-size: 17px;
+}
+
+.skills img:hover {
+  transform: scale(1.5);
+  transition: all 400ms;
 }
 
 .skills ul li {
@@ -90,10 +95,91 @@ main{
 }
 
 .experience {
+  font-size: 17px;
+  color: #f9fbfd;
   display: grid;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: #92828f;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
+  min-height: 500px;
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.8), rgba(73, 73, 73, 0.8)), url(pexels-cameron-casey-1722183.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: 0.75;
+  background-image: url("pexels-cameron-casey-1722183.jpg");*/
+}
+
+.info { grid-area: left; }
+.form { grid-area: right; }
+
+.contact {
+  display: grid;
+  grid-template-areas: 'left right';
+  grid-template-columns: 50% 50%;
+}
+
+.info {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #eee2dc;
+}
+
+.form {
+  color: #f9fbfd;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #272727;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.info li{
+  list-style:none;
+}
+
+.info ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info ul li {
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #181818;
+  color: #f9fbfd;
+  font-family: Verdana, sans-serif;
 }
