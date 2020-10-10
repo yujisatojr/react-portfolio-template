@@ -115,6 +115,7 @@ main{
 
 .box-1, .box-2, .box-3 {
   display: grid;
+  grid-template-rows: 30% 70%;
 }
 
 .header-1, .header-2, .header-3 {
@@ -125,7 +126,6 @@ main{
   padding-left: 3%;
   padding-right: 3%;
   font-size: 15px;
-  padding-top: 5%;
   padding-bottom: 10%;
 }
 
