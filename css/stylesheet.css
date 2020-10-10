@@ -7,18 +7,12 @@ body {
 }
 
 .nav-bar {
-  /*height: 55px;*/
   height: 90px;
 }
 
 .nav-left{
   float:left;
   padding-left: 20px;
-  /*
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  */
 }
 
 .nav-right {
@@ -100,7 +94,6 @@ main{
 .boxes {
   display: grid;
   grid-template-areas: 'left middle right';
-  /*grid-gap: 10px;*/
   grid-template-columns: 30% 30% 30%;
   justify-content: center;
 }
@@ -150,8 +143,6 @@ main{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*opacity: 0.75;
-  background-image: url("pexels-cameron-casey-1722183.jpg");*/
 }
 
 .submission-form { grid-area: left; }
