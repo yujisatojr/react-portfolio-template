@@ -62,7 +62,7 @@ main{
   letter-spacing: 0.3em;
   padding-left: 15%;
   padding-right: 15%;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url(/_assets/img/pexels-jakub-novacek-924824.jpg);
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url(pexels-jakub-novacek-924824.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,41 +138,19 @@ main{
   padding-left: 20%;
   padding-right: 20%;
   min-height: 500px;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.8), rgba(73, 73, 73, 0.8)), url(/_assets/img/pexels-cameron-casey-1722183.jpg);
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.8), rgba(73, 73, 73, 0.8)), url(pexels-cameron-casey-1722183.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.submission-form { grid-area: left; }
-.info { grid-area: right; }
-
 .contact {
-  display: grid;
-  grid-template-areas: 'left right';
-  grid-template-columns: 50% 50%;
   background-color: #eee2dc;
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.submission-form {
-  float: left;
-}
-
-.info {
-  justify-content: right;
-}
-
-input {
-  border-radius: 25px;
-  font-size: 30px;
-  width: 60%;
-  background-color: #f9fbfd;
-  border: none;
 }
 
 .fa {
