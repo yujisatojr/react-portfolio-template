@@ -279,7 +279,7 @@ main{
 @media screen {
   @media (max-width: 567px) {
     .nav-bar {
-      height: 70px;
+      height: 100px;
     }
     .nav-left{
       padding-top: 10px;
