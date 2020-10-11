@@ -293,6 +293,7 @@ main{
       float:right;
     }
     .nav-right li{
+      padding:10px 15px;
       list-style:none;
       font-size:13px;
       color:white;
@@ -313,6 +314,9 @@ main{
       padding-left: 5%;
       padding-right: 5%;
     }
+    .introduction img {
+      width: 40%;
+    }
     .about {
       padding-left: 5%;
       padding-right: 5%;
@@ -323,7 +327,14 @@ main{
       padding-bottom: 5%;
       font-size: 12px;
     }
+    .skills img {
+      width: 30%;
+    }
+    .box-1, .box-2, .box-3 {
+      grid-template-rows: 20% 80%;
+    }
     .body-1, .body-2, .body-3 {
+      padding-top: 5%;
       font-size: 12px;
     }
     .experience {
