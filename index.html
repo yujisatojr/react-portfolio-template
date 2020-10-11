@@ -11,19 +11,43 @@
 
   <script>
     var myVar;
+    var i = 0;
+    function move() {
+      if (i == 0) {
+        i = 1;
+        var elem = document.getElementById("myBar");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+          if (width >= 100) {
+            clearInterval(id);
+            i = 0;
+          } else {
+            width++;
+            elem.style.width = width + "%";
+          }
+        }
+      }
+    }
     
     function myFunction() {
+      move()
       myVar = setTimeout(showPage, 2000);
     }
     
     function showPage() {
-      document.getElementById("loader").style.display = "none";
+      document.getElementById("loader-wrapper").style.display = "none";
       document.getElementById("myDiv").style.display = "block";
     }
   </script>
 
   <body onload="myFunction()">
-    <div id="loader"></div>
+    <div id="loader-wrapper">
+        <img id="loading-img" src="logo.png" height=100>
+        <div id="myProgress">
+          <div id="myBar"></div>
+        </div>
+    </div>
   <div style="display:none;" id="myDiv" class="animate-bottom">
     <div class="nav-bar">
       <nav>

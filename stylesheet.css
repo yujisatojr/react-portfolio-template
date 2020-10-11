@@ -198,10 +198,40 @@ main{
   padding: 10px;
 }
 
+#loader-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #222222;
+}
+
+#loading-img {
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
+
+#myProgress {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  width: 100px;
+  border-radius: 25px 25px;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 5px;
+  border-radius: 25px 25px;
+  background-color: #ac3b61;
+}
+
+/*
 #loader {
   position: absolute;
-  border: 8px solid #f3f3f3;
-  border-top: 8px solid #2f4454;
+  border: 8px solid #222222;
+  border-top: 8px solid #f3f3f3;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -221,6 +251,7 @@ main{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+*/
 
 .animate-bottom {
   position: relative;
