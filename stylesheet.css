@@ -293,7 +293,7 @@ main{
       float:right;
     }
     .nav-right li{
-      padding:15px;
+      padding: 10px 15px;
       list-style:none;
       font-size:13px;
       color:white;
@@ -315,7 +315,7 @@ main{
       padding-right: 5%;
     }
     .introduction img {
-      width: 40%;
+      width: 50%;
     }
     .about {
       padding-left: 5%;
