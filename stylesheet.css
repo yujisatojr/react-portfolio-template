@@ -300,11 +300,10 @@ main{
       float:left;
     }
     .nav-left img {
-      height: 40px
+      height: 35px
     }
     .nav-right {
       float:right;
-      padding-right: 0px;
     }
     .nav-right li {
       padding: 10px 15px;
