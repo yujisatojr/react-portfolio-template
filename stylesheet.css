@@ -306,7 +306,7 @@ main{
       float:right;
     }
     .nav-right li{
-      padding: 10px 15px;
+      padding: 10px 10px;
       list-style:none;
       font-size:13px;
       color:white;
