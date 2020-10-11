@@ -278,6 +278,19 @@ main{
 
 @media screen {
   @media (max-width: 567px) {
+    #loading-img {
+      position: absolute;
+      left: 35%;
+      top: 35%;
+    }
+    #myProgress {
+      position: absolute;
+      left: 35%;
+      top: 50%;
+      width: 100px;
+      border-radius: 25px 25px;
+      background-color: #ddd;
+    }
     .nav-bar {
       height: 70px;
     }
