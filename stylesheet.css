@@ -287,13 +287,13 @@ main{
       float:left;
     }
     .nav-left img {
-      height: 30px
+      height: 40px
     }
     .nav-right {
       float:right;
     }
     .nav-right li{
-      padding:10px 15px;
+      padding:15px;
       list-style:none;
       font-size:13px;
       color:white;
