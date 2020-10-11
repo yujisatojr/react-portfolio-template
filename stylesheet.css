@@ -282,14 +282,12 @@ main{
       height: 70px;
     }
     .nav-left{
-      display: none;
-      /*
+      /*display: none;*/
       padding-top: 10px;
       float:left;
-      */
     }
     .nav-left img {
-      height: 0px
+      height: 50px
     }
     .nav-right {
       float:right;
@@ -298,6 +296,7 @@ main{
       list-style:none;
       font-size:13px;
       color:white;
+      width: 10%;
     }
     .nav-right ul {
       list-style-type: none;
