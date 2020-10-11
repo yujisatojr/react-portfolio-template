@@ -283,7 +283,7 @@ main{
     }
     .nav-left{
       /*display: none;*/
-      padding-top: 15px;
+      padding-top: 10px;
       float:left;
     }
     .nav-left img {
