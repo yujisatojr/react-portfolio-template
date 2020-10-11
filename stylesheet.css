@@ -296,6 +296,12 @@ main{
       font-size:13px;
       color:white;
     }
+    .nav-right ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      font-family: Verdana, sans-serif;
+    }
     body {
       width: 100%;
     }
@@ -324,6 +330,7 @@ main{
       padding-right: 5%;
     }
   }
+  /*
   @media (min-width: 768px) {
     body {
       width: 100px;
@@ -334,4 +341,5 @@ main{
       width: 100%
     }
   }
+  */
 }
