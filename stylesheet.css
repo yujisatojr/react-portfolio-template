@@ -275,3 +275,63 @@ main{
   display: none;
   text-align: center;
 }
+
+@media screen {
+  @media (max-width: 567px) {
+    .nav-bar {
+      height: 70px;
+    }
+    .nav-left{
+      padding-top: 10px;
+      float:left;
+    }
+    .nav-left img {
+      height: 50px
+    }
+    .nav-right {
+      float:right;
+    }
+    .nav-right li{
+      list-style:none;
+      font-size:13px;
+      color:white;
+    }
+    body {
+      width: 100%;
+    }
+    .introduction {
+      font-size: 18px;
+      letter-spacing: 0.3em;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .about {
+      padding-left: 5%;
+      padding-right: 5%;
+      font-size: 12px;
+    }
+    .skills {
+      padding-top: 3%;
+      padding-bottom: 5%;
+      font-size: 12px;
+    }
+    .body-1, .body-2, .body-3 {
+      font-size: 12px;
+    }
+    .experience {
+      font-size: 12px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  @media (min-width: 768px) {
+    body {
+      width: 100px;
+    }
+  }
+  @media (min-width: 1024px) {
+    body {
+      width: 100%
+    }
+  }
+}
