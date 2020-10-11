@@ -304,9 +304,10 @@ main{
     }
     .nav-right {
       float:right;
+      padding-right: 0px;
     }
-    .nav-right li{
-      padding: 10px 10px;
+    .nav-right li {
+      padding: 10px 15px;
       list-style:none;
       font-size:13px;
       color:white;
