@@ -80,11 +80,15 @@ main{
 }
 
 .skills {
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
   /*background-color: #676767;*/
   background-color: #eae7dc;
   font-size: 17px;
+}
+
+.boxes {
+  padding-top: 3%;
 }
 
 .box-1 { grid-area: left; }
