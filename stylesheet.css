@@ -279,14 +279,17 @@ main{
 @media screen {
   @media (max-width: 567px) {
     .nav-bar {
-      height: 100px;
+      height: 70px;
     }
     .nav-left{
+      display: none;
+      /*
       padding-top: 10px;
       float:left;
+      */
     }
     .nav-left img {
-      height: 50px
+      height: 0px
     }
     .nav-right {
       float:right;
