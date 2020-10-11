@@ -9,8 +9,22 @@
     <title>Yuji Sato | Developer & Data Analyst</title>
   </head>
 
+  <script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 2000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 
-  <body>
+  <body onload="myFunction()">
+    <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
     <div class="nav-bar">
       <nav>
         <div class="nav-left"><img src="logo.png" height=80></div>
@@ -115,14 +129,14 @@
               <li><a href="https://www.facebook.com/yujisatojr" target="_blank" class="fa fa-facebook"></a></li>
               <li><a href="https://twitter.com/yujisatojr"  target="_blank" class="fa fa-twitter"></a></li>
               <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" class="fa fa-linkedin"></a></li>
-              <li><img src="github.svg" width=35></li>
+              <li><a href="https://github.com/yujisatojr" target="_blank"><img src="github.svg" width=35></a></li>
             </ul>
             <p>Follow me on social media!</p>
             <p>&copy;2020 Yuji Sato. Website handcrafted by ME.</p>
           </div>
         </div>
-      
       </div>
     </main>
+  </div>
   </body>
 </html>
