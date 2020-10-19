@@ -62,7 +62,7 @@ main{
   letter-spacing: 0.3em;
   padding-left: 15%;
   padding-right: 15%;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url(pexels-jakub-novacek-924824.jpg);
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("/assets/img/pexels-jakub-novacek-924824.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ main{
   padding-left: 20%;
   padding-right: 20%;
   min-height: 500px;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.8), rgba(73, 73, 73, 0.8)), url(pexels-cameron-casey-1722183.jpg);
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.8), rgba(73, 73, 73, 0.8)), url("/assets/img/pexels-cameron-casey-1722183.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
