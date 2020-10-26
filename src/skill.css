@@ -1,15 +1,12 @@
 .skills {
-    padding-top: 3%;
-    padding-bottom: 5%;
-    background-color: #676767;
-    /* background-color: #2f4454; */
+    background-color: #eae7dc;
     font-size: 17px;
   }
 
   .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 250px;
     perspective: 1000px;
   }
 
@@ -34,22 +31,43 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
+
+  #inner-content {
+    padding-top: 20%;
+  }
+
+  #inner-content-back {
+    font-size: 14px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
+    background-color: antiquewhite;
     color: black;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
   }
 
-  .boxes {
-    padding-top: 3%;
+  #flip-card-back-one {
+    background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("./pexels-lukas-574071.jpg");
+    background-size: cover;
+  }
+
+  #flip-card-back-two {
+    background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("./pexels-pixabay-270404.jpg");
+    background-size: cover;
+  }
+
+  #flip-card-back-three {
+    background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("./graphic-1714230_1280.png");
+    background-size: cover;
   }
   
   .box-1 { grid-area: left; }
@@ -59,21 +77,15 @@
   .boxes {
     display: grid;
     grid-template-areas: 'left middle right';
-    justify-content: center;
-    grid-gap: 5%;
+    grid-template-columns: 33.3%;
   }
-  
-  .box-1 {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-  }
-  
-  .box-3 {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-  }
-  
-  .box-1, .box-2, .box-3 {
-    display: grid;
-    grid-template-rows: 30% 70%;
+
+  @media screen {
+    @media (max-width: 567px) {
+      .boxes {
+        display: grid;
+        grid-template-areas: 'left' 'middle' 'right';
+        grid-template-columns: 100%;
+      }
+    }
   }
