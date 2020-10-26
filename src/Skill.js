@@ -13,7 +13,7 @@ function Skill () {
                 <div class="flip-card-inner" id="flip-one">
                   <div class="flip-card-front">
                     <div id="inner-content">
-                      <p>Software Development</p>
+                      <h4>Software Development</h4>
                     </div>
                   </div>
                   <div class="flip-card-back" id="flip-card-back-one">
@@ -32,7 +32,7 @@ function Skill () {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <div id="inner-content">
-                      <p>Web Development</p>
+                      <h4>Web Development</h4>
                     </div>
                   </div>
                   <div class="flip-card-back" id="flip-card-back-two">
@@ -50,7 +50,7 @@ function Skill () {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <div id="inner-content">
-                      <p>Data analytics</p>
+                      <h4>Data analytics</h4>
                     </div>
                   </div>
                   <div class="flip-card-back" id="flip-card-back-three">

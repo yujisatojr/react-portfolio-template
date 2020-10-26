@@ -45,16 +45,18 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: antiquewhite;
-    color: black;
+    background-color:#2f4454;
+    color: white;
   }
   
   /* Style the back side */
   .flip-card-back {
-    color: white;
+    color: black;
     transform: rotateY(180deg);
+    background-color: #eae7dc;
   }
 
+  /*
   #flip-card-back-one {
     background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("./pexels-lukas-574071.jpg");
     background-size: cover;
@@ -69,6 +71,7 @@
     background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("./graphic-1714230_1280.png");
     background-size: cover;
   }
+  */
   
   .box-1 { grid-area: left; }
   .box-2 { grid-area: middle; }
