@@ -4,8 +4,8 @@ import './pexels-lukas-574071.jpg';
 import './pexels-pixabay-270404.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/free-regular-svg-icons'
-import { faDatabase, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
+// import { faDatabase, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import { faJava, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 
 function Skill () {
 
@@ -17,7 +17,7 @@ function Skill () {
                 <div class="flip-card-inner" id="flip-one">
                   <div class="flip-card-front">
                     <div id="inner-content">
-                      <FontAwesomeIcon icon={faCodeBranch} size="3x"/>
+                      <FontAwesomeIcon icon={faJava} size="3x"/>
                       <h4>Software Development</h4>
                     </div>
                   </div>
@@ -56,8 +56,8 @@ function Skill () {
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <div id="inner-content">
-                      <FontAwesomeIcon icon={faDatabase} size="3x"/>
-                      <h4>Data analytics</h4>
+                      <FontAwesomeIcon icon={faPython} size="3x"/>
+                      <h4>Data Analytics</h4>
                     </div>
                   </div>
                   <div class="flip-card-back" id="flip-card-back-three">
