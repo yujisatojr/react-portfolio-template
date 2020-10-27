@@ -103,6 +103,25 @@ main{
   width: 80%;
 }
 
+.experience ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-1 li {
+    display: inline-block;
+    padding: 5px 0px;
+    width: 5.5%;
+}
+
+.content-2 li {
+  display: inline-block;
+  padding: 5px 0px;
+  width: 10%;
+}
+
 #loader-wrapper {
   position: fixed;
   width: 100%;
