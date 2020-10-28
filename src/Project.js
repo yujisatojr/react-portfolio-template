@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css'
-import mockup from './mockup.png';
-import './pexels-cameron-casey-1722183.jpg';
+import './style/App.css'
+import mockup from './assets/img/mockup.png';
+import mockup2 from './assets/img/mockup2.png';
+import './assets/img/pexels-cameron-casey-1722183.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
 import { faPython,  } from '@fortawesome/free-brands-svg-icons';
@@ -9,8 +10,8 @@ import { faPython,  } from '@fortawesome/free-brands-svg-icons';
 function Project() {
 
   return  (
-    <div class="experience" id="project">
-        <div class="content-1">
+    <div className="experience" id="project">
+        <div className="content-1">
             <h2>Projects & Case Studies</h2>
             <h3>Brigham Young University - Hawaii
               (January 2020 - Current)</h3>
@@ -27,12 +28,12 @@ function Project() {
               <li><FontAwesomeIcon icon={faNpm} size="lg"/></li>
             </ul>
         </div>
-        <div class="content-2">
+        <div className="content-2">
             <h3>Espalhar LLC. (January - May 2020)</h3>
             <p>I worked as a Python developer for a real estate company in Japan. To help those who struggle to find housing in Japan, I used a multi-regression analysis to find a coefficient correlation from over 8000000 housing listings on Japan's No. 1 real estate website. Based on the data, I was able to provide specific housing recommendations according to clients’ unique needs accurately through statistical analysis.</p><br></br>
+            <img src={mockup2} alt="preview2" />
             <ul>
               <li>Used:</li>
-              <li><FontAwesomeIcon icon={faPython} size="lg"/></li>
               <li>Pandas</li>
               <li>NumPy</li>
               <li>Sklearn</li>

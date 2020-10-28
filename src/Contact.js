@@ -1,6 +1,6 @@
 import React from 'react';
-import './contact.css'
-import github from './github.svg'
+import './style/contact.css'
+import github from './assets/img/github.svg'
 
 function Contact() {
 

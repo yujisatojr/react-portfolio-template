@@ -1,6 +1,6 @@
 import React from 'react';
-import mypic from './mypic.png';
-import './pexels-jakub-novacek-924824.jpg';
+import mypic from './assets/img/mypic.png';
+import './assets/img/pexels-jakub-novacek-924824.jpg';
 
 function App() {
 
