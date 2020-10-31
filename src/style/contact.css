@@ -19,33 +19,33 @@
     color: white;
 }
   
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
   
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
   
-  .info li{
-    list-style:none;
-  }
+.info li{
+  list-style:none;
+}
   
-  .info ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.info ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .info ul li {
-    padding: 10px;
-  }
+.info ul li {
+  padding: 10px;
+}
 
-  .info img {
-      width: 35px;
-  }
+.info img {
+  width: 35px;
+}

@@ -4,7 +4,6 @@ import './assets/img/pexels-lukas-574071.jpg';
 import './assets/img/pexels-pixabay-270404.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/free-regular-svg-icons'
-// import { faDatabase, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import { faJava, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 
 function Skill () {

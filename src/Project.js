@@ -5,7 +5,6 @@ import mockup2 from './assets/img/mockup2.png';
 import './assets/img/pexels-cameron-casey-1722183.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
-import { faPython,  } from '@fortawesome/free-brands-svg-icons';
 
 function Project() {
 

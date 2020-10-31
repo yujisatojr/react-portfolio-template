@@ -245,5 +245,12 @@ main{
       padding-left: 5%;
       padding-right: 5%;
     }
+    .content-1 li {
+      width: 7%;
+    }
+  
+    .content-2 li {
+      width: 15%;
+    }
   }
 }

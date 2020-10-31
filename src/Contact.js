@@ -3,7 +3,7 @@ import './style/contact.css'
 import github from './assets/img/github.svg'
 
 function Contact() {
-
+  
   return  (
     <div className="contact" id="contact">
         <div className="info">
