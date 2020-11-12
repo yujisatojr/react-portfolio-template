@@ -252,5 +252,11 @@ main{
     .content-2 li {
       width: 15%;
     }
+    .momo img {
+      height: 100px;
+    }
+    .bubble {
+      width: 100px;
+    }
   }
 }

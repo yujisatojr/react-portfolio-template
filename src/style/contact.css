@@ -49,3 +49,51 @@
 .info img {
   width: 35px;
 }
+
+.momo {
+  position: absolute;
+  right:    30px;
+  bottom:   30px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  animation-iteration-count: infinite;
+}
+
+.momo:hover {
+  margin-top: 20px;
+  -mos-transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  tramsform: translateY(-15px);
+}
+
+.momo img {
+  height: 250px;
+}
+
+.bubble {
+  display: none;
+  right:    90px;
+  bottom:   270px;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  width: 150px;
+  background: #fff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 24px solid #fff;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #fff;
+  border-bottom: 20px solid transparent;
+  bottom: -24px;
+}
