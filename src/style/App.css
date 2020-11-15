@@ -133,15 +133,9 @@ main{
   background: #222222;
 }
 
-#loading-img {
-  position: absolute;
-  left: 45%;
-  top: 35%;
-}
-
 #myProgress {
-  position: absolute;
-  left: 45%;
+  position:fixed;
+  left: 50%;
   top: 50%;
   width: 100px;
   border-radius: 25px 25px;
@@ -185,6 +179,7 @@ main{
       left: 35%;
       top: 35%;
     }
+
     #myProgress {
       position: absolute;
       left: 35%;
@@ -193,20 +188,25 @@ main{
       border-radius: 25px 25px;
       background-color: #ddd;
     }
+
     .nav-bar {
       height: 70px;
     }
+
     .nav-left{
       /*display: none;*/
       padding-top: 20px;
       float:left;
     }
+
     .nav-left img {
       height: 35px
     }
+
     .nav-right {
       float:right;
     }
+
     .nav-right li {
       padding: 10px 15px;
       list-style:none;
@@ -214,37 +214,45 @@ main{
       color:white;
       width: 10%;
     }
+
     .nav-right ul {
       list-style-type: none;
       margin: 0px;
       padding: 0px;
       font-family: Verdana, sans-serif;
     }
+
     body {
       width: 100%;
     }
+
     .introduction {
       font-size: 18px;
       letter-spacing: 0.3em;
       padding-left: 5%;
       padding-right: 5%;
     }
+
     .introduction img {
       width: 60%;
     }
+
     .about {
       padding-left: 5%;
       padding-right: 5%;
       font-size: 12px;
     }
+
     .skills {
       font-size: 12px;
     }
+
     .experience {
       font-size: 12px;
       padding-left: 5%;
       padding-right: 5%;
     }
+
     .content-1 li {
       width: 7%;
     }
@@ -252,8 +260,6 @@ main{
     .content-2 li {
       width: 15%;
     }
-    .momo {
-      display: none;
-    }
+    
   }
 }
