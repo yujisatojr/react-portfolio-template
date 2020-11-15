@@ -230,7 +230,7 @@ main{
       padding-right: 5%;
     }
     .introduction img {
-      width: 70%;
+      width: 60%;
     }
     .about {
       padding-left: 5%;
@@ -252,11 +252,8 @@ main{
     .content-2 li {
       width: 15%;
     }
-    .momo img {
-      height: 100px;
-    }
-    .bubble {
-      width: 100px;
+    .momo {
+      display: none;
     }
   }
 }
