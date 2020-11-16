@@ -3,12 +3,14 @@ import './style/skill.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/free-regular-svg-icons'
 import { faJava, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
+import FadeInSection from './FadeInSections'
 
 function Skill () {
 
   return  (
     <div className="skills" id="skills">
         <div className="boxes">
+          <FadeInSection>
             <div className="box-1">
               <div className="flip-card">
                 <div className="flip-card-inner" id="flip-one">
@@ -29,6 +31,9 @@ function Skill () {
                 </div>
               </div>
             </div>
+          </FadeInSection>
+
+          <FadeInSection>
             <div className="box-2">
               <div className="flip-card">
                 <div className="flip-card-inner">
@@ -48,6 +53,9 @@ function Skill () {
                 </div>
               </div>
             </div>
+          </FadeInSection>
+
+          <FadeInSection>
             <div className="box-3">
               <div className="flip-card">
                 <div className="flip-card-inner">
@@ -67,6 +75,7 @@ function Skill () {
                 </div>
               </div>
             </div>
+          </FadeInSection>
           </div>
     </div>
   );

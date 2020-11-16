@@ -5,17 +5,29 @@ import mockup2 from './assets/img/mockup2.png';
 import './assets/img/pexels-cameron-casey-1722183.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
+import FadeInSection from './FadeInSections'
 
 function Project() {
 
   return  (
     <div className="experience" id="project">
         <div className="content-1">
+
+          <FadeInSection>
             <h2>Projects & Case Studies</h2>
             <h3>Brigham Young University - Hawaii
               (January 2020 - Current)</h3>
+          </FadeInSection>
+
+          <FadeInSection>
             <p>As a front-end web developer, I implemented the Brightspot CMS to improve the overall design of the school website of Brigham Young University - Hawaii by using Handlebars, LESS, JSON, JavaScript, and HTML. One of the highlights of this project was to reinvent the "Holokai Program of Study Module", which loads the CSV file of various areas of studies and lists all the majors available at the university. By implementing a more modern user interface (UX) and design, we achieved 13% higher website traffic.</p>
+          </FadeInSection>
+
+          <FadeInSection>
             <img src={mockup} alt="preview" />
+          </FadeInSection>
+
+          <FadeInSection>
             <ul>
               <li>Used:</li>
               <li><FontAwesomeIcon icon={faHtml5} size="lg"/></li>
@@ -26,11 +38,24 @@ function Project() {
               <li><FontAwesomeIcon icon={faNodeJs} size="lg"/></li>
               <li><FontAwesomeIcon icon={faNpm} size="lg"/></li>
             </ul>
+          </FadeInSection>
         </div>
+        
         <div className="content-2">
+
+          <FadeInSection>
             <h3>Espalhar LLC. (January - May 2020)</h3>
+          </FadeInSection>
+
+          <FadeInSection>
             <p>I worked as a Python developer for a real estate company in Japan. To help those who struggle to find housing in Japan, I used a multi-regression analysis to find a coefficient correlation from over 8000000 housing listings on Japan's No. 1 real estate website. Based on the data, I was able to provide specific housing recommendations according to clients’ unique needs accurately through statistical analysis.</p><br></br>
+          </FadeInSection>
+
+          <FadeInSection>
             <img src={mockup2} alt="preview2" />
+          </FadeInSection>
+
+          <FadeInSection>
             <ul>
               <li>Used:</li>
               <li>Pandas</li>
@@ -40,6 +65,7 @@ function Project() {
               <li>SQL</li>
               <li>Jupyter</li>
             </ul>
+          </FadeInSection>
         </div>
     </div>
   );
