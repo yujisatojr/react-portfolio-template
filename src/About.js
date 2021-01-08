@@ -8,10 +8,10 @@ function About() {
 
     <div className="about" id="about">
       <FadeInSection>
-        <h2>About Me</h2>
+        <h2>Who am I?</h2>
       </FadeInSection>
       <FadeInSection>
-      <p>Hi! My name is Yuji. I am a self-driven developer and passionate about utilizing technology to turn innovative ideas into tangible solutions. I believe that using the right digital tools can maximize our ability to serve others and enhance each user’s experience. I am also a committed life-long learner and eager to build new skills.</p>
+      <p>Hi! My name is Yuji. I am a self-driven developer and passionate about utilizing technology to turn creative ideas into tangible business values. I believe that using the right digital tools can maximize our ability to serve others and enhance each user’s experience. I am also a committed life-long learner and eager to build new skills.</p>
       </FadeInSection>
     </div>
   );

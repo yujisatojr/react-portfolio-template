@@ -10,8 +10,6 @@ function Contact() {
       <div className="info">
         <FadeInSection>
         <ul>
-          <li><a href="https://www.facebook.com/yujisatojr" target="_blank" rel="noopener" className="fa fa-facebook"></a></li>
-          <li><a href="https://twitter.com/yujisatojr"  target="_blank" rel="noopener" className="fa fa-twitter"></a></li>
           <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noopener" className="fa fa-linkedin"></a></li>
           <li><a href="https://github.com/yujisatojr" target="_blank" rel="noopener"><img src={github}/></a></li>
         </ul>
@@ -19,7 +17,7 @@ function Contact() {
 
         <FadeInSection>
         <p>Follow me on social media!</p>
-        <p>&copy;2020 Yuji Sato. Website handcrafted by me.</p>
+        <p>&copy;2021 Yuji Sato. Website handcrafted by me.</p>
         </FadeInSection>
       </div>
     </div>
