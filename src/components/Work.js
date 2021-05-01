@@ -16,6 +16,7 @@ const Work = () => {
           <div className="grid">
             <Fade bottom cascade>
               {data.projects.map((project, index) => (
+                <div className="card-wrapper">
                 <Card
                   key={index}
                   heading={project.title}
@@ -23,6 +24,9 @@ const Work = () => {
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
                 ></Card>
+                <h5 className="card-desc">{project.head}</h5>
+                <p className="card-desc">{project.desc}</p>
+                </div>
               ))}
             </Fade>
           </div>

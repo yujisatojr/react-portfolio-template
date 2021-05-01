@@ -12,6 +12,10 @@ import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBrain } from '@fortawesome/free-solid-svg-icons'
+import { faReact, faAppStoreIos, faDocker, faPython } from '@fortawesome/free-brands-svg-icons'
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -43,9 +47,11 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://www.yujisatojr.com/static/media/mockup4.5566450f.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      head: "Integrated Learning Platform: Datum",
+      desc: "Used: Ruby on Rails, ReactJS, HTML, SCSS, PostgreSQL",
     },
     {
       title: "Project Two", //Project Title - Add Your Project Title Here
@@ -53,9 +59,11 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/real-estate-app-mockup.11572062.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      head: "Real Estate Asset Management Mobile App",
+      desc: "Used: Ruby on Rails, PostgreSQL",
     },
     {
       title: "Project Three", //Project Title - Add Your Project Title Here
@@ -63,9 +71,11 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/screencapture-byuh-edu-covid-19-case-management-2021-05-01-00_38_00.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      head: "COVID-19 Case Management Dashboard",
+      desc: "Used: Chart.js",
     },
     {
       title: "Project Four", //Project Title - Add Your Project Title Here
@@ -73,9 +83,11 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/screencapture-holokai-byuh-edu-programs-of-study-2021-05-01-00_38_15.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      head: "Holokai Programs of Study module",
+      desc: "Used: Java, Handlebars, LESS, JSON"
     },
     {
       title: "Project Five", //Project Title - Add Your Project Title Here
@@ -83,9 +95,11 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/screencapture-hookele-byuh-edu-transfer-evaluation-guidelines-and-matrix-2021-05-01-00_38_34.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      head: "Hoʻokele Admissions module",
+      desc: "Used: Java, Handlebars, LESS, JSON"
     },
     {
       title: "Project Six", //Project Title - Add Your Project Title Here
@@ -93,9 +107,11 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/screencapture-enabling-jp-2021-05-01-00_39_12.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      head: "Enabling official website",
+      desc: "Used: PHP, HTML, CSS"
     },
 
     /*
@@ -129,32 +145,44 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
+      icon: faReact,
+      h5:
+        "Frontend/Backend Web Development",
+      para:
+        "I have worked as a frontend / backend web developer in the higher education industry. Implementing effective designs to improve each user's experience (UX) is my drive. Experience in JavaScript, ReactJS, Django, Ruby on Rails, HTML, CSS, SASS, LESS, PHP, Handlebars.js",
+    },
+    {
+      icon: faAppStoreIos,
+      h5:
+        "Mobile App Development",
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: cssIcon,
+      icon: faDocker,
+      h5:
+        "Software Development",
+      para:
+        "My experience in software development & mobile/web applications development includes building iOS/Android applications, an automated web-scraping program, and Mendix applications.",
+    },
+    {
+      icon: faPython,
+      h5:
+        "Data Analysis",
+      para:
+        "Data analysis is how I attempt to interact and understand the world. I have professonal experience of analyzing dataset contains over 800000+ rows for a real estate company in Japan. Experience in Python libralies (NumPy, Pandas, Matplotlib, Seaborn, and Sklearn), R, MySQL, PostgreSQL, Tensorflow",
+    },
+    {
+      icon: faBrain,
+      h5:
+        "Machine Learning",
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: codeIcon,
+      icon: faBrain,
+      h5:
+        "BI Intelligence",
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },

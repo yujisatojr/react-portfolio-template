@@ -6,13 +6,16 @@
   align-items: center;
   h1 {
     font-size: 3rem;
-    line-height: 20px;
+    //line-height: 20px;
   }
   .grid {
     display: grid;
     margin-top: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    margin-bottom: 5%;
+    //grid-template-columns: repeat(3, 1fr);
+    //grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }

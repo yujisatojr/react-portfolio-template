@@ -11,9 +11,6 @@ const Footer = () => {
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
-            {data.contactEmail}
-          </a>
           <div className="social-icons">
             {data.social.map((socialLink, index) => (
               <a
@@ -27,8 +24,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
+            ©2021 Yuji Sato. Website handcrafted by me.
           </span>
         </div>
       </div>

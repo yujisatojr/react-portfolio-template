@@ -1,6 +1,6 @@
 .about-section {
   width: 80vw;
-  margin-top: 10vh;
+  margin-top: 15vh;
   display: flex;
   justify-content: space-between;
   @include media(">=phone", "<lgphone") {

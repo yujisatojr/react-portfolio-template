@@ -9,8 +9,7 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <Jumbotron>
-          <h1>Made in Hawaii</h1>
-          <p>My name is Yuji</p>
+          <h1>Made in Hawaiʻi</h1>
         </Jumbotron>
       </div>
     </div>
