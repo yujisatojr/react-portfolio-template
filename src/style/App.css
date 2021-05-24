@@ -305,4 +305,20 @@ main{
     }
     
   }
+  .container {
+    display: initial;
+  }
+  .about-section {
+    display: initial;
+  }
+  .about-section .content {
+    text-align: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  .about-section .image-wrapper {
+    width: 100%;
+  }
 }

@@ -22,18 +22,16 @@
 
 @media screen {
   @media (max-width: 567px) {
-    .boxes {
-      display: grid;
-      grid-template-areas: 'left' 'middle' 'right';
-      grid-template-columns: 100%;
+    .skills-container {
+      display: initial;
     }
-    .box-1 {
-      border-bottom: solid #eae7dc;
-      border-width: thin;
+    .skills-container .skills-grid {
+      display: initial;
     }
-    .box-2 {
-      border-bottom: solid #eae7dc;
-      border-width: thin;
+    .skills-container .skills-grid .skill {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 5%;
     }
   }
 }

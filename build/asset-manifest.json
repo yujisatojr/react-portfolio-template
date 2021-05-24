@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6511620.chunk.css",
+    "main.js": "/static/js/main.b64f9154.chunk.js",
+    "main.js.map": "/static/js/main.b64f9154.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0c5de20.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0c5de20.js.map",
+    "static/js/2.c86b2bdc.chunk.js": "/static/js/2.c86b2bdc.chunk.js",
+    "static/js/2.c86b2bdc.chunk.js.map": "/static/js/2.c86b2bdc.chunk.js.map",
+    "static/js/3.cd519048.chunk.js": "/static/js/3.cd519048.chunk.js",
+    "static/js/3.cd519048.chunk.js.map": "/static/js/3.cd519048.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e6511620.chunk.css.map": "/static/css/main.e6511620.chunk.css.map",
+    "static/js/2.c86b2bdc.chunk.js.LICENSE.txt": "/static/js/2.c86b2bdc.chunk.js.LICENSE.txt",
+    "static/media/github.d1bb13ce.svg": "/static/media/github.d1bb13ce.svg",
+    "static/media/App.css": "/static/media/pexels-cameron-casey-1722183.d9071264.jpg",
+    "static/media/mockup.576d6912.jpg": "/static/media/mockup.576d6912.jpg",
+    "static/media/pexels-jakub-novacek-924824.406d0970.jpg": "/static/media/pexels-jakub-novacek-924824.406d0970.jpg",
+    "static/media/profile.14277684.jpg": "/static/media/profile.14277684.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0c5de20.js",
+    "static/js/2.c86b2bdc.chunk.js",
+    "static/css/main.e6511620.chunk.css",
+    "static/js/main.b64f9154.chunk.js"
+  ]
+}
