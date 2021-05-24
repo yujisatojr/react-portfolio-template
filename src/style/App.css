@@ -305,10 +305,13 @@ main{
     }
     
   }
-  .container {
-    display: initial;
+}
+
+@media (max-width:700px) {
+   .container {
+      display: initial;
   }
-  .about-section {
+    .about-section {
     display: initial;
   }
   .about-section .content {
