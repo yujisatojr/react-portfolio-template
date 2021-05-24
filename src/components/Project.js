@@ -22,10 +22,6 @@ function Project() {
           </FadeInSection>
 
           <FadeInSection>
-            <img src={mockup} alt="preview4" />
-          </FadeInSection>
-
-          <FadeInSection>
             <ul>
               <li>Used:</li>
               <li>Ruby on Rails</li>
