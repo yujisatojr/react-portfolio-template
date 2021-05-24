@@ -1,17 +1,24 @@
 import React from 'react';
 import '../style/App.css'
+import myProfile from '../assets/img/profile.jpg';
 import FadeInSection from '../FadeInSections'
 
 function About() {
 
   return  (
-
-    <div className="about" id="about">
+    <div className="container" id="about">
       <FadeInSection>
-        <h2>About</h2>
-      </FadeInSection>
-      <FadeInSection>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ipsum risus, fermentum eu blandit quis, bibendum nec odio. Aliquam vulputate ipsum vel diam sagittis semper. Donec ullamcorper orci nec massa mattis, eget tempus nisl facilisis. Suspendisse sit amet lacus varius, placerat leo vestibulum, bibendum lorem. Vivamus vehicula metus felis, vitae dignissim nunc maximus a. Etiam sit amet ligula vitae ex pharetra imperdiet sed ut ante. Sed pharetra magna ac libero volutpat, vitae interdum mauris blandit. Vestibulum quis diam ac eros maximus aliquam. Fusce ut leo nisl. Nunc vel mollis nulla. Etiam sed nisl sit amet erat hendrerit auctor ac vitae ante. Mauris id bibendum elit. Vestibulum finibus nibh sit amet tincidunt efficitur.</p>
+      <div className="about-section">
+        <div className="content">
+          <h1>About Me</h1>
+          <p>Hi! My name is Yuji. I am a self-motivated developer and passionate about utilizing technology to turn creative ideas into tangible business values. I believe that using the right digital tools can maximize our ability to serve others and enhance each user’s experience. I am also a committed life-long learner and eager to implement more efficient algorithms.</p>
+          <p>Specialties: software development, mobile & web applications development, RESTful API, data analysis, data visualization, machine learning.</p>
+          <p>If I am not coding, you can find me hiking, surfing, traveling, playing the guitar, taking photographs, or hanging out with my wife.</p>
+        </div>
+        <div className="image-wrapper">
+          <img src={myProfile} alt="myProfile" />
+        </div>
+      </div>
       </FadeInSection>
     </div>
   );

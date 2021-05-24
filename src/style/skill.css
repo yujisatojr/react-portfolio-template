@@ -1,66 +1,23 @@
-.skills {
-    background-color: #eae7dc;
-    font-size: 17px;
-  }
-
-.flip-card {
-  background-color: transparent;
-  width: 100%;
-  height: 250px;
-  perspective: 1000px;
+.skills-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+.skills-container .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 20px;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-#inner-content {
-  padding-top: 70px;
-}
-
-#inner-content-back {
-  font-size: 14px;
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.flip-card-front {
-  background-color:#2f4454;
-  color: white;
-}
-
-.flip-card-back {
-  color: black;
-  transform: rotateY(180deg);
-  background-color: #eae7dc;
-}
-
-.box-1 { grid-area: left; }
-.box-2 { grid-area: middle; }
-.box-3 { grid-area: right; }
-  
-.boxes {
-  display: grid;
-  grid-template-areas: 'left middle right';
-  grid-template-columns: 33.3%;
+.skills-container .skills-grid .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 @media screen {

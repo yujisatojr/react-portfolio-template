@@ -6,29 +6,26 @@ body {
   margin: 0px;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 .nav-bar {
-  height: 90px;
-}
-
-.nav-left{
-  float:left;
-  padding-left: 20px;
-}
-
-.nav-right {
-  float:right;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
   padding-top: 20px;
-  padding-right: 20px;
 }
 
-.nav-right li{
+.nav-bar li{
   padding:12px 20px;
   list-style:none;
   font-size:16px;
   color:white;
 }
 
-.nav-right ul {
+.nav-bar ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -37,6 +34,10 @@ body {
   align-items: center;
   height: inherit;
   font-family: Verdana, sans-serif;
+}
+
+.nav-bar a {
+  color: white;
 }
 
 a {
@@ -56,21 +57,17 @@ main{
 
 .introduction {
   color: #f9fbfd;
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   font-size: 30px;
   letter-spacing: 0.3em;
   padding-left: 15%;
   padding-right: 15%;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("/src/assets/img/pexels-jakub-novacek-924824.jpg");
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("/src/assets/img/hero.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.introduction img {
-  width: 25%;
 }
 
 .fade-in-section {
@@ -80,20 +77,40 @@ main{
   transition: opacity 0.6s ease-out, transform 0.5s ease-out;
   will-change: opacity, visibility;
 }
+
 .fade-in-section.is-visible {
   opacity: 1;
   transform: none;
   visibility: visible;
 }
 
-.about {
+.container {
   padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: #eae7dc;
-  padding-left: 20%;
-  padding-right: 20%;
-  font-size: 17px;
-  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about-section .content {
+  text-align: left;
+  width: 50%;
+}
+
+.about-section .image-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .experience {
