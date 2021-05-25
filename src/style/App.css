@@ -324,4 +324,7 @@ main{
   .about-section .image-wrapper {
     width: 100%;
   }
+  .introduction {
+    background-attachment: initial;
+  }
 }
