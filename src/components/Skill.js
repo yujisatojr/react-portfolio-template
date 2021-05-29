@@ -4,7 +4,7 @@ import '@fortawesome/free-regular-svg-icons'
 import faDomo from '../assets/img/faDomo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBrain } from '@fortawesome/free-solid-svg-icons';
-import { faJava, faReact, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
 
 function Skill () {
