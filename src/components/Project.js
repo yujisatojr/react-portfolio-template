@@ -7,7 +7,6 @@ import mock3 from '../assets/img/mock3.png';
 import mock4 from '../assets/img/mock4.png';
 import mock5 from '../assets/img/mock5.png';
 import mock6 from '../assets/img/mock6.png';
-import '../assets/img/pexels-cameron-casey-1722183.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
@@ -31,28 +30,28 @@ function Project() {
           <p>Used: Ruby on Rails</p>
         </div>
         <div className="project">
-          <img src={mock3} alt="domo" width="100%"/>
+          <a href="https://www.byuh.edu/covid-19-case-management"><img src={mock3} className="zoom" alt="domo" width="100%"/></a>
           <h2>COVID-19 Case Management</h2>
           <p>Developed online charts for COVID number tracking at Brigham Young University - Hawaii using JavaScript.</p>
           <p>Used: JavaScript, HTML, CSS</p>
         </div>
         <div className="project">
-          <img src={mock4} alt="domo" width="100%"/>
+          <a href="https://holokai.byuh.edu/programs-of-study"><img src={mock4} className="zoom" alt="domo" width="100%"/></a>
           <h2>Holokai Programs of Study</h2>
           <p>hello</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
-          <img src={mock5} alt="domo" width="100%"/>
+          <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix"><img src={mock5} className="zoom" alt="domo" width="100%"/></a>
           <h2>Hoʻokele Admissions</h2>
           <p>hello</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
-          <img src={mock6} alt="domo" width="100%"/>
-          <h2>Enabling Official Site</h2>
-          <p>hello</p>
-          <p>Used: PHP</p>
+          <a href="https://play.google.com/store/apps/details?id=com.catswarzone"><img src={mock6} className="zoom" alt="domo" width="100%"/></a>
+          <h2>Cat's Warzone</h2>
+          <p>This is a simple, family-friendly, and above all, the cutest shooting game on the Google Play store. All you have to do is simply tap your screen and catch some yummy fishes. Compete with your friend to get a high score!</p>
+          <p>Used: Java, Android Studio</p>
         </div>
       </div>
     </div>

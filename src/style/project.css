@@ -31,57 +31,6 @@
   transform: scale(1.05);
 }
 
-.experience {
-  font-size: 17px;
-  /*color: #f9fbfd;*/
-  display: grid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  min-height: 500px;
-  /*background:linear-gradient(0deg, rgba(73, 73, 73, 0.8), rgba(73, 73, 73, 0.8)), url("/src/assets/img/pexels-cameron-casey-1722183.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-}
-
-.content-0 img {
-  width: 70%;
-}
-
-.content-1 img {
-  width: 80%;
-}
-
-.content-2 img {
-  width: 80%;
-}
-
-#content-3-img {
-  width: 90%;
-}
-
-.experience ul {
-  list-style-type: none;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-}
-
-.content-1 li {
-    display: inline-block;
-    padding: 5px 0px;
-    width: 5.5%;
-}
-
-.content-2 li {
-  display: inline-block;
-  padding: 5px 0px;
-  width: 10%;
-}
-
 #project a {
   color: #ac3b61;
   font-weight: bold;
@@ -89,4 +38,20 @@
 
 #project a:hover {
   color: #b1667f;
+}
+
+@media screen {
+  @media (max-width: 700px) {
+    .projects-container {
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .projects-container .projects-grid {
+      display: block;
+    }
+    .projects-container .projects-grid .project {
+      padding-bottom: 5%;
+    }
+  }
 }

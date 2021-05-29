@@ -1,5 +1,5 @@
 .contact {
-    background-color: #eee2dc;
+    /*background-color: #eee2dc;*/
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -23,11 +23,12 @@
   background: #55ACEE;
   color: white;
 }
-  
+  /*
 .fa-linkedin {
   background: #007bb5;
+  background: black;
   color: white;
-}
+}*/
   
 .info li{
   list-style:none;
