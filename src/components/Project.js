@@ -1,7 +1,12 @@
 import React from 'react';
 import '../style/App.css'
 import '../style/project.css';
-import mockup from '../assets/img/mockup.jpg';
+import mock1 from '../assets/img/mock1.png';
+import mock2 from '../assets/img/mock2.png';
+import mock3 from '../assets/img/mock3.png';
+import mock4 from '../assets/img/mock4.png';
+import mock5 from '../assets/img/mock5.png';
+import mock6 from '../assets/img/mock6.png';
 import '../assets/img/pexels-cameron-casey-1722183.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
@@ -10,35 +15,45 @@ import FadeInSection from '../FadeInSections'
 function Project() {
 
   return  (
-    <div className="experience" id="project">
+    <div className="projects-container" id="project">
       <h1>Projects</h1>
-      <div class="tiles">
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/1.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/2.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/3.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/4.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-      </div>
-      <div class="tiles">
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/1.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/2.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/3.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
-        <a class="tile" href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/216995/4.jpg"/>
-          <div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div>
-        </a>
+      <div className="projects-grid">
+        <div className="project">
+          <a href="https://www.datumlearn.com/"><img src={mock1} className="zoom" alt="domo" width="100%"/></a>
+          <h2>Integrated Learning Platform: Datum</h2>
+          <p>Datum is an online educational platform that provides high-quality, data science focused learning resources in the Japanese language</p>
+          <p>Used: Ruby on Rails, ReactJS, HTML, SCSS, PostgreSQL</p>
+        </div>
+        <div className="project">
+          <a href="http://www.wemanage.co.jp/"><img src={mock2} className="zoom" alt="domo" width="100%"/></a>
+          <h2>Real Estate Asset Management App</h2>
+          <p>This mobile application allows realtors in Japan to securely manage their accounts and accompanying property information.</p>
+          <p>Used: Ruby on Rails</p>
+        </div>
+        <div className="project">
+          <img src={mock3} alt="domo" width="100%"/>
+          <h2>COVID-19 Case Management</h2>
+          <p>Developed online charts for COVID number tracking at Brigham Young University - Hawaii using JavaScript.</p>
+          <p>Used: JavaScript, HTML, CSS</p>
+        </div>
+        <div className="project">
+          <img src={mock4} alt="domo" width="100%"/>
+          <h2>Holokai Programs of Study</h2>
+          <p>hello</p>
+          <p>Used: Java, Handlebars, LESS, JSON</p>
+        </div>
+        <div className="project">
+          <img src={mock5} alt="domo" width="100%"/>
+          <h2>Hoʻokele Admissions</h2>
+          <p>hello</p>
+          <p>Used: Java, Handlebars, LESS, JSON</p>
+        </div>
+        <div className="project">
+          <img src={mock6} alt="domo" width="100%"/>
+          <h2>Enabling Official Site</h2>
+          <p>hello</p>
+          <p>Used: PHP</p>
+        </div>
       </div>
     </div>
   );
