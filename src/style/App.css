@@ -14,6 +14,11 @@ p {
   font-size: 1.1em;
 }
 
+p span {
+  color: #ff6700;
+  font-weight: bold;
+}
+
 .nav-bar {
   justify-content: center;
   text-align: center;
@@ -74,7 +79,7 @@ button {
   letter-spacing: 0.3em;
   padding-left: 15%;
   padding-right: 15%;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url("/src/assets/img/hero.jpeg");
+  background:linear-gradient(0deg, rgba(73, 73, 73, 0.4), rgba(73, 73, 73, 0.4)), url("/src/assets/img/hero.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -181,6 +186,7 @@ button {
     }
 
     .nav-bar {
+      display: none;
       height: 70px;
     }
 

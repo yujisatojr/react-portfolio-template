@@ -12,10 +12,10 @@ function About() {
       <div className="about-section">
         <div className="content">
           <h1>About Me</h1>
-          <p>Hi! My name is Yuji. I am a self-motivated developer and passionate about utilizing technology to turn creative ideas into tangible business values. I believe that using the right digital tools can maximize our ability to serve others and enhance each user’s experience. I am also a committed life-long learner and eager to implement more efficient algorithms.</p>
-          <p>Specialties: software development, mobile & web applications development, RESTful API, data analysis, data visualization, machine learning.</p>
+          <p>Hi! My name is Yuji. I am a self-motivated developer and currently pursuing a bachelor's degree in computer science at Brigham Young University - Hawaii (Expected graduation 2021 December). My experience in working in a various industries helped me to become merely a software/web developer but also an effective leader, communicator, and marketer. I constantly have a value in mind, and whatever I build, I strive to analyze it from a user's perspective.</p>
+          <p>Specialties: software development, mobile & web applications development, RESTful API, data analysis, data visualization, and machine learning.</p>
           <p>If I am not coding, you can find me hiking, surfing, traveling, playing the guitar, taking photographs, or hanging out with my wife.</p>
-          <Button variant="outlined">CV 2021</Button>
+          <a href="https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/Yuji+Sato+Resume.pdf" target="_blank" rel="noreferrer"><Button variant="outlined">CV 2021</Button></a>
         </div>
         <div className="image-wrapper">
           <img src={myProfile} alt="myProfile" />

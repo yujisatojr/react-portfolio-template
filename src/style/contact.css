@@ -1,5 +1,4 @@
 .contact {
-    /*background-color: #eee2dc;*/
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -13,22 +12,6 @@
     text-decoration: none;
     border-radius: 50%;
 }
-  
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-  
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-  /*
-.fa-linkedin {
-  background: #007bb5;
-  background: black;
-  color: white;
-}*/
   
 .info li{
   list-style:none;
@@ -49,4 +32,10 @@
 
 .info img {
   width: 35px;
+}
+
+@media (max-width:700px) {
+  .contact {
+    padding-bottom: 100px;
+  }
 }

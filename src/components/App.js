@@ -1,5 +1,4 @@
 import React from 'react';
-import '../assets/img/pexels-jakub-novacek-924824.jpg';
 
 function App() {
 
@@ -16,7 +15,8 @@ function App() {
         </nav>
       </div>
       <div className="introduction" id="intro">
-        <h1>Made in Hawaiʻi</h1>
+        <h1>Yuji Sato</h1>
+        <p>Developer / Analyst</p>
       </div>
     </div>
   );
