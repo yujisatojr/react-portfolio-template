@@ -21,37 +21,37 @@ function Project() {
         <div className="project">
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock1} className="zoom" alt="domo" width="100%"/></a>
           <h2>Integrated Learning Platform: Datum</h2>
-          <p>Datum is an online educational platform that provides high-quality, data science focused learning resources in the Japanese language</p>
+          <p>Datum is an online educational platform with 300+ users that provides high-quality, data science focused learning resources in the Japanese language. Created an entire platform from scratch.</p>
           <p>Used: Ruby on Rails, ReactJS, HTML, SCSS, PostgreSQL</p>
         </div>
         <div className="project">
-          <a href="http://www.wemanage.co.jp/" target="_blank" rel="noreferrer"><img src={mock2} className="zoom" alt="domo" width="100%"/></a>
+          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock2} className="zoom" alt="domo" width="100%"/></a>
           <h2>Real Estate Asset Management App</h2>
-          <p>This mobile application allows realtors in Japan to securely manage their accounts and accompanying property information.</p>
-          <p>Used: Ruby on Rails</p>
+          <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. Participated in this project as a freelance software developer.</p>
+          <p>Used: Ruby on Rails, JavaScript</p>
         </div>
         <div className="project">
           <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock3} className="zoom" alt="domo" width="100%"/></a>
           <h2>COVID-19 Case Management</h2>
-          <p>Developed online charts for COVID number tracking at Brigham Young University - Hawaii using JavaScript.</p>
-          <p>Used: JavaScript, HTML, CSS</p>
+          <p>Built online charts for COVID/vaccination number tracking at Brigham Young University - Hawaii. The dashboard served the president of university in decision making process.</p>
+          <p>Used: JavaScript, Google Sheets as a JSON endpoint</p>
         </div>
         <div className="project">
           <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock4} className="zoom" alt="domo" width="100%"/></a>
-          <h2>Holokai Programs of Study</h2>
-          <p>hello</p>
+          <h2>Programs of Study</h2>
+          <p>Designed and developed a custom module for CMS-based platform (i.e. “Brightspot”) at Brigham Young University - Hawaii. Univeristy students can find their majors of interests through this module.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
           <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock5} className="zoom" alt="domo" width="100%"/></a>
-          <h2>Hoʻokele Admissions</h2>
-          <p>hello</p>
+          <h2>Transfer Evaluation Matrix</h2>
+          <p>Created a filterable/searchable CSV (4100+ rows) table generator with pagination. Improved the univeristy’s program sorting/loading time by replacing jQuery with vanilla JavaScript.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
           <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><img src={mock6} className="zoom" alt="domo" width="100%"/></a>
           <h2>Cat's Warzone</h2>
-          <p>This is a simple, family-friendly, and above all, the cutest shooting game on the Google Play store. All you have to do is simply tap your screen and catch some yummy fishes. Compete with your friend to get a high score!</p>
+          <p>Developed an Android application that runs a shooting game. Implemented several GOF design patterns (factory, observer, builder, etc) to achieve better performance and source code readability.</p>
           <p>Used: Java, Android Studio</p>
         </div>
       </div>

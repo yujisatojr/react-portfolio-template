@@ -4,7 +4,8 @@ import '@fortawesome/free-regular-svg-icons'
 import faDomo from '../assets/img/faDomo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBrain } from '@fortawesome/free-solid-svg-icons';
-import { faReact, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faVuejs, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
 
 function Skill () {
@@ -18,8 +19,9 @@ function Skill () {
 
             <div className="skill">
               <FontAwesomeIcon icon={faReact} size="4x"/>
-              <h3>Frontend/Backend Web Development</h3>
-              <p>I have worked as a frontend / backend web developer in the higher education industry. Implementing effective designs to improve each user's experience (UX) is my drive. Experience in JavaScript, ReactJS, Django, Ruby on Rails, HTML, CSS, SASS, LESS, PHP, Handlebars.js</p>
+              <h3>Full-Stack Web Development</h3>
+              <p>Worked as both frontend/backend web developer to build from simple websites to RESTful API. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
+              <p>Tech stack: JavaScript, HTML, CSS, SASS, LESS, PHP, Django, MongoDB, MySQL, and PostgreSQL.</p>
             </div>
 
             <div className="skill">

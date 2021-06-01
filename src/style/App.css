@@ -39,14 +39,14 @@ p span {
   margin: 0px;
   padding: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: inherit;
   font-family: Verdana, sans-serif;
 }
 
 .nav-bar a {
-  color: white;
+  color: black;
 }
 
 a {
@@ -72,18 +72,19 @@ button {
 }
 
 .introduction {
-  color: #f9fbfd;
+  color: black;
   padding-top: 15%;
   padding-bottom: 15%;
   font-size: 30px;
   letter-spacing: 0.3em;
-  padding-left: 15%;
-  padding-right: 15%;
-  background:linear-gradient(0deg, rgba(73, 73, 73, 0.4), rgba(73, 73, 73, 0.4)), url("/src/assets/img/hero.jpeg");
+  padding-left: 10%;
+  padding-right: 10%;
+  /*background:linear-gradient(0deg, rgba(73, 73, 73, 0.4), rgba(73, 73, 73, 0.4)), url("/src/assets/img/hero.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  text-align: left;
 }
 
 .fade-in-section {
