@@ -20,17 +20,17 @@ p span {
 }
 
 .nav-bar {
-  justify-content: center;
+  /*justify-content: center;
   text-align: center;
-  width: 100%;
   position: absolute;
-  padding-top: 20px;
+  padding-top: 20px;*/
+  width: 100%;
 }
 
 .nav-bar li{
   padding:12px 20px;
   list-style:none;
-  font-size:16px;
+  font-size:22px;
   color:white;
 }
 
@@ -39,7 +39,7 @@ p span {
   margin: 0px;
   padding: 0px;
   display: flex;
-  justify-content: flex-end;
+  /*justify-content: flex-end;*/
   align-items: center;
   height: inherit;
   font-family: Verdana, sans-serif;
@@ -186,10 +186,10 @@ button {
       background-color: #ddd;
     }
 
-    .nav-bar {
+    /*.nav-bar {
       display: none;
       height: 70px;
-    }
+    }*/
 
     .nav-left{
       padding-top: 20px;
@@ -262,6 +262,15 @@ button {
 }
 
 @media (max-width:700px) {
+  .nav-bar ul {
+    display: initial;
+  }
+  .about-section h1 {
+    text-align: left;
+  }
+  .about-section p {
+    text-align: left;
+  }
    .container {
       display: initial;
   }

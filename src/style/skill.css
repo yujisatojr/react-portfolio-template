@@ -23,6 +23,10 @@
 
 @media screen {
   @media (max-width: 567px) {
+    .skills-container h1 {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
     .skills-container {
       display: initial;
     }
