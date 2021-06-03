@@ -36,7 +36,7 @@ function Project() {
         <div className="project">
           <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock3} className="zoom" alt="domo" width="100%"/></a>
           <h2>COVID-19 Case Management</h2>
-          <p>Built online charts for COVID/vaccination number tracking at Brigham Young University - Hawaii. The dashboard served the president of university in decision making process.</p>
+          <p>Built online charts for COVID/vaccination number tracking at Brigham Young University - Hawaii. The dashboard served the president of university in his decision making processes.</p>
           <p>Used: JavaScript, Google Sheets as a JSON endpoint</p>
         </div>
         <div className="project">
@@ -54,13 +54,13 @@ function Project() {
         <div className="project">
           <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock4} className="zoom" alt="domo" width="100%"/></a>
           <h2>Programs of Study</h2>
-          <p>Designed and developed a custom module for CMS-based platform (i.e. “Brightspot”) at Brigham Young University - Hawaii. Univeristy students can find their majors of interests through this module.</p>
+          <p>Designed and developed a custom module for CMS-based platform (i.e. “Brightspot”) at Brigham Young University - Hawaii. University students can find their majors of interests through this module.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
           <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock5} className="zoom" alt="domo" width="100%"/></a>
           <h2>Transfer Evaluation Matrix</h2>
-          <p>Created a filterable/searchable CSV (4100+ rows) table generator with pagination. Improved the univeristy’s program sorting/loading time by replacing jQuery with vanilla JavaScript.</p>
+          <p>Created a filterable/searchable CSV (4100+ rows) table generator with pagination. Improved the university’s program sorting/loading time by replacing jQuery with vanilla JavaScript.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">

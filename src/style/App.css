@@ -264,6 +264,7 @@ button {
 @media (max-width:700px) {
   .about-section button {
     float: right;
+    margin-right: 10px;
   }
   .nav-bar ul {
     display: initial;
@@ -292,8 +293,8 @@ button {
   }
   .introduction {
     background-attachment: initial;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 35%;
+    padding-bottom: 35%;
   }
 }
 

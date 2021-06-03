@@ -27,7 +27,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Mobile App Development</h3>
-              <p>Design, build, and deploy native iOS & Android mobile applications, that are still available on the store. My interest in mobile app development includes creating a simple management app to fun video games.</p>
+              <p>Design, build, and deploy native iOS & Android mobile applications that are still available for mobile download. My interest in mobile app development ranges from creating simple management apps to fun video games.</p>
               <p>Tech stack: Java, Swift5, SwiftUI, Xcode, Android Studio, Mendix Studio Pro.</p>
             </div>
 
@@ -41,20 +41,20 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
               <h3>Data Analytics</h3>
-              <p>Cleaning, transforming, visualizing, and storytelling data is how I attempt to understand the world. Experience in extracting/analyzing Big Data for a real estate company and higher edcation industry for better decision making. </p>
+              <p>Cleaning, transforming, visualizing, and storytelling data is how I attempt to understand the world. Experience in extracting/analyzing Big Data for a real estate company and higher education industry for better decision making. </p>
               <p>Tech stack: Python (NumPy, Pandas, Matplotlib, Seaborn, Sklearn), R, SQL, Tensorflow</p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faComments} size="4x"/>
               <h3>Leadership + Teamwork</h3>
-              <p>Effective communicator with a background in communications and marketing minors. Collaborative atttitude is demonstrated in my experience in working as a scrum master for several projects.</p>
+              <p>Effective communicator with a background in communications and marketing. Collaborative attitude is demonstrated in my experience in working as a scrum master for several projects.</p>
             </div>
 
             <div className="skill">
               <img src={faDomo} alt="domo" width="54px"/>
               <h3>Certifications</h3>
-              <p>Proud member of Upsilon Pi Epsilon -a national honor society for computing sciences. Officially certified Data Specialist by DOMO. Kaggle Expert. Professional background in business analysis using various business intelligence (BI) tools such as DOMO, Tableau, and Microsoft Excel.</p>
+              <p>Proud member of Upsilon Pi Epsilon, a national honor society for computing sciences. Officially certified Data Specialist by DOMO. Kaggle Expert. Professional background in business analysis using various business intelligence (BI) tools such as DOMO, Tableau, and Microsoft Excel.</p>
             </div>
 
           </div>
