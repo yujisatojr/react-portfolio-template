@@ -22,6 +22,14 @@
     text-align: left;
 }
 
+.project h2 {
+  color: black;
+}
+
+.project h2:hover {
+  text-decoration: underline;
+}
+
 .zoom {
   border-radius: 5px;
   transition: transform .2s;

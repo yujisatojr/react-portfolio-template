@@ -15,7 +15,7 @@ function Contact() {
         </ul>
 
         <p>Follow me on social media!</p>
-        <p>Portfolio handcrafted by <a href="https://github.com/yujisatojr">Yuji Sato</a> with ❤️</p>
+        <p>Portfolio handcrafted by <a href="https://github.com/yujisatojr/yujisatojr.com">Yuji Sato</a> with ❤️</p>
       </div>
     </div>
   );

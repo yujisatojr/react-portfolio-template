@@ -21,14 +21,14 @@ function Skill () {
               <FontAwesomeIcon icon={faReact} size="4x"/>
               <h3>Full-Stack Web Development</h3>
               <p>Worked as both frontend/backend web developer to build from simple websites to RESTful API. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
-              <p>Tech stack: JavaScript, HTML, CSS, SASS, LESS, PHP, Django, MongoDB, MySQL, and PostgreSQL.</p>
+              <p>Tech stack: JavaScript, HTML, CSS, SASS, LESS, PHP, Django, MongoDB, MySQL, PostgreSQL</p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Mobile App Development</h3>
               <p>Design, build, and deploy native iOS & Android mobile applications that are still available for mobile download. My interest in mobile app development ranges from creating simple management apps to fun video games.</p>
-              <p>Tech stack: Java, Swift5, SwiftUI, Xcode, Android Studio, Mendix Studio Pro.</p>
+              <p>Tech stack: Java, Swift5, SwiftUI, Xcode, Android Studio, Mendix Studio Pro</p>
             </div>
 
             <div className="skill">

@@ -18,6 +18,15 @@ p span {
   color: #ff6700;
   font-weight: bold;
 }
+/*
+.divider {
+  height: 5px;
+  left: 0;
+  width: 50%;
+  background-color: red;
+  position: absolute;
+}
+*/
 
 .nav-bar {
   /*justify-content: center;
