@@ -7,6 +7,9 @@ import mock3 from '../assets/img/mock3.png';
 import mock4 from '../assets/img/mock4.png';
 import mock5 from '../assets/img/mock5.png';
 import mock6 from '../assets/img/mock6.png';
+import mock7 from '../assets/img/mock7.jpeg';
+import mock8 from '../assets/img/mock8.png';
+import mock9 from '../assets/img/mock9.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
@@ -35,6 +38,18 @@ function Project() {
           <h2>COVID-19 Case Management</h2>
           <p>Built online charts for COVID/vaccination number tracking at Brigham Young University - Hawaii. The dashboard served the president of university in decision making process.</p>
           <p>Used: JavaScript, Google Sheets as a JSON endpoint</p>
+        </div>
+        <div className="project">
+          <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock7} className="zoom" alt="domo" width="100%"/></a>
+          <h2>Multiple Regression Property Analysis</h2>
+          <p>Analyzed the real estate market in Japan and predicted the property price by implementing statistical methods such as multi-regression analysis.</p>
+          <p>Used: Python, Pandas, NumPy, Matplotlib, Scikit-Learn, Seaborn</p>
+        </div>
+        <div className="project">
+          <a href="https://github.com/yujisatojr/py-scraper" target="_blank" rel="noreferrer"><img src={mock9} className="zoom" alt="domo" width="100%"/></a>
+          <h2>PyScraper</h2>
+          <p>Developed web scraping programs to extract over 800000+ data for analysis purposes. The program further automates the data cleaning and normalization processes.</p>
+          <p>Used: Python, Pandas, Selenium, Requests, Beautiful Soup</p>
         </div>
         <div className="project">
           <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock4} className="zoom" alt="domo" width="100%"/></a>

@@ -3,7 +3,7 @@ import '../style/skill.css';
 import '@fortawesome/free-regular-svg-icons'
 import faDomo from '../assets/img/faDomo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBrain } from '@fortawesome/free-solid-svg-icons';
+import { faBrain, faComments } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faVuejs, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
@@ -27,31 +27,34 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Mobile App Development</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <p>Design, build, and deploy native iOS & Android mobile applications, that are still available on the store. My interest in mobile app development includes creating a simple management app to fun video games.</p>
+              <p>Tech stack: Java, Swift5, SwiftUI, Xcode, Android Studio, Mendix Studio Pro.</p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faDocker} size="4x"/>
               <h3>Software Development</h3>
-              <p>My experience in software development & mobile/web applications development includes building iOS/Android applications, an automated web-scraping program, and Mendix applications.</p>
+              <p>My experience in software development includes building an automated web-scraping program, an interactive chatting program, and implementing algorithms to solve various problems.</p>
+              <p>Tech stack: Python, Git, Docker, AWS</p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
               <h3>Data Analytics</h3>
-              <p>Data analysis is how I attempt to interact and understand the world. I have professonal experience of analyzing dataset contains over 800000+ rows for a real estate company in Japan. Experience in Python libralies (NumPy, Pandas, Matplotlib, Seaborn, and Sklearn), R, MySQL, PostgreSQL, Tensorflow</p>
+              <p>Cleaning, transforming, visualizing, and storytelling data is how I attempt to understand the world. Experience in extracting/analyzing Big Data for a real estate company and higher edcation industry for better decision making. </p>
+              <p>Tech stack: Python (NumPy, Pandas, Matplotlib, Seaborn, Sklearn), R, SQL, Tensorflow</p>
             </div>
 
             <div className="skill">
-              <FontAwesomeIcon icon={faBrain} size="4x"/>
-              <h3>Machine Learning</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <FontAwesomeIcon icon={faComments} size="4x"/>
+              <h3>Leadership + Teamwork</h3>
+              <p>Effective communicator with a background in communications and marketing minors. Collaborative atttitude is demonstrated in my experience in working as a scrum master for several projects.</p>
             </div>
 
             <div className="skill">
               <img src={faDomo} alt="domo" width="54px"/>
-              <h3>BI Intelligence</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <h3>Certifications</h3>
+              <p>Proud member of Upsilon Pi Epsilon -a national honor society for computing sciences. Officially certified Data Specialist by DOMO. Kaggle Expert. Professional background in business analysis using various business intelligence (BI) tools such as DOMO, Tableau, and Microsoft Excel.</p>
             </div>
 
           </div>
