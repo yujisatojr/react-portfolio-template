@@ -40,9 +40,9 @@ function Skill () {
 
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
-              <h3>Data Analytics</h3>
+              <h3>Data Science</h3>
               <p>Cleaning, transforming, visualizing, and storytelling data is how I attempt to understand the world. Experience in extracting/analyzing Big Data for a real estate company and higher education industry for better decision making. </p>
-              <p>Tech stack: Python (NumPy, Pandas, Matplotlib, Seaborn, Sklearn), R, SQL, Tensorflow</p>
+              <p>Tech stack: Python (NumPy, Pandas, Matplotlib, Seaborn, Sklearn), R, SQL, Snowflake, Tensorflow</p>
             </div>
 
             <div className="skill">
