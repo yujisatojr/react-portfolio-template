@@ -310,3 +310,37 @@ button {
 .about-section .image-wrapper img{
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
+
+@media (max-width:400px) {
+  .introduction {
+    padding-top: 40%;
+    padding-bottom: 40%;
+  }
+}
+
+@media (max-width:321px) {
+  .introduction {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+/*
+@media (min-width:767px) and (max-width:767px) {
+  .skills-container .skills-grid {
+    display: initial;
+  }
+  .about-section {
+    display: initial
+  }
+  .about-section .content {
+    width: 100%;
+  }
+  .about-section .image-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width:700px) {
+  
+}
+*/

@@ -3,7 +3,20 @@
     padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
-  }
+}
+
+.section {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+.line {
+  height: 5px;
+  background-color: #333333;
+  width: 30%;
+  margin-bottom: 30px;
+}
   
 .fa {
     padding: 10px;
@@ -22,8 +35,8 @@
   margin: 0px;
   padding: 0px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
 }
   
 .info ul li {

@@ -5,7 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="Yuji Sato">
-    <meta name="description" content="Yuji's personal portfolio website powered by React.">
+    <meta name="description" content="Yuji's personal portfolio website powered by ReactJS.">
     <meta name="author" content="Yuji Sato">
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -47,27 +47,21 @@
     
     function initial() {
       move()
-      myVar = setTimeout(showPage, 2000);
+      myVar = setTimeout(showPage, 500);
     }
     
     function showPage() {
-      document.getElementById("loader-wrapper").style.display = "none";
       document.getElementById("myDiv").style.display = "block";
     }
   </script>
 
   <body onload="initial()">
-    <div id="loader-wrapper">
-        <div id="myProgress">
-          <div id="myBar"></div>
-        </div>
-    </div>
   <div style="display:none;" id="myDiv" class="animate-bottom">
     <main>
       <div class="main-content">
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
-    </div>
+      </div>
     </main>
   </div>
   </body>
