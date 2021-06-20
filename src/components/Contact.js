@@ -11,7 +11,7 @@ function Contact() {
         <h2>... got an idea?</h2>
         <h1>Let's create awesome things together!</h1>
         <div className="line"></div>
-        <p>Feel free to reach me at yujisatojr@go.byuh.edu</p>
+        <p>Feel free to reach me at <span class="ml">yujisatojr<span class="domain">go.byuh.edu</span></span></p>
         <div className="info">
         <ul>
             <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>

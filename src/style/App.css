@@ -13,12 +13,11 @@ h1 {
 p {
   font-size: 1.1em;
 }
-
+/*
 p span {
   color: #ff6700;
   font-weight: bold;
 }
-/*
 .divider {
   height: 5px;
   left: 0;
@@ -123,7 +122,7 @@ button {
   display: flex;
   justify-content: space-between;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .about-section .content {
@@ -137,6 +136,10 @@ button {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.nav-bar a:hover {
+  color: #ff6700;
 }
 
 #loader-wrapper {
@@ -308,6 +311,7 @@ button {
 }
 
 .about-section .image-wrapper img{
+  width: 80%;
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 

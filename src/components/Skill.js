@@ -20,14 +20,14 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faReact} size="4x"/>
               <h3>Full-Stack Web Development</h3>
-              <p>Worked as both frontend/backend web developer to build from simple websites to RESTful API. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
+              <p>Worked as both frontend/backend web developer to build from a single-page application (SPA) to advanced RESTful web applications. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
               <p>Tech stack: JavaScript, HTML, CSS, SASS, LESS, PHP, Django, MongoDB, MySQL, PostgreSQL</p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Mobile App Development</h3>
-              <p>Design, build, and deploy native iOS & Android mobile applications that are still available for mobile download. My interest in mobile app development ranges from creating simple management apps to fun video games.</p>
+              <p>Design, build, and deploy native iOS & Android mobile applications. My experience in mobile app development ranges from creating a real-estate property management app to a fun shooting video games.</p>
               <p>Tech stack: Java, Swift5, SwiftUI, Xcode, Android Studio, Mendix Studio Pro</p>
             </div>
 
@@ -48,13 +48,13 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faComments} size="4x"/>
               <h3>Leadership + Teamwork</h3>
-              <p>Effective communicator with a background in communications and marketing. Collaborative attitude is demonstrated in my experience in working as a scrum master for several projects.</p>
+              <p>Effective communicator and critical thinker with a background in communications and marketing. I love working in a collaborative setting, and my leadership skill is demonstrated in working as a scrum master at Enterprise Information Systems department at BYU-Hawaii.</p>
             </div>
 
             <div className="skill">
               <img src={faDomo} alt="domo" width="54px"/>
               <h3>Certifications</h3>
-              <p>Proud member of Upsilon Pi Epsilon, a national honor society for computing sciences. Officially certified Data Specialist by DOMO. Kaggle Expert. Professional background in business analysis using various business intelligence (BI) tools such as DOMO, Tableau, and Microsoft Excel.</p>
+              <p>Proud member of Upsilon Pi Epsilon, a national honor society for computing sciences. Officially certified Data Specialist by Domo. Kaggle Expert. Professional background in business analysis using various business intelligence (BI) tools such as Domo, Tableau, and Microsoft Excel.</p>
             </div>
 
           </div>

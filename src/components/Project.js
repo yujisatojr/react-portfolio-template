@@ -25,7 +25,7 @@ function Project() {
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock1} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Integrated Learning Platform: Datum</h2></a>
           <p>Datum is an online educational platform with 300+ users that provides high-quality, data science focused learning resources in the Japanese language. Created an entire platform from scratch.</p>
-          <p>Used: Ruby on Rails, ReactJS, HTML, SCSS, PostgreSQL</p>
+          <p>Used: Ruby on Rails, HTML5, SCSS, PostgreSQL</p>
         </div>
         <div className="project">
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock2} className="zoom" alt="domo" width="100%"/></a>

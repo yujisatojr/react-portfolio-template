@@ -47,6 +47,15 @@
   width: 35px;
 }
 
+.domain::before {
+   content: '@';
+}
+
+.ml {
+  color: #ff6700;
+  font-weight: bold;
+}
+
 @media (max-width:700px) {
   .contact {
     padding-bottom: 100px;
