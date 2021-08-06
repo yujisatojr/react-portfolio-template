@@ -12,6 +12,7 @@ function Contact() {
         <h1>Let's create awesome things together!</h1>
         <div className="line"></div>
         <p>Feel free to reach me at <span class="ml">yujisatojr<span class="domain">go.byuh.edu</span></span></p>
+        <p>(Yes, ...the domain symbol is not hard-coded for phishing scams!)</p>
         <div className="info">
         <ul>
             <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>
@@ -22,7 +23,7 @@ function Contact() {
       </div>
       <div className="contact">
         
-          <p>Portfolio handcrafted by <a href="https://github.com/yujisatojr/portfolio">Yuji Sato</a> with ❤️</p>
+          <p>Portfolio designed & handcrafted by <a href="https://github.com/yujisatojr/portfolio">Yuji Sato</a> with ❤️</p>
         
       </div>
     </div>

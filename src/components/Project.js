@@ -23,13 +23,13 @@ function Project() {
       <div className="projects-grid">
         <div className="project">
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock1} className="zoom" alt="domo" width="100%"/></a>
-          <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Integrated Learning Platform: Datum</h2></a>
+          <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
           <p>Datum is an online educational platform with 300+ users that provides high-quality, data science focused learning resources in the Japanese language. Created an entire platform from scratch.</p>
           <p>Used: Ruby on Rails, HTML5, SCSS, PostgreSQL</p>
         </div>
         <div className="project">
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock2} className="zoom" alt="domo" width="100%"/></a>
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Real Estate Asset Management App</h2></a>
+          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
           <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. Participated in this project as a freelance software developer.</p>
           <p>Used: Ruby on Rails, JavaScript</p>
         </div>
@@ -54,7 +54,7 @@ function Project() {
         <div className="project">
           <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock4} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-          <p>Designed and developed a custom module for CMS-based platform (i.e. “Brightspot”) at Brigham Young University - Hawaii. University students can find their majors of interests through this module.</p>
+          <p>Designed and developed a custom component for CMS-based platform (i.e. “Brightspot”) at Brigham Young University - Hawaii. University students can find their majors of interests through this module.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
