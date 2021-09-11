@@ -1,6 +1,6 @@
-# My Portfolio Website
+# YUJISATOJR.COM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio site was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
