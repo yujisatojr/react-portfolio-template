@@ -3,9 +3,8 @@ import '../style/skill.css';
 import '@fortawesome/free-regular-svg-icons'
 import faDomo from '../assets/img/faDomo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBrain, faComments } from '@fortawesome/free-solid-svg-icons';
-import { faReact, faVuejs, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
-import { faHtml5, faCss3Alt, faJs, faLess, faYarn, faNodeJs, faNpm } from '@fortawesome/free-brands-svg-icons';
+import { faComments } from '@fortawesome/free-solid-svg-icons';
+import { faReact, faAppStore, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
 
 function Skill () {
@@ -35,7 +34,7 @@ function Skill () {
               <FontAwesomeIcon icon={faDocker} size="4x"/>
               <h3>Software Development</h3>
               <p>My experience in software development includes building an automated web-scraping program, an interactive chatting program, and implementing algorithms to solve various problems.</p>
-              <p>Tech stack: Python, Git, Docker, AWS (RDS, S3, EC2, Beanstalk, Cloud9), Firebase</p>
+              <p>Tech stack: C, C++, C#, Git, Docker, AWS (RDS, S3, EC2, Beanstalk, Cloud9), Firebase</p>
             </div>
 
             <div className="skill">
