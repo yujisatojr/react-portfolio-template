@@ -9,6 +9,8 @@ import mock5 from '../assets/img/mock5.png';
 import mock6 from '../assets/img/mock6.png';
 import mock7 from '../assets/img/mock7.png';
 import mock8 from '../assets/img/mock8.png';
+import mock9 from '../assets/img/mock9.png';
+import mock10 from '../assets/img/mock10.png';
 import FadeInSection from '../FadeInSections'
 
 function Project() {
@@ -18,6 +20,18 @@ function Project() {
     <FadeInSection>
       <h1>Projects</h1>
       <div className="projects-grid">
+        <div className="project">
+          <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="domo" width="100%"/></a>
+          <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><h2>Battle Chase</h2></a>
+          <p>Developed and released a 3D multi-player racing video game. The project is hosted on Itch.io as a WebGL build.</p>
+          <p>Used: C#, Unity</p>
+        </div>
+        <div className="project">
+          <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock9} className="zoom" alt="domo" width="100%"/></a>
+          <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Space Craft</h2></a>
+          <p>Developed and released a 2D shooting game with Unity. The project is hosted on Itch.io as a WebGL build.</p>
+          <p>Used: C#, Unity</p>
+        </div>
         <div className="project">
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock1} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
@@ -63,7 +77,7 @@ function Project() {
         <div className="project">
           <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><img src={mock6} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><h2>Cat's Warzone</h2></a>
-          <p>Developed an Android application that runs a shooting game. Implemented several GOF design patterns (factory, observer, builder, etc) to achieve better performance and source code readability.</p>
+          <p>Developed and released an Android mobile application with Java and Android Studio that runs the 2D shooting game.</p>
           <p>Used: Java, Android Studio</p>
         </div>
       </div>
