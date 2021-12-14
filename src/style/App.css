@@ -13,25 +13,8 @@ h1 {
 p {
   font-size: 1.1em;
 }
-/*
-p span {
-  color: #ff6700;
-  font-weight: bold;
-}
-.divider {
-  height: 5px;
-  left: 0;
-  width: 50%;
-  background-color: red;
-  position: absolute;
-}
-*/
 
 .nav-bar {
-  /*justify-content: center;
-  text-align: center;
-  position: absolute;
-  padding-top: 20px;*/
   width: 100%;
 }
 
@@ -47,7 +30,6 @@ p span {
   margin: 0px;
   padding: 0px;
   display: flex;
-  /*justify-content: flex-end;*/
   align-items: center;
   height: inherit;
   font-family: Verdana, sans-serif;
@@ -87,11 +69,6 @@ button {
   letter-spacing: 0.3em;
   padding-left: 10%;
   padding-right: 10%;
-  /*background:linear-gradient(0deg, rgba(73, 73, 73, 0.4), rgba(73, 73, 73, 0.4)), url("/src/assets/img/hero.jpeg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
   text-align: left;
 }
 
@@ -197,11 +174,6 @@ button {
       border-radius: 25px 25px;
       background-color: #ddd;
     }
-
-    /*.nav-bar {
-      display: none;
-      height: 70px;
-    }*/
 
     .nav-left{
       padding-top: 20px;
@@ -328,19 +300,3 @@ button {
     padding-bottom: 100px;
   }
 }
-/*
-@media (min-width:767px) and (max-width:767px) {
-  .skills-container .skills-grid {
-    display: initial;
-  }
-  .about-section {
-    display: initial
-  }
-  .about-section .content {
-    width: 100%;
-  }
-  .about-section .image-wrapper {
-    width: 100%;
-  }
-}
-*/

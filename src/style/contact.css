@@ -1,8 +1,8 @@
 .contact {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .section {
@@ -19,11 +19,11 @@
 }
   
 .fa {
-    padding: 10px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
   
 .info li{
@@ -35,8 +35,6 @@
   margin: 0px;
   padding: 0px;
   display: flex;
-  /*justify-content: center;
-  align-items: center;*/
 }
   
 .info ul li {

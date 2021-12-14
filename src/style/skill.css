@@ -1,24 +1,21 @@
 .skills-container {
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    padding-bottom: 5%;
-    text-align: left;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+  text-align: left;
 }
 
 .skills-container .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 50px;
-    grid-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  grid-gap: 50px;
 }
 
 .skills-container .skills-grid .skill {
-    /*display: flex;
-    flex-direction: column;*/
-    align-items: center;
-    text-align: left;
+  align-items: center;
+  text-align: left;
 }
 
 @media screen {

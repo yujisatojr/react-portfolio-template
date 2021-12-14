@@ -23,13 +23,13 @@ function Project() {
         <div className="project">
           <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><h2>Battle Chase</h2></a>
-          <p>Developed and released a 3D multi-player racing video game. The project is hosted on Itch.io as a WebGL build.</p>
+          <p>Developed and released a 3D multi-player racing game. This project is hosted on Itch.io.</p>
           <p>Used: C#, Unity</p>
         </div>
         <div className="project">
           <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock9} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Space Craft</h2></a>
-          <p>Developed and released a 2D shooting game with Unity. The project is hosted on Itch.io as a WebGL build.</p>
+          <p>Developed and released a 2D shooting game with Unity. This project is hosted on Itch.io.</p>
           <p>Used: C#, Unity</p>
         </div>
         <div className="project">

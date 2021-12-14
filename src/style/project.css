@@ -1,25 +1,21 @@
 .projects-container {
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
 }
 
 .projects-container .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
-    grid-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  grid-gap: 50px;
 }
 
 .projects-container .projects-grid .project {
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;*/
-    text-align: left;
+  text-align: left;
 }
 
 .project h2 {
