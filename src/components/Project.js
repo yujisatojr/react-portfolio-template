@@ -23,13 +23,13 @@ function Project() {
         <div className="project">
           <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><h2>Battle Chase</h2></a>
-          <p>Developed and released a 3D multi-player racing game. This project is hosted on Itch.io.</p>
+          <p>Developed and released a 3D multi-player racing game. This project is hosted on the Itch.io public marketplace.</p>
           <p>Used: C#, Unity</p>
         </div>
         <div className="project">
           <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock9} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Space Craft</h2></a>
-          <p>Developed and released a 2D shooting game with Unity. This project is hosted on Itch.io.</p>
+          <p>Developed and released a 2D shooting game with Unity. This project is hosted on the Itch.io public marketplace.</p>
           <p>Used: C#, Unity</p>
         </div>
         <div className="project">
@@ -47,7 +47,7 @@ function Project() {
         <div className="project">
           <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock3} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-          <p>Built online charts for COVID/vaccination number tracking at Brigham Young University - Hawaii. The dashboard served the president of university in his decision making processes.</p>
+          <p>Built online charts for COVID/vaccination tracking at Brigham Young University - Hawaii. The dashboard served the president of university in his decision making processes.</p>
           <p>Used: JavaScript, Google Sheets as a JSON endpoint</p>
         </div>
         <div className="project">
@@ -71,7 +71,7 @@ function Project() {
         <div className="project">
           <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock5} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-          <p>Created a filterable/searchable CSV (4100+ rows) table generator with pagination. Improved the university’s program sorting/loading time by replacing jQuery with vanilla JavaScript.</p>
+          <p>Created a filterable/searchable CSV table generator. Improved the university’s program sorting time by replacing jQuery with vanilla JavaScript.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
