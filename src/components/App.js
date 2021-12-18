@@ -58,7 +58,6 @@ function App() {
 
   return  (
     <div>
-      
       <div className="introduction" id="intro">
         <h1>Yuji Sato</h1>
         <div className="nav-bar">
