@@ -1,33 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d79d1b1.chunk.css",
-    "main.js": "/static/js/main.4700e52b.chunk.js",
-    "main.js.map": "/static/js/main.4700e52b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.181f7874.js",
-    "runtime-main.js.map": "/static/js/runtime-main.181f7874.js.map",
-    "static/js/2.37d53dfc.chunk.js": "/static/js/2.37d53dfc.chunk.js",
-    "static/js/2.37d53dfc.chunk.js.map": "/static/js/2.37d53dfc.chunk.js.map",
-    "static/js/3.e825fc6d.chunk.js": "/static/js/3.e825fc6d.chunk.js",
-    "static/js/3.e825fc6d.chunk.js.map": "/static/js/3.e825fc6d.chunk.js.map",
+    "main.css": "/static/css/main.d3dcc658.css",
+    "main.js": "/static/js/main.f897b57f.js",
+    "static/js/377.a9b2fa8c.chunk.js": "/static/js/377.a9b2fa8c.chunk.js",
+    "static/media/mock10.png": "/static/media/mock10.488731a6164e60efb8cb.png",
+    "static/media/mock9.png": "/static/media/mock9.fa8435cde21f31b2c8d0.png",
+    "static/media/mock7.png": "/static/media/mock7.2d8eb1defaf7c1481a3a.png",
+    "static/media/mock1.png": "/static/media/mock1.db39f3d908e385f223b5.png",
+    "static/media/mock6.png": "/static/media/mock6.08dfcc3cebc746ba9dec.png",
+    "static/media/mock3.png": "/static/media/mock3.3a14e4c5dd969ab3c179.png",
+    "static/media/mock2.png": "/static/media/mock2.6295fd8fbbe77e255d30.png",
+    "static/media/mock8.png": "/static/media/mock8.320df5a670997d399ec1.png",
+    "static/media/mock5.png": "/static/media/mock5.efe2c9c64494341ca12b.png",
+    "static/media/profile.jpeg": "/static/media/profile.c90c09db7fe7bbd18041.jpeg",
+    "static/media/mock4.png": "/static/media/mock4.e6f7617f1e3f3071e25f.png",
     "index.html": "/index.html",
-    "static/css/main.0d79d1b1.chunk.css.map": "/static/css/main.0d79d1b1.chunk.css.map",
-    "static/js/2.37d53dfc.chunk.js.LICENSE.txt": "/static/js/2.37d53dfc.chunk.js.LICENSE.txt",
-    "static/media/mock1.db39f3d9.png": "/static/media/mock1.db39f3d9.png",
-    "static/media/mock10.488731a6.png": "/static/media/mock10.488731a6.png",
-    "static/media/mock2.6295fd8f.png": "/static/media/mock2.6295fd8f.png",
-    "static/media/mock3.3a14e4c5.png": "/static/media/mock3.3a14e4c5.png",
-    "static/media/mock4.e6f7617f.png": "/static/media/mock4.e6f7617f.png",
-    "static/media/mock5.efe2c9c6.png": "/static/media/mock5.efe2c9c6.png",
-    "static/media/mock6.08dfcc3c.png": "/static/media/mock6.08dfcc3c.png",
-    "static/media/mock7.2d8eb1de.png": "/static/media/mock7.2d8eb1de.png",
-    "static/media/mock8.320df5a6.png": "/static/media/mock8.320df5a6.png",
-    "static/media/mock9.fa8435cd.png": "/static/media/mock9.fa8435cd.png",
-    "static/media/profile.c90c09db.jpeg": "/static/media/profile.c90c09db.jpeg"
+    "main.d3dcc658.css.map": "/static/css/main.d3dcc658.css.map",
+    "main.f897b57f.js.map": "/static/js/main.f897b57f.js.map",
+    "377.a9b2fa8c.chunk.js.map": "/static/js/377.a9b2fa8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.181f7874.js",
-    "static/js/2.37d53dfc.chunk.js",
-    "static/css/main.0d79d1b1.chunk.css",
-    "static/js/main.4700e52b.chunk.js"
+    "static/css/main.d3dcc658.css",
+    "static/js/main.f897b57f.js"
   ]
 }

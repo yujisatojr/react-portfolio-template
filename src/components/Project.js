@@ -48,7 +48,7 @@ function Project() {
           <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock3} className="zoom" alt="domo" width="100%"/></a>
           <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
           <p>Built online charts for COVID/vaccination tracking at Brigham Young University - Hawaii. The dashboard served the president of university in his decision making processes.</p>
-          <p>Used: JavaScript, Google Sheets as a JSON endpoint</p>
+          <p>Used: JavaScript, Google Sheets API v4</p>
         </div>
         <div className="project">
           <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock7} className="zoom" alt="domo" width="100%"/></a>

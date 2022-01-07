@@ -3,6 +3,7 @@ import '../style/App.css'
 import myProfile from '../assets/img/profile.jpeg';
 import FadeInSection from '../FadeInSections'
 import { Button } from '@material-ui/core';
+import Chip from '@material-ui/core/Chip';
 
 function About() {
 
@@ -13,8 +14,26 @@ function About() {
         <div className="content">
           <h1>About Me</h1>
           <p>Hi! My name is Yuji. I am currently pursuing a bachelor's degree in computer science at Brigham Young University - Hawaii (Expected graduation April 2022). I also work as a developer/analyst at my university's Enterprise Information Systems department, developing web applications for a diverse population of 3,200 students and faculty members. Throughout my career, I have always found it rewarding to understand the needs of each individual client and solve their problems through the use of emerging technology.</p>
-          <p>Specialties: software development, full-stack web development, REST API, iOS/Android mobile applications development, data analysis, statistical modelling, and machine learning.</p>
-          <p>If I am not coding, you can find me hiking, surfing, traveling, playing the guitar, taking photographs, or hanging out with my wife.</p>
+          <div className='HeyYo'>
+
+          </div>
+          <p className="flex-chips">Specialties: 
+            <Chip variant="outlined" color="primary" label="software development" />
+            <Chip variant="outlined" color="primary" label="full-stack web development" />
+            <Chip variant="outlined" color="primary" label="REST API" />
+            <Chip variant="outlined" color="primary" label="iOS/Android mobile applications development" />
+            <Chip variant="outlined" color="primary" label="data analysis" />
+            <Chip variant="outlined" color="primary" label="statistical modelling" />
+            <Chip variant="outlined" color="primary" label="machine learning" />
+          </p>
+          <p className='flex-chips'>If I am not coding, you can find me: 
+            <Chip variant="outlined" label="⛰️ hiking" />
+            <Chip variant="outlined" label="🏄‍♂️ surfing" />
+            <Chip variant="outlined" label="🛩️ traveling" />
+            <Chip variant="outlined" label="🎸 playing the guitar" />
+            <Chip variant="outlined" label="📸 taking photographs" />
+            <Chip variant="outlined" label="🏠 hanging out with my wife" />
+          </p>
           <a href="#contact"><Button variant="outlined">Contact</Button></a>
         </div>
         <div className="image-wrapper">

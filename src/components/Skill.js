@@ -4,6 +4,7 @@ import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faAppStore, faPython } from '@fortawesome/free-brands-svg-icons';
 import FadeInSection from '../FadeInSections'
+import Chip from '@material-ui/core/Chip';
 
 function Skill () {
 
@@ -18,21 +19,53 @@ function Skill () {
               <FontAwesomeIcon icon={faReact} size="4x"/>
               <h3>Full-Stack Web Development</h3>
               <p>Previously, I worked as a frontend/backend web developer and built 20+ RESTful web applications. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
-              <p>Tech stack: JavaScript, HTML, CSS, SASS, LESS, PHP, PostgreSQL, MySQL, MongoDB</p>
+              <p className="flex-chips">Tech stack: 
+                <Chip variant="outlined" label="JavaScript" />
+                <Chip variant="outlined" label="HTML" />
+                <Chip variant="outlined" label="CSS" />
+                <Chip variant="outlined" label="SASS" />
+                <Chip variant="outlined" label="LESS" />
+                <Chip variant="outlined" label="PHP" />
+                <Chip variant="outlined" label="PostgreSQL" />
+                <Chip variant="outlined" label="MySQL" />
+                <Chip variant="outlined" label="MongoDB" />
+              </p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Software Development</h3>
               <p>I enjoy being part of a team to design, build, and deploy native iOS & Android mobile applications. My experience in mobile app development ranges from creating a real-estate property management app to a exciting 2D shooting games.</p>
-              <p>Tech stack: Java, C, C++, C#, Swift, Git, Docker, AWS</p>
+              <p className="flex-chips">Tech stack: 
+                <Chip variant="outlined" label="Java" />
+                <Chip variant="outlined" label="C" />
+                <Chip variant="outlined" label="C++" />
+                <Chip variant="outlined" label="C#" />
+                <Chip variant="outlined" label="Swift" />
+                <Chip variant="outlined" label="Git" />
+                <Chip variant="outlined" label="Docker" />
+                <Chip variant="outlined" label="AWS" />
+              </p>
             </div>
 
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
               <h3>Data Analytics</h3>
               <p>I understand the world through cleaning, transforming, visualizing, and storytelling data. I have experience in analyzing corporate data for a real estate company and higher education industry for better decision making.</p>
-              <p>Tech stack: Python (NumPy, Pandas, Matplotlib, Seaborn, Sklearn), SQL, R, Snowflake, Domo, Tableau, Tensorflow</p>
+              <p className="flex-chips">Tech stack: 
+                <Chip variant="outlined" label="SQL" />
+                <Chip variant="outlined" label="Python" />
+                <Chip variant="outlined" label="NumPy" />
+                <Chip variant="outlined" label="Pandas" />
+                <Chip variant="outlined" label="Matplotlib" />
+                <Chip variant="outlined" label="Seaborn" />
+                <Chip variant="outlined" label="Sklearn" />
+                <Chip variant="outlined" label="R" />
+                <Chip variant="outlined" label="Snowflake" />
+                <Chip variant="outlined" label="Domo" />
+                <Chip variant="outlined" label="Tableau" />
+                <Chip variant="outlined" label="Tensorflow" />
+              </p>
             </div>
 
           </div>
