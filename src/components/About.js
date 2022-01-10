@@ -2,7 +2,6 @@ import React from 'react';
 import '../style/App.css'
 import myProfile from '../assets/img/profile.jpeg';
 import FadeInSection from '../FadeInSections'
-import { Button } from '@material-ui/core';
 import Chip from '@material-ui/core/Chip';
 
 function About() {
@@ -14,9 +13,6 @@ function About() {
         <div className="content">
           <h1>About Me</h1>
           <p>Hi! My name is Yuji. I am currently pursuing a bachelor's degree in computer science at Brigham Young University - Hawaii (Expected graduation April 2022). I also work as a developer/analyst at my university's Enterprise Information Systems department, developing web applications for a diverse population of 3,200 students and faculty members. Throughout my career, I have always found it rewarding to understand the needs of each individual client and solve their problems through the use of emerging technology.</p>
-          <div className='HeyYo'>
-
-          </div>
           <p className="flex-chips">Specialties: 
             <Chip variant="outlined" color="primary" label="software development" />
             <Chip variant="outlined" color="primary" label="full-stack web development" />
@@ -34,7 +30,6 @@ function About() {
             <Chip variant="outlined" label="📸 taking photographs" />
             <Chip variant="outlined" label="🏠 hanging out with my wife" />
           </p>
-          <a href="#contact"><Button variant="outlined">Contact</Button></a>
         </div>
         <div className="image-wrapper">
           <img src={myProfile} alt="myProfile" />

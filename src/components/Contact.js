@@ -13,18 +13,18 @@ function Contact() {
         <div className="line"></div>
         <p>Feel free to reach out to me on social media.</p>
         <div className="info">
-        <ul>
+          <ul>
             <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>
             <li><a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2x"/></a></li>
             <li><a href="https://www.kaggle.com/yujisato" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faKaggle} size="2x"/></a></li>
           </ul>
         </div>
       </div>
+
       <div className="contact">
-        
           <p>Portfolio designed & handcrafted by <a href="https://github.com/yujisatojr/portfolio">Yuji Sato</a> with ❤️</p>
-        
       </div>
+
     </div>
   );
 }

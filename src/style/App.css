@@ -70,15 +70,6 @@ button {
   margin-right: 0.5em;
 }
 
-.HeyYo {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  line-height: 1.5;
-  padding: 0.5;
-  margin: 0.5;
-}
-
 .introduction {
   color: black;
   padding-top: 15%;
