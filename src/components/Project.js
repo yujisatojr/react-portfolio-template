@@ -21,8 +21,8 @@ function Project() {
       <h1>Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><img src={mock10} className="thumbnail" alt="thumbnail" width="100%"/></a>
-          <a href="https://yujisatojr.itch.io/battlechase" target="_blank" rel="noreferrer"><h2>Battle Chase</h2></a>
+          <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+          <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
           <p>Developed and released a 3D multi-player racing game. This project is hosted on the Itch.io public marketplace.</p>
           <p>Used: C#, Unity</p>
         </div>

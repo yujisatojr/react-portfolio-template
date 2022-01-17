@@ -35,7 +35,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Software Development</h3>
-              <p>I enjoy being part of a team to design, build, and deploy native iOS & Android mobile applications. My experience in mobile app development ranges from creating a real-estate property management app to a exciting 2D shooting games.</p>
+              <p>I enjoy being part of an agile team to design, build, and deploy desktop & mobile applications. My experience in software development ranges from building an Android mobile application to exciting 2D/3D video games.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="Java" />
                 <Chip variant="outlined" label="C" />
