@@ -71,13 +71,13 @@ function Project() {
         <div className="project">
           <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock5} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-          <p>Created a filterable/searchable CSV table generator. Improved the university’s program sorting time by replacing jQuery with vanilla JavaScript.</p>
+          <p>Created an interactive CSV table generator. Improved the university’s program sorting time by replacing jQuery with vanilla JavaScript.</p>
           <p>Used: Java, Handlebars, LESS, JSON</p>
         </div>
         <div className="project">
           <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><img src={mock6} className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><h2>Cat's Warzone</h2></a>
-          <p>Developed and released an Android mobile application with Java and Android Studio that runs the 2D shooting game.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
+          <p>Developed and released an Android mobile application with Java that runs the 2D shooting game.</p>
           <p>Used: Java, Android Studio</p>
         </div>
       </div>

@@ -17,7 +17,6 @@ function About() {
             <Chip variant="outlined" color="primary" label="software development" />
             <Chip variant="outlined" color="primary" label="full stack web development" />
             <Chip variant="outlined" color="primary" label="REST API" />
-            <Chip variant="outlined" color="primary" label="DevOps" />
             <Chip variant="outlined" color="primary" label="data analysis" />
             <Chip variant="outlined" color="primary" label="statistical modelling" />
             <Chip variant="outlined" color="primary" label="automation" />
