@@ -12,12 +12,12 @@ function Skill () {
     <div className="container" id="skills">
       <FadeInSection>
         <div className="skills-container">
-          <h1>Skills</h1>
+          <h1>Specialties</h1>
           <div className="skills-grid">
 
             <div className="skill">
               <FontAwesomeIcon icon={faReact} size="4x"/>
-              <h3>Full-Stack Web Development</h3>
+              <h3>Full-Stack Development</h3>
               <p>Previously, I worked as a frontend/backend web developer and built 20+ RESTful web applications. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="JavaScript" />
@@ -50,7 +50,7 @@ function Skill () {
 
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
-              <h3>Data Analytics</h3>
+              <h3>Data Analytics & BI</h3>
               <p>I understand the world through cleaning, transforming, visualizing, and storytelling data. I have experience in analyzing corporate data for a real estate company and higher education industry for better decision making.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="SQL" />
