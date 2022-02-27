@@ -1,17 +1,17 @@
 import React from 'react';
-import '../style/App.css'
-import '../style/project.css';
-import mock1 from '../assets/img/mock1.png';
-import mock2 from '../assets/img/mock2.png';
-import mock3 from '../assets/img/mock3.png';
-import mock4 from '../assets/img/mock4.png';
-import mock5 from '../assets/img/mock5.png';
-import mock6 from '../assets/img/mock6.png';
-import mock7 from '../assets/img/mock7.png';
-import mock8 from '../assets/img/mock8.png';
-import mock9 from '../assets/img/mock9.png';
-import mock10 from '../assets/img/mock10.png';
-import FadeInSection from '../FadeInSections'
+import './style/App.css'
+import './style/project.css';
+import mock1 from './assets/img/mock1.png';
+import mock2 from './assets/img/mock2.png';
+import mock3 from './assets/img/mock3.png';
+import mock4 from './assets/img/mock4.png';
+import mock5 from './assets/img/mock5.png';
+import mock6 from './assets/img/mock6.png';
+import mock7 from './assets/img/mock7.png';
+import mock8 from './assets/img/mock8.png';
+import mock9 from './assets/img/mock9.png';
+import mock10 from './assets/img/mock10.png';
+import FadeInSection from './FadeInSections'
 
 function Project() {
 

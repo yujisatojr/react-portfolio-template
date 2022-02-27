@@ -1,9 +1,9 @@
 import React from 'react';
-import '../style/skill.css';
+import './style/skill.css';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faAppStore, faPython } from '@fortawesome/free-brands-svg-icons';
-import FadeInSection from '../FadeInSections'
+import FadeInSection from './FadeInSections'
 import Chip from '@material-ui/core/Chip';
 
 function Skill () {
@@ -12,7 +12,7 @@ function Skill () {
     <div className="container" id="skills">
       <FadeInSection>
         <div className="skills-container">
-          <h1>Specialties</h1>
+          <h1>Skills</h1>
           <div className="skills-grid">
 
             <div className="skill">
