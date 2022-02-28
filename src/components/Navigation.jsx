@@ -9,23 +9,23 @@ function Navigation() {
             <ul>
                 <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                    Home
-                    <span className="sr-only">(current)</span>
+                  Home
+                  <span className="sr-only">(current)</span>
                 </NavLink>
                 </li>
                 <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
-                    About
+                  About
+                </NavLink>
+                </li>
+                <li className="nav-item">
+                <NavLink className="nav-link" to="/cases">
+                  Work
                 </NavLink>
                 </li>
                 <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
-                    Contact
-                </NavLink>
-                </li>
-                <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
-                    Blog
+                  Contact
                 </NavLink>
                 </li>
             </ul>

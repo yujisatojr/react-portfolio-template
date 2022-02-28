@@ -8,7 +8,6 @@ import { Button } from '@material-ui/core';
 function App() {
   return  (
     <div className="container" id="about">
-      <FadeInSection>
       <div className="about-section">
         <div className="content">
           <h1>Hi, I'm Yuji 👋</h1>
@@ -27,7 +26,6 @@ function App() {
           <img src={myProfile} alt="myProfile" />
         </div>
       </div>
-      </FadeInSection>
     </div>
   );
 }

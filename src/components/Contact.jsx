@@ -1,27 +1,27 @@
 import React from "react";
+import { Button } from '@material-ui/core';
 
 function Contact() {
   return (
-    <div className="contact">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
+    <div className="contact_form">
+      <div className="items_wrapper">
+        <h1>Contact Me</h1>
+        <form>
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your name.."/>
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Inquiry</label>
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+          <Button variant="contained" size="large">Submit</Button>
+        </form>
       </div>
     </div>
   );
