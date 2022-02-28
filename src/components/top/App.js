@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/App.css'
 import myProfile from './assets/img/profile.jpeg';
-import FadeInSection from './FadeInSections'
+//import FadeInSection from './FadeInSections'
 import Chip from '@material-ui/core/Chip';
 import { Button } from '@material-ui/core';
 

@@ -9,4 +9,4 @@ export { default as Post } from "./blog/Post";
 export { default as CaseStudies } from "./cases/CaseStudies";
 export { default as Cases } from "./cases/Cases";
 export { default as Case } from "./cases/Case";
-export { default as Test } from "./cases/Test";
+export { default as data } from "./cases/data";

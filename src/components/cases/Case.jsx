@@ -1,18 +1,26 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
+import data from './data'
 
 function Case() {
   let { caseSlug } = useParams();
 
+  /*
   useEffect(() => {
     // Fetch post using the postSlug
-  }, [caseSlug]);
+    title,
+    description
+  }, data[caseSlug]);
+  */
+
+  const fetched = data[caseSlug];
+  const { title, description } = fetched;
 
   return (
     <div className="home">
-      <div class="container">
-        <h1 className="mt-5">This is a Post Title</h1>
-        <h6 className="mb-5">The post slug is, {caseSlug}</h6>
+      <div className="items_wrapper">
+        <h1 className="mt-5">{ title }</h1>
+        <h2 className="mb-5">{ description }</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
