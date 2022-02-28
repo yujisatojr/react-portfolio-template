@@ -11,10 +11,12 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
   }
+
   a {
     text-decoration: none;
     color: black;
   }
+
   a:hover {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.349);
@@ -29,17 +31,29 @@ body {
     align-items: center;
     height: inherit;
     font-family: Verdana, sans-serif;
+    justify-content: center;
 }
 
 .nav-bar li {
   letter-spacing: 0.3em;
   padding: 12px 20px;
   list-style: none;
-  font-size: 22px;
+  font-size: 1.1rem;
+  font-weight: 400;
   color: white;
+}
+
+
+.nav-bar {
+  width: 100%;
+  margin-top: 30px;
 }
 
 .nav-bar a {
   color: black;
   letter-spacing: 0.3em;
+}
+
+.nav-bar a:hover {
+  color: rgba(0, 0, 0, 0.349);
 }

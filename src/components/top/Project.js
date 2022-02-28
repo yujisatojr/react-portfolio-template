@@ -14,7 +14,6 @@ import mock10 from './assets/img/mock10.png';
 import FadeInSection from './FadeInSections'
 
 function Project() {
-
   return  (
     <div className="projects-container" id="project">
     <FadeInSection>

@@ -7,18 +7,17 @@ import FadeInSection from './FadeInSections'
 import Chip from '@material-ui/core/Chip';
 
 function Skill () {
-
   return  (
     <div className="container" id="skills">
       <FadeInSection>
         <div className="skills-container">
-          <h1>Skills</h1>
+          <h1>Specialties</h1>
           <div className="skills-grid">
 
             <div className="skill">
               <FontAwesomeIcon icon={faReact} size="4x"/>
-              <h3>Full-Stack Development</h3>
-              <p>Previously, I worked as a frontend/backend web developer and built 20+ RESTful web applications. Power user of Ruby on Rails framework and the JavaScript libraries such as React.js, Vue.js, Node.js, Express.js and Handlebars.js.</p>
+              <h3>Full-Stack Web Development</h3>
+              <p>Previously, I worked as a DevOps engineer and built 5+ RESTful web applications. Power user of Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="JavaScript" />
                 <Chip variant="outlined" label="HTML" />
@@ -35,7 +34,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Software Development</h3>
-              <p>I enjoy being part of an agile team to design, build, and deploy desktop & mobile applications. My experience in software development ranges from building an Android mobile application to exciting 2D/3D video games.</p>
+              <p>I enjoy being part of an agile team to design, build, and deploy cross-platform software. My experience in software development ranges from building mobile applications to 2D/3D video games.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="Java" />
                 <Chip variant="outlined" label="C" />
@@ -50,12 +49,11 @@ function Skill () {
 
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
-              <h3>Data Analytics & BI</h3>
-              <p>I understand the world through cleaning, transforming, visualizing, and storytelling data. I have experience in analyzing corporate data for a real estate company and higher education industry for better decision making.</p>
+              <h3>Data Analysis & BI</h3>
+              <p>I love to empower business through the utilization of ELT, data visualization, data warehousing, and automation. I have experience in analyzing corporate data for better decision making.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="SQL" />
                 <Chip variant="outlined" label="Python" />
-                <Chip variant="outlined" label="NumPy" />
                 <Chip variant="outlined" label="Pandas" />
                 <Chip variant="outlined" label="Matplotlib" />
                 <Chip variant="outlined" label="Seaborn" />

@@ -52,9 +52,11 @@
       padding-left: 5%;
       padding-right: 5%;
     }
+
     .projects-container .projects-grid {
       display: block;
     }
+    
     .projects-container .projects-grid .project {
       padding-bottom: 5%;
     }

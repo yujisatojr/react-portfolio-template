@@ -4,33 +4,31 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
-          <div className="nav-bar">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+      <nav>
+        <div className="nav-bar">
+            <ul>
+                <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                  Home
-                  <span className="sr-only">(current)</span>
+                    Home
+                    <span className="sr-only">(current)</span>
                 </NavLink>
-              </li>
-              <li className="nav-item">
+                </li>
+                <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
-                  About
+                    About
                 </NavLink>
-              </li>
-              <li className="nav-item">
+                </li>
+                <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
-                  Contact
+                    Contact
                 </NavLink>
-              </li>
-              <li className="nav-item">
+                </li>
+                <li className="nav-item">
                 <NavLink className="nav-link" to="/blog">
-                  Blog
+                    Blog
                 </NavLink>
-              </li>
+                </li>
             </ul>
-          </div>
         </div>
       </nav>
     </div>

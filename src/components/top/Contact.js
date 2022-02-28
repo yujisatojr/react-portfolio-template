@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faKaggle, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
- 
   return  (
     <div className="getintouch" id="contact">
       <div className="section">

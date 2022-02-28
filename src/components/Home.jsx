@@ -4,7 +4,7 @@ import {
     Skill,
     Project,
     Contact,
-  } from "./top";
+} from "./top";
 
 function Home() {
   return (

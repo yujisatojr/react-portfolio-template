@@ -24,12 +24,15 @@
       padding-left: 5%;
       padding-right: 5%;
     }
+
     .skills-container {
       display: initial;
     }
+
     .skills-container .skills-grid {
       display: initial;
     }
+    
     .skills-container .skills-grid .skill {
       padding-left: 5%;
       padding-right: 5%;
