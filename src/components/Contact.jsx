@@ -10,13 +10,8 @@ function Contact() {
           <label for="fname">Full Name</label>
           <input type="text" id="fname" name="fullname" placeholder="Your name.."/>
 
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">United States</option>
-            <option value="canada">Canada</option>
-            <option value="usa">Japan</option>
-            <option value="usa">Australia</option>
-          </select>
+          <label for="fname">Email/Phone Number</label>
+          <input type="text" id="fname" name="contact" placeholder="Your contact information.."/>
 
           <label for="subject">Inquiry</label>
           <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
