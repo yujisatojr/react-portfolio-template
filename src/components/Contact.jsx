@@ -12,9 +12,10 @@ function Contact() {
 
           <label for="country">Country</label>
           <select id="country" name="country">
-            <option value="australia">Australia</option>
+            <option value="australia">United States</option>
             <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+            <option value="usa">Japan</option>
+            <option value="usa">Australia</option>
           </select>
 
           <label for="subject">Inquiry</label>

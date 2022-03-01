@@ -95,3 +95,25 @@ input[type=submit]:hover {
   flex-direction: column;
   justify-content: center;
 }
+
+.case_list {
+  list-style: none;
+  padding: 0;
+}
+
+.case_list li{
+  margin-bottom: 2rem;
+}
+
+.case_list p span {
+  text-decoration: underline;
+}
+
+@media screen {
+  @media (min-width: 1000px) {
+    .items_wrapper {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+  }
+}

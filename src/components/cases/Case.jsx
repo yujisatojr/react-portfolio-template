@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
+//import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import data from './data'
 
@@ -14,32 +15,30 @@ function Case() {
   */
 
   const fetched = data[caseSlug];
-  const { title, description } = fetched;
+  const { title, description, problem, solution, results, image } = fetched;
 
   return (
     <div className="home">
-      <div className="items_wrapper">
+        <img
+          class="img-fluid rounded mb-4 mb-lg-0"
+          src={ image }
+          alt=""
+          width="100%"
+        />
         <h1 className="mt-5">{ title }</h1>
-        <h2 className="mb-5">{ description }</h2>
+        <p className="mb-5">{ description }</p>
+        <h2>Problem</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          { problem }
         </p>
+        <h2>Solution</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          { solution }
         </p>
+        <h2>Results</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          { results }
         </p>
-      </div>
     </div>
   );
 }
