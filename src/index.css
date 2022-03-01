@@ -109,6 +109,10 @@ input[type=submit]:hover {
   text-decoration: underline;
 }
 
+.about img {
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
 @media screen {
   @media (min-width: 1000px) {
     .items_wrapper {

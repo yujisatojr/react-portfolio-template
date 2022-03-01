@@ -1,7 +1,5 @@
 import React from 'react';
 import './style/App.css'
-import myProfile from './assets/img/profile.jpeg';
-//import FadeInSection from './FadeInSections'
 import Chip from '@material-ui/core/Chip';
 import { Button } from '@material-ui/core';
 
@@ -23,7 +21,7 @@ function App() {
           <a href="https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/Resume_2022.pdf" target="_blank" rel="noreferrer"><Button variant="contained" size="large">Resume 2022</Button></a>
         </div>
         <div className="image-wrapper">
-          <img src={myProfile} alt="myProfile" />
+          <img src="https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/home_image.jpeg" alt="myProfile" />
         </div>
       </div>
     </div>
