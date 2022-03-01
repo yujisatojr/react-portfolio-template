@@ -15,10 +15,10 @@ function Case() {
   */
 
   const fetched = data[caseSlug];
-  const { title, description, problem, solution, results, image } = fetched;
+  const { title, problem, solution, results, image, linkDesc, link } = fetched;
 
   return (
-    <div className="home">
+    <div className="case_show">
         <img
           class="img-fluid rounded mb-4 mb-lg-0"
           src={ image }
@@ -26,7 +26,7 @@ function Case() {
           width="100%"
         />
         <h1 className="mt-5">{ title }</h1>
-        <p className="mb-5">{ description }</p>
+        <a href={link}>{linkDesc} {">>"}</a>
         <h2>Problem</h2>
         <p>
           { problem }
