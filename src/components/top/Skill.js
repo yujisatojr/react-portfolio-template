@@ -17,7 +17,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faReact} size="4x"/>
               <h3>Full-Stack Web Development</h3>
-              <p>Previously, I worked as a DevOps engineer and built 5+ RESTful web applications. Power user of Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
+              <p>Previously, I worked as a DevOps engineer and built 5+ RESTful web applications. I am a power user of Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="JavaScript" />
                 <Chip variant="outlined" label="HTML" />

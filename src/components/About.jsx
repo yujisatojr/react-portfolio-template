@@ -16,7 +16,7 @@ function About() {
           <div class="col-lg-5">
             <h1>About Me</h1>
             <p>
-              I am a self-motivated developer and passionate about utilizing technology to turn creative ideas into tangible business values. I believe that using the right digital tools can maximize our ability to serve others and enhance each user’s experience. I am also a committed life-long learner and eager to implement more efficient algorithms.
+              I am a self-motivated developer and passionate about utilizing technology to turn creative ideas into tangible business value. I believe that using the right digital tools can maximize our ability to serve others and enhance each user’s experience. I am also a committed life-long learner and eager to implement more efficient algorithms.
             </p>
           </div>
         </div>
