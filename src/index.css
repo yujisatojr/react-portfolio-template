@@ -138,4 +138,9 @@ iframe {
       padding-right: 20%;
     }
   }
+  @media (max-width: 600px) {
+    .nav-bar li {
+      font-size: 0.8rem;
+    }
+  }
 }
