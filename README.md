@@ -1,4 +1,4 @@
-# Yuji's Personal Website
+# Lahyaoui's Personal Website
 
 This portfolio site was created with ReactJS and published at [yujisatojr.com](https://www.yujisatojr.com).
 
