@@ -96,19 +96,6 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
-.case_list {
-  list-style: none;
-  padding: 0;
-}
-
-.case_list li{
-  margin-bottom: 2rem;
-}
-
-.case_list p span {
-  text-decoration: underline;
-}
-
 .about img {
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }

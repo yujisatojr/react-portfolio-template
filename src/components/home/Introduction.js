@@ -1,8 +1,8 @@
 import React from 'react';
-import './style/App.css'
+import './style/introduction.css'
 import Chip from '@material-ui/core/Chip';
 
-function App() {
+function Introduction() {
   return (
     <div className="container" id="about">
       <div className="about-section">
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Introduction;

@@ -1,14 +1,14 @@
 import React from "react";
 import {
-    App,
+    Introduction,
     Skill,
     Project,
-} from "./top";
+} from ".";
 
 function Home() {
   return (
     <React.StrictMode>
-        <App />
+        <Introduction />
         <Skill />
         <Project />
     </React.StrictMode>

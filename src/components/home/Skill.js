@@ -3,7 +3,7 @@ import './style/skill.css';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faAppStore, faPython } from '@fortawesome/free-brands-svg-icons';
-import FadeInSection from './FadeInSections'
+import FadeInSection from '../fade/FadeInSections'
 import Chip from '@material-ui/core/Chip';
 
 function Skill () {
