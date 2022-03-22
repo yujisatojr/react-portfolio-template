@@ -2,9 +2,10 @@ import React from 'react';
 import './style/contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-toast.configure()
+
+toast.configure();
 
 
 function Contact() {
@@ -12,7 +13,7 @@ function Contact() {
     e.preventDefault();
     if (navigator.clipboard) {
       navigator.clipboard.writeText('ayoubino#8988');
-      toast.success('Discord ID copied to clipboard', {icon: faDiscord});
+      toast.success('Discord ID copied to clipboard', { icon: <FontAwesomeIcon icon={faDiscord} size="2x" /> });
     }
   }
 
