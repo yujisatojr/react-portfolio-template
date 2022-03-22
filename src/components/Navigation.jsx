@@ -8,25 +8,25 @@ function Navigation() {
         <div className="nav-bar">
           <ul>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/">
-              Home
-              <span className="sr-only">(current)</span>
-            </NavLink>
+              <NavLink className="nav-link" to="/">
+                Home
+                <span className="sr-only">(current)</span>
+              </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/about">
-              About
-            </NavLink>
+              <NavLink className="nav-link" to="/about">
+                About
+              </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/cases">
-              Work
-            </NavLink>
+              <NavLink className="nav-link" to="/skills">
+                Skills
+              </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
+              <NavLink className="nav-link" to="/contact">
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
