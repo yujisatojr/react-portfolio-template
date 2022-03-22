@@ -1,7 +1,6 @@
 import React from 'react';
 import './style/skill.css';
 
-import FadeInSection from '../top/FadeInSections'
 import Chip from '@material-ui/core/Chip';
 
 import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaDatabase, FaPython, FaReact, FaLaravel, FaGitAlt } from "react-icons/fa";
@@ -14,7 +13,6 @@ import { GiGears } from "react-icons/gi";
 function Skill() {
     return (
         <div className="container" id="skills">
-            <FadeInSection>
                 <div className="skills-container">
                     <h1>Skills</h1>
                     <div className="skills-grid">
@@ -79,7 +77,6 @@ function Skill() {
 
                     </div>
                 </div>
-            </FadeInSection>
         </div>
     );
 }
