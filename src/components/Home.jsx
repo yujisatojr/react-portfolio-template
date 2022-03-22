@@ -3,7 +3,6 @@ import {
     App,
     Skill,
     Project,
-    Contact,
 } from "./top";
 
 function Home() {
@@ -12,7 +11,6 @@ function Home() {
         <App />
         <Skill />
         <Project />
-        <Contact />
     </React.StrictMode>
   );
 }

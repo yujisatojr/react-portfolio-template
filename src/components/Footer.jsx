@@ -1,14 +1,13 @@
 import React from "react";
+import Contact from "./top/Contact";
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer class="py-5 bg-dark fixed-bottom">
+    <footer class="py-5 bg-dark fixed-bottom">
         <div className="contact">
-            <p>Portfolio designed & handcrafted by <a href="https://github.com/yujisatojr/portfolio" target="_blank" rel="noreferrer">Yuji Sato</a> with ❤️</p>
+          <Contact />
         </div>
       </footer>
-    </div>
   );
 }
 

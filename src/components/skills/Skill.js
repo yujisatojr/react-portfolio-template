@@ -4,13 +4,13 @@ import './style/skill.css';
 import FadeInSection from '../top/FadeInSections'
 import Chip from '@material-ui/core/Chip';
 
-import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaDatabase, FaPython, FaReact, FaLaravel, FaGitAlt} from "react-icons/fa";
-import { SiKotlin, SiSolidity, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiMongodb, SiHeroku, SiGnubash, SiPostman, SiVirtualbox, SiAndroidstudio, SiCisco} from "react-icons/si";
-import { GrMysql, GrOracle,}  from "react-icons/gr";
-import { DiAws }  from "react-icons/di";
-import {CgShapeCircle}  from "react-icons/cg"; 
-import {GiGears} from "react-icons/gi";
- 
+import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaDatabase, FaPython, FaReact, FaLaravel, FaGitAlt } from "react-icons/fa";
+import { SiKotlin, SiSolidity, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiMongodb, SiHeroku, SiGnubash, SiPostman, SiVirtualbox, SiAndroidstudio, SiCisco } from "react-icons/si";
+import { GrMysql, GrOracle, } from "react-icons/gr";
+import { DiAws } from "react-icons/di";
+import { CgShapeCircle } from "react-icons/cg";
+import { GiGears } from "react-icons/gi";
+
 function Skill() {
     return (
         <div className="container" id="skills">
@@ -51,7 +51,7 @@ function Skill() {
                             <p className="flex-chips">
                                 <Chip avatar={<GrMysql />} variant="outlined" label="MySQL" />
                                 <Chip avatar={<SiPostgresql />} variant="outlined" label="PostgreSql" />
-                                <Chip  avatar={<GrOracle />} variant="outlined" label="Oracle Apex" />
+                                <Chip avatar={<GrOracle />} variant="outlined" label="Oracle Apex" />
                                 <Chip avatar={<SiMongodb />} variant="outlined" label="MongoDB" />
                             </p>
                         </div>
@@ -60,7 +60,7 @@ function Skill() {
                             <h2>Cloud Services</h2>
                             <p className="flex-chips">
                                 <Chip avatar={<SiHeroku />} variant="outlined" label="Heroku" />
-                                <Chip avatar={<DiAws />}variant="outlined" label="AWS" />
+                                <Chip avatar={<DiAws />} variant="outlined" label="AWS" />
                             </p>
                         </div>
 

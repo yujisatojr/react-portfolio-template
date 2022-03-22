@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 toast.configure();
 
-
 function Contact() {
   function copyToClipboard(e) {
     e.preventDefault();
