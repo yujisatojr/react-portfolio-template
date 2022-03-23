@@ -13,13 +13,12 @@ function Introduction() {
             I'm always eager to learn more and have a strong sense of curiosity, which is why I’m constantly trying to keep up with new computer technologies.
           </p>
           <p className='flex-chips'>If I am not coding, you can find me: <br />
-            <Chip variant="outlined" label="👨‍🎓 learning" />
-            <Chip variant="outlined" label="👨‍👩‍👧‍👧 socializing" />
-            <Chip variant="outlined" label="🛫 traveling" />
-            <Chip variant="outlined" label="🖥 building and tweaking computers" />
-            <Chip variant="outlined" label="📺 watching series and documentaries" />
-            <Chip variant="outlined" label="📰 following tech news" />
-            <Chip variant="outlined" label="🤟 hanging out with friends" />
+              <Chip className="zoom" variant="outlined" label="👨‍🎓 learning" />
+              <Chip className="zoom" variant="outlined" label="👨‍👩‍👧‍👧 socializing" />
+              <Chip className="zoom" variant="outlined" label="🛫 traveling" />
+              <Chip className="zoom" variant="outlined" label="🖥 building and tweaking computers" />
+              <Chip className="zoom" variant="outlined" label="📰 following tech news" />
+              <Chip className="zoom" variant="outlined" label="🤟 hanging out with friends" />
           </p>
         </div>
         <div className="image-wrapper">
