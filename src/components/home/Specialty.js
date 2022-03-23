@@ -22,7 +22,6 @@ function Specialty() {
             <div className="specialty">
               <FontAwesomeIcon icon={faReact} size="4x" />
               <h3>Full-Stack Web Development</h3>
-              <p>Previously, I worked as a DevOps engineer and built 5+ RESTful web applications. I am a power user of Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
               <p className="flex-chips">Tech stack:
                 <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React.js" />
                 <Chip className="zoom" avatar={<FaBootstrap />} variant="outlined" label="Bootstrap" />
@@ -43,7 +42,6 @@ function Specialty() {
             <div className="specialty">
               <FontAwesomeIcon icon={faAppStore} size="4x" />
               <h3>Software Development</h3>
-              <p>I enjoy being part of an agile team to design, build, and deploy cross-platform software. My experience in software development ranges from building mobile applications to 2D/3D video games.</p>
               <p className="flex-chips">Tech stack:
                 <Chip className="zoom" avatar={<FaJava />} variant="outlined" label="Java" />
                 <Chip className="zoom" avatar={<SiKotlin />} variant="outlined" label="Kotlin" />
@@ -57,8 +55,7 @@ function Specialty() {
 
             <div className="specialty">
               <FontAwesomeIcon icon={faBuilding} size="4x" />
-              <h3>Enterprise Resource Planning (ERP) Development</h3>
-              <p>I love to empower business through the utilization of ELT, data visualization, data warehousing, and automation. I have experience in analyzing corporate data for better decision making.</p>
+              <h3>Enterprise Resource Planning (ERP) Development</h3>              
               <p className="flex-chips">Tech stack:
                 <Chip className="zoom" avatar={<CgShapeCircle />} variant="outlined" label="Odoo" />
                 <Chip className="zoom" avatar={<FaPython />} variant="outlined" label="Python" />
