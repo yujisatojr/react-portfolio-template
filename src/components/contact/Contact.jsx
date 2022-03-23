@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from '@material-ui/core';
+import "./style/contact.css"
 
 function Contact() {
   return (
