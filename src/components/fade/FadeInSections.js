@@ -1,4 +1,5 @@
 import React from 'react';
+import "./style/fadeInSections.css"
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
