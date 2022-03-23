@@ -2,7 +2,7 @@
   "name": "yujisatojr.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yujisatojr.github.io/",
+  "homepage": "https://alahyaoui.github.io/",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.16.5",
@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.2.0"
   }
 }

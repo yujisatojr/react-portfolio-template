@@ -4689,7 +4689,7 @@
     "call-bind" "^1.0.2"
     "get-intrinsic" "^1.1.1"
 
-"gh-pages@^1.1.0":
+"gh-pages@^1.2.0":
   "integrity" "sha512-cGLYAvxtlQ1iTwAS4g7FreZPXoE/g62Fsxln2mmR19mgs4zZI+XJ+wVVUhBFCF/0+Nmvbq+abyTWue1m1BSnmg=="
   "resolved" "https://registry.npmjs.org/gh-pages/-/gh-pages-1.2.0.tgz"
   "version" "1.2.0"
