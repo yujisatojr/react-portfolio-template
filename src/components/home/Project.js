@@ -3,6 +3,7 @@ import './style/project.css';
 import screenshot_rainbow_attack from './assets/img/rainbow-attack.jpeg';
 import screenshot_curriculum_simulator from './assets/img/curriculum-simulator.jpeg';
 import screenshot_stibride from './assets/img/stibride.jpeg';
+import screenshot_esi_reading from './assets/img/esi_reading.jpeg';
 import screenshot_abalone from './assets/img/abalone.jpeg';
 import screenshot_2048 from './assets/img/2048.jpeg';
 import FadeInSection from '../fade/FadeInSections'
@@ -32,6 +33,13 @@ function Project() {
           <p>JavaFX application that allows users to get the shortest path between two metro station in the public transport network of Brussels.</p>
           <p>Used: Java, JavaFx, Scene Builder, SQLite</p>
           <p>Patterns: MVP, Observer, Repository, Dao, Dto</p>
+        </div>
+        <div className="project">
+          <a href="https://github.com/alahyaoui/esi_reading-odoo" target="_blank" rel="noreferrer"><img src={screenshot_esi_reading} className="zoom" alt="thumbnail" width="100%"/></a>
+          <a href="https://github.com/alahyaoui/esi_reading-odoo" target="_blank" rel="noreferrer"><h2>Reading Esi</h2></a>
+          <p>Reading Esi is an odoo module helping bookstore organizations to store, rent, buy and sell books</p>
+          <p>Used: Odoo, Python</p>
+          <p>Patterns: MVC</p>
         </div>
         <div className="project">
           <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer"><img src={screenshot_abalone} className="zoom" alt="thumbnail" width="100%"/></a>
