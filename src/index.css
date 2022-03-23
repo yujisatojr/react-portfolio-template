@@ -22,68 +22,13 @@ a:hover {
   color: rgba(0, 0, 0, 0.349);
 }
 
-.nav-bar ul {
-  letter-spacing: 0.3em;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  height: inherit;
-  font-family: Verdana, sans-serif;
-  justify-content: center;
+.flex-chips .zoom {
+  transition: transform .2s;
 }
 
-.nav-bar li {
-  letter-spacing: 0.3em;
-  padding: 12px 20px;
-  list-style: none;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: white;
-}
-
-.nav-bar {
-  width: 100%;
-  margin-top: 30px;
-}
-
-.nav-bar a {
-  color: black;
-  letter-spacing: 0.3em;
-}
-
-.nav-bar a:hover {
-  color: rgba(0, 0, 0, 0.349);
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.contact_form {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.flex-chips .zoom:hover {
+  background-color: aliceblue;
+  transform: scale(1.15);
 }
 
 .items_wrapper {
@@ -94,14 +39,6 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.about img {
-  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-.case_show a {
-  text-decoration: underline;
 }
 
 .video {
