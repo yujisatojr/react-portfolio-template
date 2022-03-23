@@ -18,6 +18,15 @@
   text-align: left;
 }
 
+.skills-container .skills-grid .skill .zoom {
+  transition: transform .2s;
+}
+
+.skills-container .skills-grid .skill .zoom:hover {
+  background-color: aliceblue;
+  transform: scale(1.15);
+}
+
 @media screen {
   @media (max-width: 567px) {
     .skills-container h1 {

@@ -19,58 +19,58 @@ function Skill() {
                     <div className="skill">
                         <h2>Languages</h2>
                         <p className="flex-chips">
-                            <Chip avatar={<FaJava />} variant="outlined" label="Java" />
-                            <Chip avatar={<SiKotlin />} variant="outlined" label="Kotlin" />
-                            <Chip avatar={<SiSolidity />} variant="outlined" label="Solidity" />
-                            <Chip avatar={<SiCplusplus />} variant="outlined" label="C/C++" />
-                            <Chip avatar={<FaJsSquare />} variant="outlined" label="JavaScript" />
-                            <Chip avatar={<FaHtml5 />} variant="outlined" label="HTML" />
-                            <Chip avatar={<FaCss3 />} variant="outlined" label="CSS" />
-                            <Chip avatar={<FaPhp />} variant="outlined" label="PHP" />
-                            <Chip avatar={<FaDatabase />} variant="outlined" label="SQL" />
-                            <Chip avatar={<FaPython />} variant="outlined" label="Python" />
+                            <Chip className="zoom" avatar={<FaJava />} variant="outlined" label="Java" />
+                            <Chip className="zoom" avatar={<SiKotlin />} variant="outlined" label="Kotlin" />
+                            <Chip className="zoom" avatar={<SiSolidity />} variant="outlined" label="Solidity" />
+                            <Chip className="zoom" avatar={<SiCplusplus />} variant="outlined" label="C/C++" />
+                            <Chip className="zoom" avatar={<FaJsSquare />} variant="outlined" label="JavaScript" />
+                            <Chip className="zoom" avatar={<FaHtml5 />} variant="outlined" label="HTML" />
+                            <Chip className="zoom" avatar={<FaCss3 />} variant="outlined" label="CSS" />
+                            <Chip className="zoom" avatar={<FaPhp />} variant="outlined" label="PHP" />
+                            <Chip className="zoom" avatar={<FaDatabase />} variant="outlined" label="SQL" />
+                            <Chip className="zoom" avatar={<FaPython />} variant="outlined" label="Python" />
                         </p>
                     </div>
 
                     <div className="skill">
                         <h2>Frameworks</h2>
                         <p className="flex-chips">
-                            <Chip avatar={<FaReact />} variant="outlined" label="React.js" />
-                            <Chip avatar={<SiSpringboot />} variant="outlined" label="Spring Boot" />
-                            <Chip avatar={<FaLaravel />} variant="outlined" label="Laravel" />
-                            <Chip avatar={<SiDjango />} variant="outlined" label="Django" />
-                            <Chip avatar={<CgShapeCircle />} variant="outlined" label="Odoo" />
+                            <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React.js" />
+                            <Chip className="zoom" avatar={<SiSpringboot />} variant="outlined" label="Spring Boot" />
+                            <Chip className="zoom" avatar={<FaLaravel />} variant="outlined" label="Laravel" />
+                            <Chip className="zoom" avatar={<SiDjango />} variant="outlined" label="Django" />
+                            <Chip className="zoom" avatar={<CgShapeCircle />} variant="outlined" label="Odoo" />
                         </p>
                     </div>
 
                     <div className="skill">
                         <h2>Databases</h2>
                         <p className="flex-chips">
-                            <Chip avatar={<GrMysql />} variant="outlined" label="MySQL" />
-                            <Chip avatar={<SiPostgresql />} variant="outlined" label="PostgreSql" />
-                            <Chip avatar={<GrOracle />} variant="outlined" label="Oracle Apex" />
-                            <Chip avatar={<SiMongodb />} variant="outlined" label="MongoDB" />
+                            <Chip className="zoom" avatar={<GrMysql />} variant="outlined" label="MySQL" />
+                            <Chip className="zoom" avatar={<SiPostgresql />} variant="outlined" label="PostgreSql" />
+                            <Chip className="zoom" avatar={<GrOracle />} variant="outlined" label="Oracle Apex" />
+                            <Chip className="zoom" avatar={<SiMongodb />} variant="outlined" label="MongoDB" />
                         </p>
                     </div>
 
                     <div className="skill">
                         <h2>Cloud Services</h2>
                         <p className="flex-chips">
-                            <Chip avatar={<SiHeroku />} variant="outlined" label="Heroku" />
-                            <Chip avatar={<DiAws />} variant="outlined" label="AWS" />
+                            <Chip className="zoom" avatar={<SiHeroku />} variant="outlined" label="Heroku" />
+                            <Chip className="zoom" avatar={<DiAws />} variant="outlined" label="AWS" />
                         </p>
                     </div>
 
                     <div className="skill">
                         <h2>Tools</h2>
                         <p className="flex-chips">
-                            <Chip avatar={<FaGitAlt />} variant="outlined" label="Git" />
-                            <Chip avatar={<SiPostman />} variant="outlined" label="Postman" />
-                            <Chip avatar={<SiGnubash />} variant="outlined" label="Bash" />
-                            <Chip avatar={<GiGears />} variant="outlined" label="Makefile" />
-                            <Chip avatar={<SiVirtualbox />} variant="outlined" label="Virtual Machines" />
-                            <Chip avatar={<SiAndroidstudio />} variant="outlined" label="Android Studio" />
-                            <Chip avatar={<SiCisco />} variant="outlined" label="Cisco Packet Tracer" />
+                            <Chip className="zoom" avatar={<FaGitAlt />} variant="outlined" label="Git" />
+                            <Chip className="zoom" avatar={<SiPostman />} variant="outlined" label="Postman" />
+                            <Chip className="zoom" avatar={<SiGnubash />} variant="outlined" label="Bash" />
+                            <Chip className="zoom" avatar={<GiGears />} variant="outlined" label="Makefile" />
+                            <Chip className="zoom" avatar={<SiVirtualbox />} variant="outlined" label="Virtual Machines" />
+                            <Chip className="zoom" avatar={<SiAndroidstudio />} variant="outlined" label="Android Studio" />
+                            <Chip className="zoom" avatar={<SiCisco />} variant="outlined" label="Cisco Packet Tracer" />
                         </p>
                     </div>
                 </div>
