@@ -10,10 +10,11 @@ function Introduction() {
           <h1>Hi, I'm Ayoub 🖖</h1>
           <p>I am a Belgian third-year student in the Computer Science Program at HE2B ESI college - Brussels (Expected graduation December 2022).
             I am currently looking for an end-of-study internship.
-            I'm always eager to learn more and have a strong sense of curiosity, which is why I’m constantly keeping up with new computer technologies.
+            I'm always eager to learn more and have a strong sense of curiosity, which is why I’m constantly trying to keep up with new computer technologies.
           </p>
           <p className='flex-chips'>If I am not coding, you can find me: <br />
             <Chip variant="outlined" label="👨‍🎓 learning" />
+            <Chip variant="outlined" label="👨‍👩‍👧‍👧 socializing" />
             <Chip variant="outlined" label="🛫 traveling" />
             <Chip variant="outlined" label="🖥 building and tweaking computers" />
             <Chip variant="outlined" label="📺 watching series and documentaries" />
@@ -22,7 +23,7 @@ function Introduction() {
           </p>
         </div>
         <div className="image-wrapper">
-          <img src="https://alahyaoui-website-bucket.s3.eu-west-3.amazonaws.com/home_page.jpg" alt="myProfile" />
+          <img src="https://alahyaoui-website-bucket.s3.eu-west-3.amazonaws.com/home_page.jpg" alt="profile_picture" />
         </div>
       </div>
     </div>
