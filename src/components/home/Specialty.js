@@ -6,15 +6,15 @@ import { faReact, faAppStore, faPython } from '@fortawesome/free-brands-svg-icon
 import FadeInSection from '../fade/FadeInSections'
 import Chip from '@material-ui/core/Chip';
 
-function Skill () {
+function Specialty () {
   return  (
-    <div className="container" id="skills">
+    <div className="container" id="specialties">
       <FadeInSection>
-        <div className="skills-container">
+        <div className="specialties-container">
           <h1>Specialties</h1>
-          <div className="skills-grid">
+          <div className="specialties-grid">
 
-            <div className="skill">
+            <div className="specialty">
               <FontAwesomeIcon icon={faReact} size="4x"/>
               <h3>Full-Stack Web Development</h3>
               <p>Previously, I worked as a DevOps engineer and built 5+ RESTful web applications. I am a power user of Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
@@ -31,7 +31,7 @@ function Skill () {
               </p>
             </div>
 
-            <div className="skill">
+            <div className="specialty">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Software Development</h3>
               <p>I enjoy being part of an agile team to design, build, and deploy cross-platform software. My experience in software development ranges from building mobile applications to 2D/3D video games.</p>
@@ -47,7 +47,7 @@ function Skill () {
               </p>
             </div>
 
-            <div className="skill">
+            <div className="specialty">
               <FontAwesomeIcon icon={faPython} size="4x"/>
               <h3>Data Analysis & BI</h3>
               <p>I love to empower business through the utilization of ELT, data visualization, data warehousing, and automation. I have experience in analyzing corporate data for better decision making.</p>
@@ -73,4 +73,4 @@ function Skill () {
   );
 }
 
-export default Skill;
+export default Specialty;

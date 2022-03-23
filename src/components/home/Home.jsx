@@ -1,7 +1,7 @@
 import React from "react";
 import {
     Introduction,
-    Skill,
+    Specialty,
     Project,
 } from ".";
 
@@ -9,7 +9,7 @@ function Home() {
   return (
     <React.StrictMode>
         <Introduction />
-        <Skill />
+        <Specialty />
         <Project />
     </React.StrictMode>
   );
