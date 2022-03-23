@@ -1,0 +1,42 @@
+.specialties-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+  text-align: left;
+}
+
+.specialties-container .specialties-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  grid-gap: 50px;
+}
+
+.specialties-container .specialties-grid .specialty {
+  align-items: center;
+  text-align: left;
+}
+
+@media screen {
+  @media (max-width: 567px) {
+    .specialties-container h1 {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .specialties-container {
+      display: initial;
+    }
+
+    .specialties-container .specialties-grid {
+      display: initial;
+    }
+    
+    .specialties-container .specialties-grid .specialty {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 5%;
+    }
+  }
+}
