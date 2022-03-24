@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1ec0444a.css",
-    "main.js": "/static/js/main.a96e869b.js",
+    "main.js": "/static/js/main.2959b16a.js",
     "static/media/rainbow-attack.jpeg": "/static/media/rainbow-attack.21e05f1c9e6d5bad1e6b.jpeg",
     "static/media/stibride.jpeg": "/static/media/stibride.8242c20b8148c08c0b80.jpeg",
     "static/media/esi_reading.jpeg": "/static/media/esi_reading.62bf7d9ae7a3ff398b6e.jpeg",
@@ -10,10 +10,10 @@
     "static/media/abalone.jpeg": "/static/media/abalone.e223fb77ccc499d49f6d.jpeg",
     "index.html": "/index.html",
     "main.1ec0444a.css.map": "/static/css/main.1ec0444a.css.map",
-    "main.a96e869b.js.map": "/static/js/main.a96e869b.js.map"
+    "main.2959b16a.js.map": "/static/js/main.2959b16a.js.map"
   },
   "entrypoints": [
     "static/css/main.1ec0444a.css",
-    "static/js/main.a96e869b.js"
+    "static/js/main.2959b16a.js"
   ]
 }
