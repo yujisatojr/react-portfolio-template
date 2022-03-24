@@ -15,12 +15,6 @@ function Project() {
       <h1>Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><img src={screenshot_rainbow_attack} className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><h2>Rainbow Attack</h2></a>
-          <p>Developed in the context of my cyber security course. This TUI C++ application allows you to generate a rainbow table and crack sha256 hashed passwords using the previously generated rainbow table.</p>
-          <p>Used: C++, Makefile, Bash script</p>
-        </div>
-        <div className="project">
           <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><img src={screenshot_curriculum_simulator} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><h2>Curriculum Simulator</h2></a>
           <p>Java Spring web application for students of my school to see which subjects are accessible to them according to the subjects they have passed.</p>
@@ -33,6 +27,12 @@ function Project() {
           <p>JavaFX application that allows users to get the shortest path between two metro station in the public transport network of Brussels.</p>
           <p>Used: Java, JavaFx, Scene Builder, SQLite</p>
           <p>Patterns: MVP, Observer, Repository, Dao, Dto</p>
+        </div>
+        <div className="project">
+          <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><img src={screenshot_rainbow_attack} className="zoom" alt="thumbnail" width="100%"/></a>
+          <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><h2>Rainbow Attack</h2></a>
+          <p>Developed in the context of my cyber security course. This TUI C++ application allows you to generate a rainbow table and crack sha256 hashed passwords using the previously generated rainbow table.</p>
+          <p>Used: C++, Makefile, Bash script</p>
         </div>
         <div className="project">
           <a href="https://github.com/alahyaoui/esi_reading-odoo" target="_blank" rel="noreferrer"><img src={screenshot_esi_reading} className="zoom" alt="thumbnail" width="100%"/></a>
