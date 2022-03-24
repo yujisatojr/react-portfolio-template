@@ -11,7 +11,7 @@ function ContactForm() {
         return (
             <div className="contact_form">
                 <div className="items_wrapper">
-                    <h1 className="response">Thanks for joining!</h1>
+                    <h1 className="response">Thanks for contacting me!</h1>
                 </div>
             </div>
         );
