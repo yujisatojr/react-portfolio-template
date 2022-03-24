@@ -17,7 +17,7 @@ function Project() {
         <div className="project">
           <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><img src={screenshot_rainbow_attack} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><h2>Rainbow Attack</h2></a>
-          <p>Developed in the context of my cyber security course. This TUI C++ application allows you to generate a rainbow table and crack sha256 hashed passwords using a rainbow table previously generated.</p>
+          <p>Developed in the context of my cyber security course. This TUI C++ application allows you to generate a rainbow table and crack sha256 hashed passwords using the previously generated rainbow table.</p>
           <p>Used: C++, Makefile, Bash script</p>
         </div>
         <div className="project">
@@ -44,14 +44,14 @@ function Project() {
         <div className="project">
           <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer"><img src={screenshot_abalone} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer"><h2>Abalone</h2></a>
-          <p>Developed the Abalone game using C++ and QT Designer and following OOP principles</p>
+          <p>Developed the Abalone game using C++ and QT Designer while following the OOP principles.</p>
           <p>Used: C++, QT Designer</p>
           <p>Patterns: MVC</p>
         </div>
         <div className="project">
           <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer"><img src={screenshot_2048} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer"><h2>2048</h2></a>
-          <p>My JavaFX implementation of the game 2048 following OOP principles</p>
+          <p>My JavaFX implementation of the 2048 game following the OOP principles</p>
           <p>Used: Java, JavaFx</p>
           <p>Patterns: MVC</p>
         </div>
