@@ -22,7 +22,7 @@ function ContactForm() {
                 <h1>Contact Me</h1>
                 <form onSubmit={handleSubmit}>
                     <label for="subject">Subject</label>
-                    <input id="subject" type="text" name="subject" placeholder="Subject" required />
+                    <input id="subject" type="text" name="subject" placeholder="Subject.." required />
                     <ValidationError prefix="Subject" field="subject" errors={state.errors} />
 
                     <label for="fname">Full Name</label>
