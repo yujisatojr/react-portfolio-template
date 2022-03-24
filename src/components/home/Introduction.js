@@ -22,7 +22,7 @@ function Introduction() {
           </p>
         </div>
         <div className="image-wrapper">
-          <img src="https://alahyaoui-website-bucket.s3.eu-west-3.amazonaws.com/home_page.jpg" alt="profile_picture" />
+          <img src="https://alahyaoui-website-bucket.s3.eu-west-3.amazonaws.com/home_page.jpeg" alt="profile_picture" />
         </div>
       </div>
     </div>
