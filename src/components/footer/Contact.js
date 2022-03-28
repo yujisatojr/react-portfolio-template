@@ -25,9 +25,9 @@ function Contact() {
         <p>Feel free to reach out to me on social media.</p>
         <div className="info">
           <ul>
-            <li><a href="https://www.linkedin.com/in/ayoub-lahyaoui-890029223/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
-            <li><a href="https://github.com/alahyaoui" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2x" /></a></li>
-            <li><a href="https://stackoverflow.com/users/18534641/ayoub-lahyaoui" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faStackOverflow} size="2x" /></a></li>
+            <li><a href="https://www.linkedin.com/in/ayoub-lahyaoui/" title="Linkedin link" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
+            <li><a href="https://github.com/alahyaoui" title="Github link" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2x" /></a></li>
+            <li><a href="https://stackoverflow.com/users/18534641/ayoub-lahyaoui" title="Stackoverflow link" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faStackOverflow} size="2x" /></a></li>
             <li><a href="" title="Discord - ayoubino#8988" onClick={copyToClipboard} target="_self"><FontAwesomeIcon icon={faDiscord} size="2x" /></a></li>
           </ul>
         </div>
