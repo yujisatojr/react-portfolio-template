@@ -2,7 +2,7 @@
   "name": "ayoublahyaoui.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alahyaoui.github.io/",
+  "homepage": "https://ayoublahyaoui.com/",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.16.5",
