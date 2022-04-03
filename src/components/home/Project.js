@@ -18,7 +18,7 @@ function Project() {
           <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><img src={screenshot_curriculum_simulator} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><h2>Curriculum Simulator</h2></a>
           <p>Java Spring web application for students of my school to see which subjects are accessible to them according to the subjects they have passed.</p>
-          <p>Used: Java, Spring Boot, Thymeleaf, Lombok, H2</p>
+          <p>Used: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2</p>
           <p>Patterns: MVC, Observer, Repository, Singleton</p>
         </div>
         <div className="project">
@@ -46,14 +46,14 @@ function Project() {
           <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer"><h2>Abalone</h2></a>
           <p>Developed the Abalone game using C++ and QT Designer while following the OOP principles.</p>
           <p>Used: C++, QT Designer</p>
-          <p>Patterns: MVC</p>
+          <p>Patterns: MVC, Observer</p>
         </div>
         <div className="project">
           <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer"><img src={screenshot_2048} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer"><h2>2048</h2></a>
           <p>My JavaFX implementation of the 2048 game following the OOP principles</p>
           <p>Used: Java, JavaFx</p>
-          <p>Patterns: MVC</p>
+          <p>Patterns: MVC, Observer</p>
         </div>
       </div>
     </FadeInSection>
