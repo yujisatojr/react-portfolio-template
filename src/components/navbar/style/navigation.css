@@ -1,5 +1,4 @@
 .nav-bar ul {
-    letter-spacing: 0.3em;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -11,7 +10,6 @@
   }
   
   .nav-bar li {
-    letter-spacing: 0.3em;
     padding: 12px 20px;
     list-style: none;
     font-size: 1.1rem;
@@ -26,7 +24,7 @@
   
   .nav-bar a {
     color: black;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.4vw;
   }
   
   .nav-bar a:hover {
