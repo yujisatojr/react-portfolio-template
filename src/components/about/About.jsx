@@ -1,5 +1,6 @@
 import React from "react";
 import "./style/about.css"
+import about_page from './assets/img/about_page.jpeg';
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
         <div>
           <img
             className="image-wrapper"
-            src="https://alahyaoui-website-bucket.s3.eu-west-3.amazonaws.com/about_page.jpeg"
+            src={about_page}
             alt="about_picture"
             width="100%"
           />

@@ -1,5 +1,6 @@
 import React from 'react';
 import './style/introduction.css'
+import home_page from './assets/img/home_page.jpeg';
 import Chip from '@material-ui/core/Chip';
 
 function Introduction() {
@@ -22,7 +23,7 @@ function Introduction() {
           </p>
         </div>
         <div className="image-wrapper">
-          <img src="https://alahyaoui-website-bucket.s3.eu-west-3.amazonaws.com/home_page.jpeg" alt="profile_picture" />
+          <img src={home_page} alt="profile_picture" />
         </div>
       </div>
     </div>
