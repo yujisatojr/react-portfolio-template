@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0px;
 }
@@ -17,16 +13,6 @@ p {
 a {
   color: #2f4454;
   text-decoration: none;
-}
-
-main{
-  text-align : center;
-  font-size: 14px;
-}
-
-.main-content {
-  display: grid;
-  font-family: Verdana, sans-serif;
 }
 
 button {
@@ -85,29 +71,6 @@ button {
   overflow: hidden;
 }
 
-#loader-wrapper {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: #222222;
-}
-
-#myProgress {
-  position:fixed;
-  left: 47%;
-  top: 50%;
-  width: 100px;
-  border-radius: 25px 25px;
-  background-color: #ddd;
-}
-
-#myBar {
-  width: 1%;
-  height: 5px;
-  border-radius: 25px 25px;
-  background-color: #ac3b61;
-}
-
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
@@ -124,11 +87,6 @@ button {
 @keyframes animatebottom { 
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
 }
 
 @media screen {
