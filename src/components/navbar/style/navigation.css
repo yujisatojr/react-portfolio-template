@@ -1,32 +1,32 @@
 .nav-bar ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    height: inherit;
-    font-family: Verdana, sans-serif;
-    justify-content: center;
-  }
-  
-  .nav-bar li {
-    padding: 12px 20px;
-    list-style: none;
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: white;
-  }
-  
-  .nav-bar {
-    width: 100%;
-    margin-top: 30px;
-  }
-  
-  .nav-bar a {
-    color: black;
-    letter-spacing: 0.3vw;
-  }
-  
-  .nav-bar a:hover {
-    color: rgba(0, 0, 0, 0.349);
-  }
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  font-family: Verdana, sans-serif;
+  justify-content: center;
+}
+
+.nav-bar li {
+  padding: 12px 20px;
+  list-style: none;
+  font-size: 100%;
+  font-weight: 400;
+  color: white;
+}
+
+.nav-bar {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.nav-bar a {
+  color: black;
+  letter-spacing: 0.4vw;
+}
+
+.nav-bar a:hover {
+  color: rgba(0, 0, 0, 0.349);
+}
