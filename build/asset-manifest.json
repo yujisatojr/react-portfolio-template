@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0eb55ad6.css",
+    "main.css": "/static/css/main.eef2482c.css",
     "main.js": "/static/js/main.740c0d16.js",
     "static/media/rainbow-attack.jpeg": "/static/media/rainbow-attack.21e05f1c9e6d5bad1e6b.jpeg",
     "static/media/stibride.jpeg": "/static/media/stibride.8242c20b8148c08c0b80.jpeg",
@@ -9,11 +9,11 @@
     "static/media/curriculum-simulator.jpeg": "/static/media/curriculum-simulator.32e1b9ff2882236ec148.jpeg",
     "static/media/abalone.jpeg": "/static/media/abalone.e223fb77ccc499d49f6d.jpeg",
     "index.html": "/index.html",
-    "main.0eb55ad6.css.map": "/static/css/main.0eb55ad6.css.map",
+    "main.eef2482c.css.map": "/static/css/main.eef2482c.css.map",
     "main.740c0d16.js.map": "/static/js/main.740c0d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eb55ad6.css",
+    "static/css/main.eef2482c.css",
     "static/js/main.740c0d16.js"
   ]
 }

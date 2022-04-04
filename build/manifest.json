@@ -18,6 +18,7 @@
     }
   ],
   "start_url": "/",
+  "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#000000",
