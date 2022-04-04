@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.eef2482c.css",
-    "main.js": "/static/js/main.740c0d16.js",
+    "main.css": "/static/css/main.8ac0cb49.css",
+    "main.js": "/static/js/main.ed285c84.js",
+    "static/js/377.9a2e2722.chunk.js": "/static/js/377.9a2e2722.chunk.js",
     "static/media/rainbow-attack.jpeg": "/static/media/rainbow-attack.21e05f1c9e6d5bad1e6b.jpeg",
     "static/media/stibride.jpeg": "/static/media/stibride.8242c20b8148c08c0b80.jpeg",
     "static/media/esi_reading.jpeg": "/static/media/esi_reading.62bf7d9ae7a3ff398b6e.jpeg",
     "static/media/2048.jpeg": "/static/media/2048.a45427ad1da8fa232345.jpeg",
     "static/media/curriculum-simulator.jpeg": "/static/media/curriculum-simulator.32e1b9ff2882236ec148.jpeg",
     "static/media/abalone.jpeg": "/static/media/abalone.e223fb77ccc499d49f6d.jpeg",
+    "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
-    "main.eef2482c.css.map": "/static/css/main.eef2482c.css.map",
-    "main.740c0d16.js.map": "/static/js/main.740c0d16.js.map"
+    "main.8ac0cb49.css.map": "/static/css/main.8ac0cb49.css.map",
+    "main.ed285c84.js.map": "/static/js/main.ed285c84.js.map",
+    "377.9a2e2722.chunk.js.map": "/static/js/377.9a2e2722.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eef2482c.css",
-    "static/js/main.740c0d16.js"
+    "static/css/main.8ac0cb49.css",
+    "static/js/main.ed285c84.js"
   ]
 }
