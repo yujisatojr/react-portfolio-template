@@ -3,7 +3,16 @@ My portfolio website powered by React.js
 
 ## Installation
 
-In the project directory, you can run:
+Without a ssh key:
+```
+$ git clone https://github.com/alahyaoui/StibRide.git
+```
+With a ssh key:
+```
+$ git clone git@github.com:alahyaoui/StibRide.git
+```
+
+Then in the project directory, you can run:
 
 ```
 npm install
