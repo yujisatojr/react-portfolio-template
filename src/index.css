@@ -111,7 +111,7 @@ input[type=submit]:hover {
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.case_show a {
+.post_show a {
   text-decoration: underline;
 }
 

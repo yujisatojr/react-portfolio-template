@@ -1,37 +1,29 @@
-import React, { useEffect } from "react";
+import React from "react";
+//import React, { useEffect } from "react";
 import { useParams } from "react-router";
+import data from './data'
 
 function Post() {
   let { postSlug } = useParams();
 
+  /*
   useEffect(() => {
     // Fetch post using the postSlug
-  }, [postSlug]);
+    title,
+    description
+  }, data[caseSlug]);
+  */
+
+  const fetched = data[postSlug];
+  const { heading, description, body } = fetched;
 
   return (
-    <div className="home">
-      <div class="container">
-        <h1 className="mt-5">This is a Post Title</h1>
-        <h6 className="mb-5">The post slug is, {postSlug}</h6>
+    <div className="post_show">
+        <h2 className="mt-5">{ heading }</h2>
+        <h3>{ description }</h3>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          { body }
         </p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
-        </p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
-        </p>
-      </div>
     </div>
   );
 }

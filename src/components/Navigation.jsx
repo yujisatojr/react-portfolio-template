@@ -19,8 +19,8 @@ function Navigation() {
             </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink className="nav-link" to="/cases">
-              Work
+            <NavLink className="nav-link" to="/blog">
+              Blog
             </NavLink>
             </li>
             <li className="nav-item">
