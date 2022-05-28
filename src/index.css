@@ -87,8 +87,6 @@ input[type=submit]:hover {
 }
 
 .items_wrapper {
-  padding-left: 10%;
-  padding-right: 10%;
   text-align: left;
   padding-top: 5%;
   display: flex;
@@ -132,10 +130,16 @@ iframe {
 }
 
 @media screen {
+  @media (min-width: 600px) {
+    .items_wrapper {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
   @media (min-width: 1000px) {
     .items_wrapper {
-      padding-left: 20%;
-      padding-right: 20%;
+      padding-left: 15%;
+      padding-right: 15%;
     }
   }
   @media (max-width: 600px) {

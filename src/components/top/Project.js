@@ -28,7 +28,7 @@ function Project() {
         <div className="project">
           <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock9} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Space Craft</h2></a>
-          <p>Developed and released a 2D shooting game with Unity. This project is hosted on the Itch.io public marketplace.</p>
+          <p>Developed and released a 2D shooting game. This project is hosted on the Itch.io public marketplace.</p>
           <p>Used: C#, Unity</p>
         </div>
         <div className="project">

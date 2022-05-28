@@ -17,7 +17,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faReact} size="4x"/>
               <h3>Full-Stack Web Development</h3>
-              <p>Previously, I worked as a DevOps engineer and built 5+ RESTful web applications. I am a power user of Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
+              <p>In the past, I worked as a software engineer and built 5+ web applications. I am familiar with Ruby on Rails framework and the JavaScript libraries such as React, Vue, Node, Express and Handlebars.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="JavaScript" />
                 <Chip variant="outlined" label="HTML" />
@@ -50,7 +50,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
               <h3>Data Analysis & BI</h3>
-              <p>I love to empower business through the utilization of ELT, data visualization, data warehousing, and automation. I have experience in analyzing corporate data for better decision making.</p>
+              <p>My passion is to empower business through the utilization of ELT, data visualization, data warehousing, and process automation. I have experience in analyzing corporate data for better decision making.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="SQL" />
                 <Chip variant="outlined" label="Python" />
