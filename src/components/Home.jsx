@@ -9,10 +9,10 @@ import {
 function Home() {
   return (
     <React.StrictMode>
-        <App />
-        <Skill />
-        <Project />
-        <Contact />
+      <App />
+      <Skill />
+      <Project />
+      <Contact />
     </React.StrictMode>
   );
 }
