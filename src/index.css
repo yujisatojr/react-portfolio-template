@@ -90,6 +90,7 @@ a:hover {
   }
 
   .nav-bar ul {
+    z-index: 1;
     display: none;
     position: absolute;
     top: 90px;
