@@ -22,6 +22,18 @@ a:hover {
   color: rgba(0, 0, 0, 0.349);
 }
 
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  /*background-color: #fff;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);*/
+}
+
 .nav-bar ul {
   letter-spacing: 0.3em;
   list-style-type: none;
@@ -47,6 +59,23 @@ a:hover {
   width: 100%;
   margin-top: 30px;
 }
+.nav-bar {
+  margin-left: auto;
+}
+
+.nav-bar ul {
+  display: flex;
+  padding: 0;
+}
+.nav-bar li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.nav-bar li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
 
 .nav-bar a {
   color: black;
@@ -55,6 +84,63 @@ a:hover {
 
 .nav-bar a:hover {
   color: rgba(0, 0, 0, 0.349);
+}
+
+.hamburger {
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar ul {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+  }
+  .nav-bar li {
+    text-align: center;
+    margin: 0;
+  }
+  .nav-bar li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .nav-bar li:hover {
+    background-color: #eee;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar.expanded ul {
+    display: block;
+  }
 }
 
 input[type=text], select, textarea {
