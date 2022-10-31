@@ -1,7 +1,7 @@
 import React from "react";
 import "./style/about.css"
 import about_page from './assets/img/about_page.jpeg';
-import {getAge} from '../../constant'
+import {getAge} from '../../utils'
 
 function About() {
   return (
