@@ -3,7 +3,7 @@ import './style/specialty.css';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaPython, FaReact, FaBootstrap, FaLaravel, FaGitAlt } from "react-icons/fa";
-import { SiKotlin, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiSqlite, SiHeroku, SiPostman, SiQt, SiAndroidstudio } from "react-icons/si";
+import { SiSwift, SiKotlin, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiSqlite, SiHeroku, SiPostman, SiQt, SiAndroidstudio } from "react-icons/si";
 import { GrMysql, } from "react-icons/gr";
 import { CgShapeCircle } from "react-icons/cg";
 import FadeInSection from '../fade/FadeInSections'
@@ -43,8 +43,10 @@ function Specialty() {
               <FontAwesomeIcon icon={faAppStore} size="4x" />
               <h3>Software Development</h3>
               <p className="flex-chips">Tech stack:
+                <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React Native" />
                 <Chip className="zoom" avatar={<FaJava />} variant="outlined" label="Java" />
                 <Chip className="zoom" avatar={<SiKotlin />} variant="outlined" label="Kotlin" />
+                <Chip className="zoom" avatar={<SiSwift />} variant="outlined" label="Swift" />
                 <Chip className="zoom" avatar={<SiAndroidstudio />} variant="outlined" label="Android Studio" />
                 <Chip className="zoom" avatar={<SiCplusplus />} variant="outlined" label="C/C++" />
                 <Chip className="zoom" avatar={<SiQt />} variant="outlined" label="Qt Creator" />
