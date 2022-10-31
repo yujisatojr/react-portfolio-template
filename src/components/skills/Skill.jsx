@@ -4,7 +4,7 @@ import './style/skill.css';
 import Chip from '@material-ui/core/Chip';
 
 import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaDatabase, FaPython, FaReact, FaBootstrap, FaLaravel, FaGitAlt } from "react-icons/fa";
-import { SiKotlin, SiSolidity, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiSqlite, SiMongodb, SiHeroku, SiGnubash, SiPostman, SiVirtualbox, SiQt, SiAndroidstudio, SiCisco } from "react-icons/si";
+import { SiKotlin, SiSolidity, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiSqlite, SiMongodb, SiHeroku, SiGnubash, SiPostman, SiVirtualbox, SiQt, SiAndroidstudio, SiCisco, SiSwift } from "react-icons/si";
 import { GrMysql, GrOracle, } from "react-icons/gr";
 import { DiAws } from "react-icons/di";
 import { CgShapeCircle } from "react-icons/cg";
@@ -19,22 +19,24 @@ function Skill() {
                     <div className="skill">
                         <h2>Languages</h2>
                         <p className="flex-chips">
+                            <Chip className="zoom" avatar={<FaJsSquare />} variant="outlined" label="JavaScript" />
                             <Chip className="zoom" avatar={<FaJava />} variant="outlined" label="Java" />
                             <Chip className="zoom" avatar={<SiKotlin />} variant="outlined" label="Kotlin" />
-                            <Chip className="zoom" avatar={<SiSolidity />} variant="outlined" label="Solidity" />
-                            <Chip className="zoom" avatar={<SiCplusplus />} variant="outlined" label="C/C++" />
-                            <Chip className="zoom" avatar={<FaJsSquare />} variant="outlined" label="JavaScript" />
+                            <Chip className="zoom" avatar={<SiSwift />} variant="outlined" label="Swift" />
                             <Chip className="zoom" avatar={<FaHtml5 />} variant="outlined" label="HTML" />
                             <Chip className="zoom" avatar={<FaCss3 />} variant="outlined" label="CSS" />
+                            <Chip className="zoom" avatar={<SiCplusplus />} variant="outlined" label="C/C++" />
                             <Chip className="zoom" avatar={<FaPhp />} variant="outlined" label="PHP" />
                             <Chip className="zoom" avatar={<FaDatabase />} variant="outlined" label="SQL" />
                             <Chip className="zoom" avatar={<FaPython />} variant="outlined" label="Python" />
+                            <Chip className="zoom" avatar={<SiSolidity />} variant="outlined" label="Solidity" />
                         </p>
                     </div>
 
                     <div className="skill">
                         <h2>Frameworks</h2>
                         <p className="flex-chips">
+                            <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React Native" />
                             <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React.js" />
                             <Chip className="zoom" avatar={<FaBootstrap />} variant="outlined" label="Bootstrap" />
                             <Chip className="zoom" avatar={<SiSpringboot />} variant="outlined" label="Spring Boot" />
