@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a95c845a.css",
-    "main.js": "/static/js/main.839a71bf.js",
+    "main.css": "/static/css/main.33c38398.css",
+    "main.js": "/static/js/main.98a3fde7.js",
     "static/js/377.9a2e2722.chunk.js": "/static/js/377.9a2e2722.chunk.js",
     "static/media/tomtom_amigo.png": "/static/media/tomtom_amigo.7ac94f389c795febd4aa.png",
     "static/media/about_page.jpeg": "/static/media/about_page.c780359c8747e0472b7f.jpeg",
@@ -15,12 +15,12 @@
     "static/media/abalone.jpeg": "/static/media/abalone.e223fb77ccc499d49f6d.jpeg",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
-    "main.a95c845a.css.map": "/static/css/main.a95c845a.css.map",
-    "main.839a71bf.js.map": "/static/js/main.839a71bf.js.map",
+    "main.33c38398.css.map": "/static/css/main.33c38398.css.map",
+    "main.98a3fde7.js.map": "/static/js/main.98a3fde7.js.map",
     "377.9a2e2722.chunk.js.map": "/static/js/377.9a2e2722.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a95c845a.css",
-    "static/js/main.839a71bf.js"
+    "static/css/main.33c38398.css",
+    "static/js/main.98a3fde7.js"
   ]
 }
