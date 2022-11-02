@@ -8,7 +8,7 @@ function Introduction() {
     <div className="container" id="about">
       <div className="about-section">
         <div className="content">
-          <h1>Hi, I'm Ayoub 🖖</h1>
+          <h1>Hey, I'm Ayoub</h1>
           <p>I am a Belgian third-year Computer Science student completing an end-of-study internship at TomTom. 
             I am currently looking for an entry-level position in Software Development starting in January 2023.
 
