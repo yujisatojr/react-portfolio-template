@@ -26,6 +26,10 @@
   text-decoration: underline;
 }
 
+.project-tools p {
+  margin: 0.3em;
+}
+
 .zoom {
   border-radius: 5px;
   transition: transform .2s;
@@ -56,7 +60,7 @@
     .projects-container .projects-grid {
       display: block;
     }
-    
+
     .projects-container .projects-grid .project {
       padding-bottom: 5%;
     }

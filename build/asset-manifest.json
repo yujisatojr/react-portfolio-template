@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.a95c845a.css",
-    "main.js": "/static/js/main.5e0947bf.js",
+    "main.js": "/static/js/main.839a71bf.js",
     "static/js/377.9a2e2722.chunk.js": "/static/js/377.9a2e2722.chunk.js",
+    "static/media/tomtom_amigo.png": "/static/media/tomtom_amigo.7ac94f389c795febd4aa.png",
     "static/media/about_page.jpeg": "/static/media/about_page.c780359c8747e0472b7f.jpeg",
+    "static/media/escooter_finder.png": "/static/media/escooter_finder.1cae84077245b58aa77c.png",
     "static/media/home_page.jpeg": "/static/media/home_page.90c6b83d77e5e9ac3d7b.jpeg",
     "static/media/rainbow-attack.jpeg": "/static/media/rainbow-attack.21e05f1c9e6d5bad1e6b.jpeg",
     "static/media/stibride.jpeg": "/static/media/stibride.8242c20b8148c08c0b80.jpeg",
@@ -14,11 +16,11 @@
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
     "main.a95c845a.css.map": "/static/css/main.a95c845a.css.map",
-    "main.5e0947bf.js.map": "/static/js/main.5e0947bf.js.map",
+    "main.839a71bf.js.map": "/static/js/main.839a71bf.js.map",
     "377.9a2e2722.chunk.js.map": "/static/js/377.9a2e2722.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a95c845a.css",
-    "static/js/main.5e0947bf.js"
+    "static/js/main.839a71bf.js"
   ]
 }

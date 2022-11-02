@@ -26,27 +26,29 @@ function Project() {
             <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><img src={screenshot_escooter_finder} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
             <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><h2>E-Scooter Finder</h2></a>
             <p>Android application, which finds you nearby e-scooters from various electric scooter sharing companies.</p>
-            <p>Used:
-              <ul>
-                <li>Frontend: Kotlin, Google Maps SDK, Retrofit, Android Studio</li>
-                <li>Backend: Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS</li>
-              </ul>
-            </p>
-            <p>Patterns: MVVM, Observer, Repository, Singleton, REST</p>
+            <div className="project-tools">
+              <p>Frontend: Kotlin, Google Maps SDK, Retrofit, Android Studio</p>
+              <p>Backend: Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS</p>
+              <p>Patterns: MVVM, Observer, Repository, Singleton, REST</p>
+            </div>
           </div>
           <div className="project">
             <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><img src={screenshot_curriculum_simulator} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
             <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer"><h2>Curriculum Simulator</h2></a>
             <p>Java Spring web application for students of my school to see which subjects are accessible to them according to the subjects they have passed.</p>
-            <p>Used: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2</p>
-            <p>Patterns: MVC, Observer, Repository, Singleton</p>
+            <div className="project-tools">
+              <p>Used: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2</p>
+              <p>Patterns: MVC, Observer, Repository, Singleton</p>
+            </div>
           </div>
           <div className="project">
             <a href="https://github.com/alahyaoui/StibRide" target="_blank" rel="noreferrer"><img src={screenshot_stibride} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
             <a href="https://github.com/alahyaoui/StibRide" target="_blank" rel="noreferrer"><h2>Stib Ride</h2></a>
             <p>JavaFX application that allows users to get the shortest path between two metro station in the public transport network of Brussels.</p>
-            <p>Used: Java, JavaFx, Scene Builder, SQLite</p>
-            <p>Patterns: MVP, Observer, Repository, Dao, Dto</p>
+            <div className="project-tools">
+              <p>Used: Java, JavaFx, Scene Builder, SQLite</p>
+              <p>Patterns: MVP, Observer, Repository, Dao, Dto</p>
+            </div>
           </div>
           <div className="project">
             <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer"><img src={screenshot_rainbow_attack} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
@@ -58,22 +60,28 @@ function Project() {
             <a href="https://github.com/alahyaoui/esi_reading-odoo" target="_blank" rel="noreferrer"><img src={screenshot_esi_reading} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
             <a href="https://github.com/alahyaoui/esi_reading-odoo" target="_blank" rel="noreferrer"><h2>Reading Esi</h2></a>
             <p>Reading Esi is an odoo module helping bookstore organizations to store, rent, buy and sell books</p>
-            <p>Used: Odoo, Python</p>
-            <p>Patterns: MVC</p>
+            <div className="project-tools">
+              <p>Used: Odoo, Python</p>
+              <p>Patterns: MVC</p>
+            </div>
           </div>
           <div className="project">
             <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer"><img src={screenshot_abalone} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
             <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer"><h2>Abalone</h2></a>
             <p>Developed the Abalone game using C++ and QT Designer while following the OOP principles.</p>
-            <p>Used: C++, QT Designer</p>
-            <p>Patterns: MVC, Observer</p>
+            <div className="project-tools">
+              <p>Used: C++, QT Designer</p>
+              <p>Patterns: MVC, Observer</p>
+            </div>
           </div>
           <div className="project">
             <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer"><img src={screenshot_2048} className="zoom" alt="thumbnail" width="100%" height="57%" /></a>
             <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer"><h2>2048</h2></a>
             <p>My JavaFX implementation of the 2048 game following the OOP principles</p>
-            <p>Used: Java, JavaFx</p>
-            <p>Patterns: MVC, Observer</p>
+            <div className="project-tools">
+              <p>Used: Java, JavaFx</p>
+              <p>Patterns: MVC, Observer</p>
+            </div>
           </div>
         </div>
       </FadeInSection>
