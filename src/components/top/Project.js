@@ -22,7 +22,7 @@ function Project() {
         <div className="project">
           <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
           <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-          <p>Developed and released a 3D multi-player racing game. This project is hosted on the Itch.io public marketplace.</p>
+          <p>Utilizing my skills in game design and development, I designed, developed, and launched a 3D multiplayer racing game, which is now available on Itch.io for gamers worldwide to enjoy.</p>
           <p>Used: C#, Unity</p>
         </div>
         <div className="project">

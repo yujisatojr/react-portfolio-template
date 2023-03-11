@@ -15,7 +15,7 @@ function App() {
             <Chip variant="outlined" label="🏄‍♂️ surfing" />
             <Chip variant="outlined" label="🛩️ traveling" />
             <Chip variant="outlined" label="🎸 playing the guitar" />
-            <Chip variant="outlined" label="🎬 watching movies" />
+            <Chip variant="outlined" label="🎬 filmmaking" />
             <Chip variant="outlined" label="📸 taking photographs" />
             <Chip variant="outlined" label="🏠 hanging out with my wife" />
           </p>

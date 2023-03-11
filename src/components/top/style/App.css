@@ -134,6 +134,13 @@ button {
   animation-duration: 1s
 }
 
+.about p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 @-webkit-keyframes animatebottom {
   from { bottom:-100px; opacity:0 } 
   to { bottom:0px; opacity:1 }
@@ -147,6 +154,10 @@ button {
 #myDiv {
   display: none;
   text-align: center;
+}
+
+.flex-chips .MuiChip-outlined {
+  font-family: Verdana, sans-serif;
 }
 
 @media screen {
@@ -230,6 +241,10 @@ button {
 }
 
 @media (max-width:700px) {
+  .about-section .image-wrapper img {
+    width: 80%;
+  }
+
   .about-section h1 {
     text-align: left;
   }
