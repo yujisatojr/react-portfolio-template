@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/App.css'
 import Chip from '@material-ui/core/Chip';
+import profile from './assets/img/profile.png';
 
 function App() {
   return  (
@@ -20,7 +21,7 @@ function App() {
           </p>
         </div>
         <div className="image-wrapper">
-          <img src="https://yuji-aws-bucket.s3.us-east-2.amazonaws.com/home_image.jpeg" alt="myProfile" />
+          <img src={profile} alt="myProfile" />
         </div>
       </div>
     </div>

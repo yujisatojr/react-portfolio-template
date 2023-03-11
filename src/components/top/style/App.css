@@ -99,6 +99,10 @@ button {
   overflow: hidden;
 }
 
+.about-section .image-wrapper img{
+  width: 100%;
+}
+
 #loader-wrapper {
   position: fixed;
   width: 100%;
@@ -259,11 +263,6 @@ button {
     padding-top: 35%;
     padding-bottom: 35%;
   }
-}
-
-.about-section .image-wrapper img{
-  width: 80%;
-  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 @media (max-width:400px) {
