@@ -34,7 +34,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faAppStore} size="4x"/>
               <h3>Software Development</h3>
-              <p>I've collaborated with agile teams to deisgn and implement cross-platform solutions. My diverse experience enables me to approach each project with a multifaceted perspective, bringing fresh insights to the table.</p>
+              <p>I've collaborated with agile teams to design and implement cross-platform solutions. My diverse experience enables me to approach each project with a multifaceted perspective, bringing fresh insights to the table.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="Java" />
                 <Chip variant="outlined" label="C" />
@@ -51,7 +51,7 @@ function Skill () {
             <div className="skill">
               <FontAwesomeIcon icon={faPython} size="4x"/>
               <h3>Data Analysis & BI</h3>
-              <p>I'm driven to help clients by leveraging data governance and process automation. My background in analyzing corporate data enables me to deliver valuable insights that facilitate informed decision-making.</p>
+              <p>I'm driven to help clients by leveraging data governance and process automation. My background in analyzing corporate data helps me to deliver valuable insights that facilitate informed decision-making.</p>
               <p className="flex-chips">Tech stack: 
                 <Chip variant="outlined" label="SQL" />
                 <Chip variant="outlined" label="Python" />

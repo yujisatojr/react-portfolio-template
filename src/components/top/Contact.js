@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
   return  (

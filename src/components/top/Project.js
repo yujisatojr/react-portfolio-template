@@ -11,7 +11,7 @@ import mock7 from './assets/img/mock7.png';
 import mock8 from './assets/img/mock8.png';
 import mock9 from './assets/img/mock9.png';
 import mock10 from './assets/img/mock10.png';
-import FadeInSection from './FadeInSections'
+import FadeInSection from './FadeInSections';
 
 function Project() {
   return  (

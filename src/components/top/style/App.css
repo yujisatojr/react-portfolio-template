@@ -136,9 +136,8 @@ button {
 
 .about p {
   text-align: center;
-  font-size: 1.5rem;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
 
 @-webkit-keyframes animatebottom {
