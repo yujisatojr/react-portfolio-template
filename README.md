@@ -5,11 +5,11 @@ My portfolio website powered by React.js
 
 Without a ssh key:
 ```
-$ git clone https://github.com/alahyaoui/StibRide.git
+$ git clone https://github.com/alahyaoui/alahyaoui.github.io.git
 ```
 With a ssh key:
 ```
-$ git clone git@github.com:alahyaoui/StibRide.git
+$ git clone git@github.com:alahyaoui/alahyaoui.github.io.git
 ```
 
 Then in the project directory, you can run:
