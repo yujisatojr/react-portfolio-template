@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.02688401.css",
-    "main.js": "/static/js/main.f4018638.js",
-    "static/media/mock10.png": "/static/media/mock10.488731a6164e60efb8cb.png",
-    "static/media/mock9.png": "/static/media/mock9.fa8435cde21f31b2c8d0.png",
-    "static/media/mock7.png": "/static/media/mock7.2d8eb1defaf7c1481a3a.png",
-    "static/media/mock1.png": "/static/media/mock1.db39f3d908e385f223b5.png",
-    "static/media/mock6.png": "/static/media/mock6.08dfcc3cebc746ba9dec.png",
-    "static/media/mock3.png": "/static/media/mock3.3a14e4c5dd969ab3c179.png",
-    "static/media/mock2.png": "/static/media/mock2.6295fd8fbbe77e255d30.png",
-    "static/media/mock8.png": "/static/media/mock8.320df5a670997d399ec1.png",
-    "static/media/mock5.png": "/static/media/mock5.efe2c9c64494341ca12b.png",
-    "static/media/mock4.png": "/static/media/mock4.e6f7617f1e3f3071e25f.png",
-    "static/media/profile.png": "/static/media/profile.5ac463db51c3f33a3a9a.png",
-    "index.html": "/index.html",
-    "main.02688401.css.map": "/static/css/main.02688401.css.map",
-    "main.f4018638.js.map": "/static/js/main.f4018638.js.map"
+    "main.css": "/yujisatojr/react-portfolio-template/static/css/main.65fc587d.css",
+    "main.js": "/yujisatojr/react-portfolio-template/static/js/main.d9d0b827.js",
+    "static/media/mock10.png": "/yujisatojr/react-portfolio-template/static/media/mock10.488731a6164e60efb8cb.png",
+    "static/media/mock9.png": "/yujisatojr/react-portfolio-template/static/media/mock9.fa8435cde21f31b2c8d0.png",
+    "static/media/mock7.png": "/yujisatojr/react-portfolio-template/static/media/mock7.2d8eb1defaf7c1481a3a.png",
+    "static/media/mock1.png": "/yujisatojr/react-portfolio-template/static/media/mock1.db39f3d908e385f223b5.png",
+    "static/media/mock6.png": "/yujisatojr/react-portfolio-template/static/media/mock6.08dfcc3cebc746ba9dec.png",
+    "static/media/mock3.png": "/yujisatojr/react-portfolio-template/static/media/mock3.3a14e4c5dd969ab3c179.png",
+    "static/media/mock2.png": "/yujisatojr/react-portfolio-template/static/media/mock2.6295fd8fbbe77e255d30.png",
+    "static/media/mock8.png": "/yujisatojr/react-portfolio-template/static/media/mock8.320df5a670997d399ec1.png",
+    "static/media/mock5.png": "/yujisatojr/react-portfolio-template/static/media/mock5.efe2c9c64494341ca12b.png",
+    "static/media/mock4.png": "/yujisatojr/react-portfolio-template/static/media/mock4.e6f7617f1e3f3071e25f.png",
+    "static/media/profile.png": "/yujisatojr/react-portfolio-template/static/media/profile.5ac463db51c3f33a3a9a.png",
+    "index.html": "/yujisatojr/react-portfolio-template/index.html",
+    "main.65fc587d.css.map": "/yujisatojr/react-portfolio-template/static/css/main.65fc587d.css.map",
+    "main.d9d0b827.js.map": "/yujisatojr/react-portfolio-template/static/js/main.d9d0b827.js.map"
   },
   "entrypoints": [
-    "static/css/main.02688401.css",
-    "static/js/main.f4018638.js"
+    "static/css/main.65fc587d.css",
+    "static/js/main.d9d0b827.js"
   ]
 }
