@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 
-This portfolio template was created by **Yuji Sato** using ReactJS. The example project is published at [yujisatojr.com](https://www.yujisatojr.com).
+This portfolio template was created by **Yuji Sato** using ReactJS. The example project is published with [GitHub Pages](https://yujisatojr.github.io/react-portfolio-template/).
 
 ## Features
 * Open source
