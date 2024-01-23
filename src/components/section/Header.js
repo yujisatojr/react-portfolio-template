@@ -1,7 +1,6 @@
 import React from 'react';
-import './style/Header.scss'
+import '../assets/style/Header.scss'
 import Chip from '@material-ui/core/Chip';
-import profile from './assets/img/profile.png';
 import { TypeAnimation } from 'react-type-animation';
 
 function Header() {
@@ -12,13 +11,13 @@ function Header() {
         
           <TypeAnimation
             sequence={[
-              "print('Hello World')",
+              "console.log('Hello World');",
               1000,
-              "Hi, I'm Yuji",
+              "const name = 'Yuji';",
               1000,
               "I'm a full stack engineer.",
               1000,
-              "I'm also a film enthusiast.",
+              "Thanks for visiting!",
               1000
             ]}
             wrapper="h1"
@@ -43,7 +42,7 @@ function Header() {
           </p>
         </div>
         <div className="image-wrapper">
-          <img src={profile} alt="myProfile" />
+          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/home-profile.jpeg" alt="Asset by Oziel Gómez" />
         </div>
       </div>
     </div>

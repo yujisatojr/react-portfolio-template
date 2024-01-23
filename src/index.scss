@@ -19,7 +19,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.349);
 }
 
-p, a, h1, h2, h3, h4, h5 {
+p, a, h1, h2, h3, h4, h5, label, span, button {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
@@ -95,6 +95,8 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 input[type=submit] {
