@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/skill.css';
+import './style/Skill.scss';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faAppStore, faPython } from '@fortawesome/free-brands-svg-icons';

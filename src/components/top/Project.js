@@ -1,6 +1,6 @@
 import React from 'react';
-import './style/App.css'
-import './style/project.css';
+import './style/Header.scss'
+import './style/Project.scss';
 import mock1 from './assets/img/mock1.png';
 import mock2 from './assets/img/mock2.png';
 import mock3 from './assets/img/mock3.png';

@@ -12,7 +12,7 @@ import {
   Posts,
   Post,
 } from "./components";
-import './index.css';
+import './index.scss';
 
 ReactDOM.render(
   <Router>

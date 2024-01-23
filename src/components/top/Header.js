@@ -1,9 +1,9 @@
 import React from 'react';
-import './style/App.css'
+import './style/Header.scss'
 import Chip from '@material-ui/core/Chip';
 import profile from './assets/img/profile.png';
 
-function App() {
+function Header() {
   return  (
     <div className="container" id="about">
       <div className="about-section">
@@ -28,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;

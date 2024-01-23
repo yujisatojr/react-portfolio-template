@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    App,
+    Header,
     Skill,
     Project,
     Contact,
@@ -9,7 +9,7 @@ import {
 function Home() {
   return (
     <React.StrictMode>
-      <App />
+      <Header />
       <Skill />
       <Project />
       <Contact />
