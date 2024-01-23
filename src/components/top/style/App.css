@@ -159,6 +159,26 @@ button {
   font-family: Verdana, sans-serif;
 }
 
+/* CSS for an animated emoji */
+
+.emoji::after {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.wave::after {
+  content: '✋';
+  --emoji: '👋';
+  animation-name: twoFrames;
+  animation-duration: 1s;
+}
+
+@keyframes twoFrames {
+  50% {
+      content: var(--emoji);
+  }
+}
+
 @media screen {
   @media (max-width: 567px) {
     #myProgress {
