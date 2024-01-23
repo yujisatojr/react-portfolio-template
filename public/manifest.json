@@ -1,6 +1,6 @@
 {
-  "short_name": "Yuji Sato Portfolio",
-  "name": "Yuji Sato Portfolio",
+  "short_name": "Portfolio Website",
+  "name": "Portfolio Website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
+      "src": "favicon.ico",
       "type": "image/png",
       "sizes": "512x512"
     }

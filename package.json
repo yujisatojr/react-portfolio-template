@@ -20,6 +20,7 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^6.3.0",
+    "react-type-animation": "^3.2.0",
     "sass": "^1.70.0",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^0.2.4"

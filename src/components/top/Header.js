@@ -2,13 +2,31 @@ import React from 'react';
 import './style/Header.scss'
 import Chip from '@material-ui/core/Chip';
 import profile from './assets/img/profile.png';
+import { TypeAnimation } from 'react-type-animation';
 
 function Header() {
   return  (
     <div className="container" id="about">
       <div className="about-section">
         <div className="content">
-          <h1>Hi, I'm Yuji 👋</h1>
+        
+          <TypeAnimation
+            sequence={[
+              "print('Hello World')",
+              1000,
+              "Hi, I'm Yuji",
+              1000,
+              "I'm a full stack engineer.",
+              1000,
+              "I'm also a film enthusiast.",
+              1000
+            ]}
+            wrapper="h1"
+            speed={50}
+            style={{ fontSize: '2em', display: 'inline-block' }}
+            repeat={Infinity}
+          />
+
           <p>
             I graduated with a bachelor's degree in computer science from Brigham Young University - Hawaii. 
             As a former full stack engineer, I collaborated with agile teams to deliver 5+ RESTful web applications 
