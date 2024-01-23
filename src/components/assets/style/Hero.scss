@@ -28,6 +28,14 @@ main{
   display: grid;
 }
 
+.desktop-codeblock {
+  display: block;
+}
+
+.mobile-responsive-codeblock {
+  display: none;
+}
+
 button {
   border: 1px solid black !important;
   padding: 5px 25px !important;
@@ -142,6 +150,16 @@ button {
 
     .skills {
       font-size: 12px;
+    }
+  }
+
+  @media (max-width:700px) {
+    .desktop-codeblock {
+      display: none;
+    }
+    
+    .mobile-responsive-codeblock {
+      display: block;
     }
   }
 

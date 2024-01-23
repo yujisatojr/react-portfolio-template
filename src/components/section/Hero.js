@@ -12,8 +12,9 @@ function Hero() {
             This is where I showcase past projects beyond my work scope. 
             But before we dive in, please let me introduce myself:
           </p>
-          <CodeBlock
-            text={
+          <div className="desktop-codeblock">
+            <CodeBlock
+              text={
   `const person = {
     firstName: 'Yuji',
     lastName: 'Sato',
@@ -26,15 +27,44 @@ function Hero() {
   
   function printIntro(obj) {
     console.log("Hi! I'm " + obj.fullName() 
-      + ", a " + obj.role + " based in " 
+      + ", a " + obj.role + " based in " + obj.city);
+  };
+  printIntro(person);`
+                }
+              language={'javascript'}
+              showLineNumbers={false}
+              theme={monokai}
+            />
+          </div>
+
+          <div className="mobile-responsive-codeblock">
+            <CodeBlock
+              text={
+  `const person = {
+    firstName: 'Yuji',
+    lastName: 'Sato',
+    role: 'Full Stack Engineer',
+    city: 'Dallas, TX',
+    fullName: function () {
+      return this.firstName 
+        + ' ' + this.lastName;
+    }
+  };
+  
+  function printIntro(obj) {
+    console.log("Hi! I'm " 
+      + obj.fullName() 
+      + ", a " + obj.role 
+      + " based in " 
       + obj.city);
   };
   printIntro(person);`
                 }
-            language={'javascript'}
-            showLineNumbers={false}
-            theme={monokai}
-          />
+              language={'javascript'}
+              showLineNumbers={false}
+              theme={monokai}
+            />
+          </div>
         </div>
         <div className="image-wrapper">
           <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/home-profile.jpeg" alt="Asset by Oziel Gómez" />
