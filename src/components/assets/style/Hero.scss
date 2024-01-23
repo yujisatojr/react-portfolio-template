@@ -49,8 +49,13 @@ button {
 }
 
 .flex-chips .MuiChip-outlined {
+  background-color: #e0e0e0;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.flex-chips .MuiChip-outlined span {
+  color: black;
 }
 
 .container {

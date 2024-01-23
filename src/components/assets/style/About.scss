@@ -1,0 +1,33 @@
+.about-page h2 {
+    padding-top: 5%;
+}
+
+.vertical-timeline p {
+    color: black;
+}
+
+.vertical-timeline-element p {
+    color: black;
+}
+
+.vertical-timeline-element h3 {
+    color: black;
+}
+
+.vertical-timeline-element h4 {
+    color: black;
+}
+
+.vertical-timeline-element span {
+    color: black;
+}
+
+.vertical-timeline-element .vertical-timeline-element-date {
+    color: white;
+}
+
+@media screen and (max-width: 1170px) {
+    .vertical-timeline-element .vertical-timeline-element-date {
+        color: black;
+    }
+}

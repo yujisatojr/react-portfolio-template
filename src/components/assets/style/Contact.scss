@@ -13,7 +13,7 @@
 
 .line {
   height: 5px;
-  background-color: #333333;
+  background-color: white;
   width: 30%;
   margin-bottom: 30px;
 }
@@ -41,17 +41,25 @@
   padding: 10px;
 }
 
-.info img {
-  width: 35px;
+.info ul li a svg:hover {
+  color: rgb(249, 38, 114);
 }
 
-.domain::before {
-   content: '@';
+.info img {
+  width: 35px;
 }
 
 .ml {
   color: #ff6700;
   font-weight: bold;
+}
+
+.MuiButton-contained {
+  background-color: rgb(249, 38, 114) !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: rgb(253, 103, 158) !important;
 }
 
 @media (max-width:700px) {

@@ -1,9 +1,8 @@
 import React from 'react';
 import '../assets/style/Hero.scss'
-import { TypeAnimation } from 'react-type-animation';
-import { CodeBlock, dracula } from 'react-code-blocks';
+import { CodeBlock, monokai } from 'react-code-blocks';
 
-function Hero({ code, language, showLineNumbers }) {
+function Hero() {
   return  (
     <div className="container" id="about">
       <div className="about-section">
@@ -11,7 +10,7 @@ function Hero({ code, language, showLineNumbers }) {
           <h1>Welcome to my portfolio 👋</h1>
           <p>
             This is where I showcase past projects beyond my work scope. 
-            But before we dive in, please let me introduce myself.
+            But before we dive in, please let me introduce myself:
           </p>
           <CodeBlock
             text={
@@ -34,26 +33,7 @@ function Hero({ code, language, showLineNumbers }) {
                 }
             language={'javascript'}
             showLineNumbers={false}
-            theme={dracula}
-          />
-
-          <TypeAnimation
-            sequence={[
-              "If I am not coding, you can find me: hiking",
-              1000,
-              "If I am not coding, you can find me: surfing",
-              1000,
-              "If I am not coding, you can find me: traveling",
-              1000,
-              "If I am not coding, you can find me: filming",
-              1000,
-              "If I am not coding, you can find me: jamming",
-              1000
-            ]}
-            wrapper="p"
-            speed={50}
-            style={{ fontSize: '2em', display: 'inline-block' }}
-            repeat={Infinity}
+            theme={monokai}
           />
         </div>
         <div className="image-wrapper">

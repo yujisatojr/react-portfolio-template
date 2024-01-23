@@ -9,7 +9,7 @@ function Contact() {
       <div className="section">
         <h2>Got a project? Let's create awesome stuff together!</h2>
         <div className="line"></div>
-        <p>Feel free to reach out to me on social media:</p>
+        <p>Feel free to reach out to me on social media.</p>
         <div className="info">
           <ul>
             <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>

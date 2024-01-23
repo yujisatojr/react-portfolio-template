@@ -19,10 +19,6 @@
   text-align: left;
 }
 
-.project h2 {
-  color: black;
-}
-
 .project h2:hover {
   text-decoration: underline;
 }
@@ -35,15 +31,6 @@
 
 .zoom:hover {
   transform: scale(1.05);
-}
-
-#project a {
-  color: #ac3b61;
-  font-weight: bold;
-}
-
-#project a:hover {
-  color: #b1667f;
 }
 
 @media screen {

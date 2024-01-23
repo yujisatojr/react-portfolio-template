@@ -1,4 +1,5 @@
 import React from "react";
+import '../assets/style/Blog.scss'
 import { Outlet } from "react-router-dom";
 
 function Blog() {

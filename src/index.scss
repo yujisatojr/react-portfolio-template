@@ -7,21 +7,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(39, 40, 34);
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.349);
+  color: rgb(249, 38, 114);
 }
 
 p, a, h1, h2, h3, h4, h5, label, span, button {
+  color: white;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.svg-inline--fa {
+  color: white;
 }
 
 .navigation {
@@ -68,12 +74,12 @@ p, a, h1, h2, h3, h4, h5, label, span, button {
 }
 
 .nav-bar a {
-  color: black;
+  color: white;
   letter-spacing: 0.3em;
 }
 
 .nav-bar a:hover {
-  color: rgba(0, 0, 0, 0.349);
+  color: rgb(249, 38, 114);
 }
 
 .hamburger {
@@ -87,6 +93,7 @@ p, a, h1, h2, h3, h4, h5, label, span, button {
 
 .divider-bar::before {
   content: "|";
+  color: white;
 }
 
 input[type=text], select, textarea {
@@ -128,25 +135,8 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
-.case_list {
-  list-style: none;
-  padding: 0;
-}
-
-.case_list li{
-  margin-bottom: 2rem;
-}
-
-.case_list p span {
-  text-decoration: underline;
-}
-
 .about img {
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-.post_show a {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
@@ -167,7 +157,7 @@ input[type=submit]:hover {
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: white;
+    background-color: rgb(39, 40, 34);
   }
 
   .nav-bar li {
@@ -176,9 +166,13 @@ input[type=submit]:hover {
   }
 
   .nav-bar li a {
-    color: black;
+    color: white;
     width: 100%;
     padding: 1.5rem 0;
+  }
+
+  .nav-bar li a:hover {
+    color: black;
   }
 
   .nav-bar li:hover {
