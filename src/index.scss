@@ -85,6 +85,10 @@ p, a, h1, h2, h3, h4, h5, label, span, button {
   display: none;
 }
 
+.divider-bar::before {
+  content: "|";
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -148,6 +152,10 @@ input[type=submit]:hover {
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
+  }
+
+  .divider-bar::before {
+    display: none;
   }
 
   .nav-bar ul {

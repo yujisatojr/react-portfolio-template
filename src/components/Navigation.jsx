@@ -22,17 +22,17 @@ function Navigation() {
             Home
             <span className="sr-only">(current)</span>
           </NavLink>
-          </li>
+          </li><div className="divider-bar"/>
           <li className="nav-item">
           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/about">
             About
           </NavLink>
-          </li>
+          </li><div className="divider-bar"/>
           <li className="nav-item">
           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/blog">
             Blog
           </NavLink>
-          </li>
+          </li><div className="divider-bar"/>
           <li className="nav-item">
           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/contact">
             Contact

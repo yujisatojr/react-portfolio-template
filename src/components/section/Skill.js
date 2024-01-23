@@ -33,9 +33,10 @@ function Skill () {
           <div className="skill">
             <FontAwesomeIcon icon={faReact} size="4x"/>
             <h3>Full Stack Web Development</h3>
-            <p>My experience in web development includes building 10+ scalable web apps 
-              and having proficiency in top-tier JavaScript libraries such as React, Vue, 
-              Node, Express, and Handlebars, as well as the Ruby on Rails framework.
+            <p>
+              I've built 10+ RESTful web apps, mainly with the MERN stack. 
+              Proficient in JavaScript libraries such as React, Vue, Node, and Express. 
+              I also love using the Ruby on Rails framework.
             </p>
             <p className="flex-chips">Tech stack: 
               <Chip variant="outlined" label="JavaScript" size="small" icon={<FontAwesomeIcon icon={faJsSquare} />} />
@@ -52,9 +53,10 @@ function Skill () {
           <div className="skill">
             <FontAwesomeIcon icon={faDocker} size="4x"/>
             <h3>Software Development</h3>
-            <p>I've collaborated with agile teams to design and implement cross-platform solutions. 
-              My diverse experience enables me to approach each project with a multifaceted perspective, 
-              bringing fresh insights to the table.
+            <p>
+              I enjoy working with agile teams to design and implement 
+              cross-platform solutions. Alongside my web development 
+              experience, I've created multiple video games using Unity and Android Studio.
             </p>
             <p className="flex-chips">Tech stack: 
               <Chip variant="outlined" label="Java" size="small" icon={<FontAwesomeIcon icon={faJava} />} />
@@ -71,10 +73,11 @@ function Skill () {
 
           <div className="skill">
             <FontAwesomeIcon icon={faPython} size="4x"/>
-            <h3>Data Analysis & BI</h3>
-            <p>I'm driven to help clients by leveraging data governance and process automation. 
-              My background in analyzing corporate data helps me to deliver valuable insights that 
-              facilitate informed decision-making.
+            <h3>Data Analysis</h3>
+            <p>
+              I help clients by leveraging data governance and process automation. 
+              My background in analyzing corporate data helps me deliver valuable 
+              insights that facilitate informed decision-making.
             </p>
             <p className="flex-chips">Tech stack:
               <Chip variant="outlined" label="Python" size="small" icon={<FontAwesomeIcon icon={faPython} />} />
