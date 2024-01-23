@@ -2,7 +2,7 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.18.3",

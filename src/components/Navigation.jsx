@@ -18,23 +18,23 @@ function Navigation() {
       <div className={isNavExpanded ? "nav-bar expanded" : "nav-bar"}>
         <ul>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template">
             Home
             <span className="sr-only">(current)</span>
           </NavLink>
           </li><div className="divider-bar"/>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/about">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template/about">
             About
           </NavLink>
           </li><div className="divider-bar"/>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/blog">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template/blog">
             Blog
           </NavLink>
           </li><div className="divider-bar"/>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/contact">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template/contact">
             Contact
           </NavLink>
           </li>
