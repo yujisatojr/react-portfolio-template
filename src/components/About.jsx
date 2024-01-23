@@ -1,5 +1,5 @@
 import React from "react";
-import './assets/style/Header.scss'
+import './assets/style/Hero.scss'
 
 function About() {
   return (

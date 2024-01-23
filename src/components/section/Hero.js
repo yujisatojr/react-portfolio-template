@@ -1,9 +1,9 @@
 import React from 'react';
-import '../assets/style/Header.scss'
+import '../assets/style/Hero.scss'
 import Chip from '@material-ui/core/Chip';
 import { TypeAnimation } from 'react-type-animation';
 
-function Header() {
+function Hero() {
   return  (
     <div className="container" id="about">
       <div className="about-section">
@@ -49,4 +49,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Hero;
