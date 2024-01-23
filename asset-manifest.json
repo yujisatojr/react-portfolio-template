@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-template/static/css/main.2d365f32.css",
-    "main.js": "/react-portfolio-template/static/js/main.aaf4b6e7.js",
+    "main.css": "/react-portfolio-template/static/css/main.0827dcc1.css",
+    "main.js": "/react-portfolio-template/static/js/main.72e0ff51.js",
     "react-syntax-highlighter/refractor-core-import.js": "/react-portfolio-template/static/js/react-syntax-highlighter/refractor-core-import.b30c27ce.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_abap.416bdefb.chunk.js",
     "react-syntax-highlighter_languages_refractor_abnf.js": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_abnf.d7265ffa.chunk.js",
@@ -281,8 +281,8 @@
     "react-syntax-highlighter_languages_refractor_yang.js": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_yang.ada6c417.chunk.js",
     "react-syntax-highlighter_languages_refractor_zig.js": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_zig.253367ac.chunk.js",
     "index.html": "/react-portfolio-template/index.html",
-    "main.2d365f32.css.map": "/react-portfolio-template/static/css/main.2d365f32.css.map",
-    "main.aaf4b6e7.js.map": "/react-portfolio-template/static/js/main.aaf4b6e7.js.map",
+    "main.0827dcc1.css.map": "/react-portfolio-template/static/css/main.0827dcc1.css.map",
+    "main.72e0ff51.js.map": "/react-portfolio-template/static/js/main.72e0ff51.js.map",
     "refractor-core-import.b30c27ce.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter/refractor-core-import.b30c27ce.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.416bdefb.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_abap.416bdefb.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abnf.d7265ffa.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_abnf.d7265ffa.chunk.js.map",
@@ -563,7 +563,7 @@
     "react-syntax-highlighter_languages_refractor_zig.253367ac.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_zig.253367ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d365f32.css",
-    "static/js/main.aaf4b6e7.js"
+    "static/css/main.0827dcc1.css",
+    "static/js/main.72e0ff51.js"
   ]
 }
