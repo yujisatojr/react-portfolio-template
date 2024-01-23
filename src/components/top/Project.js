@@ -1,5 +1,4 @@
 import React from 'react';
-import './style/Header.scss'
 import './style/Project.scss';
 import mock1 from './assets/img/mock1.png';
 import mock2 from './assets/img/mock2.png';
