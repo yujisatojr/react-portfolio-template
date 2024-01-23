@@ -4,6 +4,8 @@
 
 This portfolio template was created by Yuji Sato using [React](https://react.dev/). The example project is published with [GitHub Pages](https://yujisatojr.github.io/react-portfolio-template/).
 
+![Demo](https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/portfolio-demo-screenshot.png)
+
 ## Features
 * Open source
 * Multi-page layout
