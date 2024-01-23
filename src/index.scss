@@ -35,7 +35,6 @@ p, a, h1, h2, h3, h4, h5, label, span, button {
 
 .nav-bar {
   width: 100%;
-  margin-top: 30px;
   margin-left: auto;
 }
 
@@ -184,7 +183,7 @@ input[type=submit]:hover {
 }
 
 @media screen {
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .items_wrapper {
       padding-left: 10%;
       padding-right: 10%;
@@ -194,10 +193,10 @@ input[type=submit]:hover {
     }
   }
 
-  @media (min-width: 601px) {
+  @media (min-width: 801px) {
     .items_wrapper {
-      padding-left: 15%;
-      padding-right: 15%;
+      padding-left: 20%;
+      padding-right: 20%;
     }
   }
 }
