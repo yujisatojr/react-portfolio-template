@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 
-This portfolio template was created by Yuji Sato using [React](https://react.dev/). The example project is published with [GitHub Pages](https://yujisatojr.github.io/react-portfolio-template/).
+This portfolio template can be used to showcase your past projects, career history, and skillsets. The example project is published with [GitHub Pages](https://yujisatojr.github.io/react-portfolio-template/).
 
 ![Demo](https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/portfolio-demo-screenshot.png)
 
@@ -12,7 +12,7 @@ This portfolio template was created by Yuji Sato using [React](https://react.dev
 * Responsive design
 * Simple & modern technologies (React, JavaScript, and SCSS)
 
-This template is free to use (open source), and no attribution is required. You can fork this repository to make changes of your own. Please don't forget to leave a ⭐ if you like this portfolio!
+This template is free to use, and no attribution is required. You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
 
 ## Setup
 
