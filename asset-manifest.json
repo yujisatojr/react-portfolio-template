@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio-template/static/css/main.9a76b3cf.css",
+    "main.css": "/react-portfolio-template/static/css/main.2985d7a1.css",
     "main.js": "/react-portfolio-template/static/js/main.ddb2e717.js",
     "react-syntax-highlighter/refractor-core-import.js": "/react-portfolio-template/static/js/react-syntax-highlighter/refractor-core-import.b30c27ce.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_abap.416bdefb.chunk.js",
@@ -285,7 +285,7 @@
     "static/media/Courier Prime Bold Italic.ttf": "/react-portfolio-template/static/media/Courier Prime Bold Italic.40cb412d658c743e4ea1.ttf",
     "static/media/Courier Prime Bold.ttf": "/react-portfolio-template/static/media/Courier Prime Bold.ac693e5aa250dab63415.ttf",
     "index.html": "/react-portfolio-template/index.html",
-    "main.9a76b3cf.css.map": "/react-portfolio-template/static/css/main.9a76b3cf.css.map",
+    "main.2985d7a1.css.map": "/react-portfolio-template/static/css/main.2985d7a1.css.map",
     "main.ddb2e717.js.map": "/react-portfolio-template/static/js/main.ddb2e717.js.map",
     "refractor-core-import.b30c27ce.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter/refractor-core-import.b30c27ce.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.416bdefb.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_abap.416bdefb.chunk.js.map",
@@ -567,7 +567,7 @@
     "react-syntax-highlighter_languages_refractor_zig.253367ac.chunk.js.map": "/react-portfolio-template/static/js/react-syntax-highlighter_languages_refractor_zig.253367ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a76b3cf.css",
+    "static/css/main.2985d7a1.css",
     "static/js/main.ddb2e717.js"
   ]
 }
