@@ -6,7 +6,7 @@ This portfolio site template can be used to showcase your past projects, career 
 
 This template is free to use, and no attribution is required. You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
 
-![Demo](https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/portfolio-demo-screenshot.png)
+![Demo](https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/portfolio-screenshot.png)
 
 ## Features
 * Open source (no attribution required)
@@ -16,13 +16,13 @@ This template is free to use, and no attribution is required. You can fork or do
 
 ## Setup
 
-This application requires [Node.js](https://nodejs.org/). To check if you have Node.js installed, run:
+    This application requires [Node.js](https://nodejs.org/). To check if you have Node.js installed, run:
 
-```bash
-node -v
-```
+    ```bash
+    node -v
+    ```
 
-The output should start with something like v14.21.3.
+    The output should start with something like v14.21.3.
 
 1. In the project directory, run the following code to install dependencies:
 
