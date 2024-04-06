@@ -6,15 +6,17 @@ function Post() {
   let {postSlug} = useParams();
 
   const fetched = data[postSlug];
-  const {heading, description, body} = fetched;
+  const {heading, body} = fetched;
+
+  // Split the body text by newline to apply indentation
+  const lines = body.split('\n');
 
   return (
     <div className="post_show">
       <h2 className="mt-5">{heading}</h2>
-      <h3>{description}</h3>
-      <p>
-        {body}
-      </p>
+      {lines.map((line, index) => (
+        <p key={index}>{line}</p>
+      ))}
     </div>
   );
 }

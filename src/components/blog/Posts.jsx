@@ -6,11 +6,11 @@ function Posts() {
   return (
     <div className="home">
       <ul className="case_list">
-      {Object.entries(data).map(([postSlug, {heading, description}]) => (
+      {Object.entries(data).map(([postSlug, {heading, body}]) => (
         <li key={postSlug}>
         <Link to={`/react-portfolio-template/blog/${postSlug}`}>
           <h2>{heading}</h2>
-          <p>{description}</p>
+          <p>{body.length > 100 ? body.slice(0, 250) + '...' : body}</p>
           <p><span>Read More {">>"}</span></p>
         </Link>
         </li>

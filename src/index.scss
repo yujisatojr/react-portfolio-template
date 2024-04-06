@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('./assets/fonts/Courier Prime/Courier Prime Bold Italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
 
 body {
   margin: 0;
@@ -7,7 +33,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(39, 40, 34);
+  background-color: rgb(39, 40, 34) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
 }
 
 a {
@@ -17,78 +47,55 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(249, 38, 114);
+  color: #FFD300;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-p, a, h1, h2, h3, h4, h5, label, span, button {
+p, a, h1, h2, h3, h4, h5, label, button {
   color: white;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: 'Courier Prime', monospace;
 }
 
-.svg-inline--fa {
-  color: white;
+.navigation-bar {
+  justify-content: space-between;
+  background-color: rgb(39, 40, 34);
+
+  button {
+    font-size: 1.1rem;
+    font-family: 'Courier Prime', monospace;
+  }
 }
 
-.navigation {
-  height: 60px;
+.navigation-bar-responsive {
+  span, p {
+    color: rgb(39, 40, 34);
+    font-family: 'Courier Prime', monospace;
+  }
+}
+
+.container {
+  margin-top: 64px;
+  padding-top: 5%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  position: relative;
-  padding: 0.5rem 0rem;
-}
-
-.nav-bar {
-  width: 100%;
-  margin-left: auto;
-}
-
-.nav-bar ul {
-  display: flex;
-  letter-spacing: 0.3em;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  align-items: center;
-  height: inherit;
   justify-content: center;
 }
 
-.nav-bar li {
-  list-style-type: none;
-  list-style: none;
-  margin: 0 1rem;
-  padding: 12px 20px;
-  letter-spacing: 0.3em;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: white;
-}
-
-.nav-bar li a {
-  font-size: 1rem;
-  text-decoration: none;
-  display: block;
+.header-image {
   width: 100%;
+  height: 450px;
+
+  img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
 }
 
-.nav-bar a {
-  color: white;
-  letter-spacing: 0.3em;
-}
-
-.nav-bar a:hover {
-  color: rgb(249, 38, 114);
-}
-
-.hamburger {
-  width: 40px;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  display: none;
+.svg-inline--fa {
+  color: rgb(39, 40, 34);
 }
 
 .divider-bar::before {
@@ -96,40 +103,11 @@ p, a, h1, h2, h3, h4, h5, label, span, button {
   color: white;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.contact_form {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.items_wrapper {
+.items-container {
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: left;
-  padding-top: 5%;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,65 +118,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
   .divider-bar::before {
     display: none;
-  }
-
-  .nav-bar ul {
-    z-index: 1;
-    display: none;
-    position: absolute;
-    top: 90px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    height: calc(100vh - 77px);
-    background-color: rgb(39, 40, 34);
-  }
-
-  .nav-bar li {
-    text-align: center;
-    margin: 0;
-  }
-
-  .nav-bar li a {
-    color: white;
-    width: 100%;
-    padding: 1.5rem 0;
-  }
-
-  .nav-bar li a:hover {
-    color: black;
-  }
-
-  .nav-bar li:hover {
-    background-color: #eee;
-  }
-
-  .nav-bar.expanded ul {
-    display: block;
-  }
-}
-
-@media screen {
-  @media (max-width: 800px) {
-    .items_wrapper {
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-    .nav-bar li {
-      font-size: 0.8rem;
-    }
-  }
-
-  @media (min-width: 801px) {
-    .items_wrapper {
-      padding-left: 20%;
-      padding-right: 20%;
-    }
   }
 }

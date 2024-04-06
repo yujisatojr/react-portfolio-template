@@ -16,5 +16,6 @@
 }
 
 .case_list span:hover {
-    color: rgb(249, 38, 114);
+    color: #FFD300;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }

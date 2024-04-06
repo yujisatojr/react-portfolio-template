@@ -1,11 +1,14 @@
 import React from "react";
-import '../assets/style/Blog.scss'
+import '../../assets/styles/Blog.scss'
 import { Outlet } from "react-router-dom";
 
 function Blog() {
   return (
-    <div className="home">
-      <div className="items_wrapper">
+    <div>
+      <div className="header-image">
+        <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/about-image.jpg" alt="Asset by Oziel Gómez" />
+      </div>
+      <div className="items-container">
         <h1>Blog</h1>
         <Outlet />
       </div>

@@ -2,24 +2,29 @@
     padding-top: 5%;
 }
 
+.vertical-timeline span {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+
 .vertical-timeline p {
-    color: black;
+    color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element p {
-    color: black;
+    color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element h3 {
-    color: black;
+    color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element h4 {
-    color: black;
+    color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element span {
-    color: black;
+    color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
@@ -28,6 +33,6 @@
 
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
-        color: black;
+        color: rgb(39, 40, 34);
     }
 }
