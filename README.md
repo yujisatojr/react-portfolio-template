@@ -16,13 +16,11 @@ This template is free to use, and no attribution is required. You can fork or do
 
 ## Setup
 
-    This application requires [Node.js](https://nodejs.org/). To check if you have Node.js installed, run:
+This application requires [Node.js](https://nodejs.org/). To check if you have Node.js installed, run:
 
     ```bash
     node -v
     ```
-
-    The output should start with something like v14.21.3.
 
 1. In the project directory, run the following code to install dependencies:
 
