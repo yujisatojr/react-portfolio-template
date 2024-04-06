@@ -10,7 +10,7 @@ function Posts() {
         <li key={postSlug}>
         <Link to={`/react-portfolio-template/blog/${postSlug}`}>
           <h2>{heading}</h2>
-          <p>{body.length > 100 ? body.slice(0, 250) + '...' : body}</p>
+          <p>{body.length > 100 ? body.slice(0, 280) + '...' : body}</p>
           <p><span>Read More {">>"}</span></p>
         </Link>
         </li>

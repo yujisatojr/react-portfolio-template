@@ -124,7 +124,7 @@ function Home() {
         <h1>Specialties</h1>
         <div className="skills-grid">
           <div className="skill">
-            <FontAwesomeIcon icon={faReact} size="4x"/>
+            <FontAwesomeIcon icon={faReact} size="3x"/>
             <h3>Full-Stack Web Development</h3>
             <p>
               I built over 20 web applications from scratch using emerging technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.
@@ -137,7 +137,7 @@ function Home() {
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faDocker} size="4x"/>
+            <FontAwesomeIcon icon={faDocker} size="3x"/>
             <h3>DevOps & Automation</h3>
             <p>
               Building a solution is just the beginning; I help clients establish DevOps testing, CI/CD pipelines, and deployment automation.
@@ -150,7 +150,7 @@ function Home() {
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faPython} size="4x"/>
+            <FontAwesomeIcon icon={faPython} size="3x"/>
             <h3>GenAI & LLM</h3>
             <p>
               Stay relevant in the market by leveraging the latest frameworks. I have professional experience building enterprise grade GenAI enabled solutions to facilitate informed decision making.
