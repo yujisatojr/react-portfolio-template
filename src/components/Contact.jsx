@@ -1,12 +1,17 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import '../assets/styles/Contact.scss';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 
 function Contact() {
+
+  useEffect(() => {
+    document.title = "Yuji Sato | Contact";
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -25,26 +30,28 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    if (name !== '' && email !== '' && message !== '') {
-      var templateParams = {
-        name: name,
-        email: email,
-        message: message
-      };
+    // Uncomment below if you want to enable the emailJS
 
-      console.log(templateParams);
-      emailjs.send('service_7eoffz1', 'template_gy5ziie', templateParams, '8UlSfkgqDcn0KhMCQ').then(
-        (response) => {
-          console.log('SUCCESS!', response.status, response.text);
-        },
-        (error) => {
-          console.log('FAILED...', error);
-        },
-      );
-      setName('');
-      setEmail('');
-      setMessage('');
-    }
+    // if (name !== '' && email !== '' && message !== '') {
+    //   var templateParams = {
+    //     name: name,
+    //     email: email,
+    //     message: message
+    //   };
+
+    //   console.log(templateParams);
+    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
+    //     (response) => {
+    //       console.log('SUCCESS!', response.status, response.text);
+    //     },
+    //     (error) => {
+    //       console.log('FAILED...', error);
+    //     },
+    //   );
+    //   setName('');
+    //   setEmail('');
+    //   setMessage('');
+    // }
   };
 
   return (
@@ -80,7 +87,7 @@ function Contact() {
                 required
                 id="outlined-required"
                 label="Email / Phone"
-                placeholder="How can we reach you?"
+                placeholder="How can I reach you?"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
@@ -93,7 +100,7 @@ function Contact() {
               required
               id="outlined-multiline-static"
               label="Message"
-              placeholder="Send us any inquiries or questions"
+              placeholder="Send me any inquiries or questions"
               multiline
               rows={7}
               className="body-form"

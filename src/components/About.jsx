@@ -1,12 +1,18 @@
-import React from "react";
-import '../assets/styles/About.scss'
+import React, {useEffect} from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import '../assets/styles/About.scss'
 
 function About() {
+
+  useEffect(() => {
+    document.title = "Yuji Sato | About";
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
     <div>
       <div className="header-image">

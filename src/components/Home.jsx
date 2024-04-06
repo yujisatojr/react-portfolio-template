@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { CodeBlock, monokai } from 'react-code-blocks';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -43,6 +43,12 @@ const labelsThird = [
 ];
 
 function Home() {
+
+  useEffect(() => {
+    document.title = "Yuji Sato";
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
   <div>
     <div className="container">
@@ -217,4 +223,5 @@ function Home() {
   </div>
   );
 }
+
 export default Home;

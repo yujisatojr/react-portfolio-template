@@ -1,8 +1,14 @@
-import React from "react";
-import '../../assets/styles/Blog.scss'
+import React, {useEffect} from "react";
 import { Outlet } from "react-router-dom";
+import '../../assets/styles/Blog.scss'
 
 function Blog() {
+
+  useEffect(() => {
+    document.title = "Yuji Sato | Blog";
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+
   return (
     <div>
       <div className="header-image">

@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -19,13 +18,13 @@ const drawerWidth = 240;
 const navItems = [['Home', '/react-portfolio-template'], ['About', '/react-portfolio-template/about'], ['Blog', '/react-portfolio-template/blog'], ['Contact', '/react-portfolio-template/contact']];
 
 function Navigation() {
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
-
-  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,9 +44,7 @@ function Navigation() {
 
   const drawer = (
     <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <NavLink to="/react-portfolio-template">
-        <p>Yuji Sato</p>
-      </NavLink>
+      <p>MENU</p>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -110,51 +107,5 @@ function Navigation() {
     </Box>
   );
 }
-
-
-
-// import { useState } from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faToggleOff, faToggleOn } from '@fortawesome/free-solid-svg-icons';
-
-// function Navigation() {
-//   const [isNavExpanded, setIsNavExpanded] = useState(false)
-  
-//   return (
-//     <nav className="navigation">
-//       <div className="hamburger"
-//         onClick={() => {
-//           setIsNavExpanded(!isNavExpanded);
-//         }}>
-//         <FontAwesomeIcon icon={isNavExpanded ? faToggleOn : faToggleOff} size="3x"/>
-//       </div>
-//       <div className={isNavExpanded ? "nav-bar expanded" : "nav-bar"}>
-//         <ul>
-//           <li className="nav-item">
-//           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template">
-//             Home
-//             <span className="sr-only">(current)</span>
-//           </NavLink>
-//           </li><div className="divider-bar"/>
-//           <li className="nav-item">
-//           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template/about">
-//             About
-//           </NavLink>
-//           </li><div className="divider-bar"/>
-//           <li className="nav-item">
-//           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template/blog">
-//             Blog
-//           </NavLink>
-//           </li><div className="divider-bar"/>
-//           <li className="nav-item">
-//           <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/react-portfolio-template/contact">
-//             Contact
-//           </NavLink>
-//           </li>
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-// }
 
 export default Navigation;

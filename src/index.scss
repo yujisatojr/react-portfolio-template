@@ -42,11 +42,9 @@ code {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
-  text-decoration: none;
   color: #FFD300;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
@@ -98,11 +96,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
   color: rgb(39, 40, 34);
 }
 
-.divider-bar::before {
-  content: "|";
-  color: white;
-}
-
 .items-container {
   padding-left: 10%;
   padding-right: 10%;
@@ -111,14 +104,4 @@ p, a, h1, h2, h3, h4, h5, label, button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.about img {
-  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-@media screen and (max-width: 768px) {
-  .divider-bar::before {
-    display: none;
-  }
 }
