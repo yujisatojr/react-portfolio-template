@@ -18,27 +18,27 @@ This template is free to use, and no attribution is required. You can fork or do
 
 This application requires [Node.js](https://nodejs.org/). To check if you have Node.js installed, run:
 
-    ```bash
-    node -v
-    ```
+```bash
+node -v
+```
 
-1. In the project directory, run the following code to install dependencies:
+In the project directory, run the following code to install dependencies:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
-2. Run the app in the development mode by using:
+Run the app in the development mode by using:
 
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
-    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-    Once you complete the above process, navigate to `/src/components` directory. Inside of it, you will find all the pages and components used within the template. You can then modify texts, pictures, and other information to your own.
+Once you complete the above process, navigate to `/src/components` directory. Inside of it, you will find all the pages and components used within the template. You can then modify texts, pictures, and other information to your own.
 
-    The page will reload if you make edits. You will also see any lint errors in the console.
+The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## Deployment
 
