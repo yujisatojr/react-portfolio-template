@@ -1,13 +1,6 @@
 import React, { useEffect } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FadeIn from 'react-fade-in';
-import {
-  Timeline,
-  Expertise,
-  Project,
-  Contact,
-} from './';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -18,7 +11,6 @@ function Main() {
   }, []);
 
   return (
-  <FadeIn transitionDuration={700}>
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
@@ -39,11 +31,6 @@ function Main() {
         </div>
       </div>
     </div>
-    <Expertise/>
-    <Timeline/>
-    <Project/>
-    <Contact/>
-  </FadeIn>
   );
 }
 

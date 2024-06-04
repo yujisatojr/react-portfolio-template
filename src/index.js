@@ -1,22 +1,30 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import {
   Main,
+  Timeline,
+  Expertise,
+  Project,
+  Contact,
   Navigation,
   Footer,
 } from "./components";
+import FadeIn from 'react-fade-in';
 import './index.scss';
 
 ReactDOM.render(
-  <Router>
+  <>
     <Navigation />
-    <Routes>
-      <Route path="/react-portfolio-template" element={<Main />} />
-    </Routes>
+    <FadeIn transitionDuration={700}>
+      <Main/>
+      <Expertise/>
+      <Timeline/>
+      <Project/>
+      <Contact/>
+    </FadeIn>
     <Footer />
-  </Router>,
+  </>,
 
   document.getElementById("root")
 );

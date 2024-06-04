@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -73,9 +72,7 @@ function Navigation() {
           >
             <MenuIcon />
           </IconButton>
-          <NavLink className="nav-bar" to="/react-portfolio-template">
-            <p>Yuji Sato</p>
-          </NavLink>
+          <p>Yuji Sato</p>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => document.getElementById(item[1]).scrollIntoView()} sx={{ color: '#fff' }}>

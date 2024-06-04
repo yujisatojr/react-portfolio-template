@@ -25,7 +25,7 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    // Uncomment below if you want to enable the emailJS
+    /* Uncomment below if you want to enable the emailJS */
 
     // if (name !== '' && email !== '' && message !== '') {
     //   var templateParams = {
