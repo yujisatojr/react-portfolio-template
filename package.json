@@ -25,6 +25,7 @@
     "react-bootstrap": "^2.4.0",
     "react-code-blocks": "^0.1.6",
     "react-dom": "^17.0.1",
+    "react-fade-in": "^2.0.1",
     "react-router-dom": "^6.3.0",
     "react-type-animation": "^3.2.0",
     "react-vertical-timeline-component": "^3.6.0",

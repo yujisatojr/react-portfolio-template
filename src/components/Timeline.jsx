@@ -1,42 +1,23 @@
-import React, {useEffect} from "react";
+import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/About.scss'
+import '../assets/styles/Timeline.scss'
 
-function About() {
-
-  useEffect(() => {
-    document.title = "Yuji Sato | About";
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  }, []);
-
+function Timeline() {
   return (
-    <div>
-      <div className="header-image">
-        <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/about-image.jpg" alt="Asset by Oziel Gómez" />
-      </div>
+    <div id="history">
       <div className="items-container">
-        <div className="align-items-center">
-          <h1>Brief Summary</h1>
-          <p>
-            Yuji Sato is a Technology Consultant at Ernst & Young LLP, bringing consulting experience 
-            primarily in the Financial Services industry with a focus on credit card migration and payment 
-            domain knowledge. He began his career in a software engineering role, providing business solutions 
-            through leveraging emerging technology. His expertise includes full stack web development, DevOps, 
-            automation, and project management.
-          </p>
-        </div>
-        <h1>Career Timeline</h1>
+        <h1>Career History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2022 - present"
-            iconStyle={{ background: '#FFD300', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
@@ -48,7 +29,7 @@ function About() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2022"
-            iconStyle={{ background: '#FFD300', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
@@ -60,7 +41,7 @@ function About() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2021 - 2021"
-            iconStyle={{ background: '#FFD300', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
@@ -72,7 +53,7 @@ function About() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2020"
-            iconStyle={{ background: '#FFD300', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
@@ -87,4 +68,4 @@ function About() {
   );
 }
 
-export default About;
+export default Timeline;

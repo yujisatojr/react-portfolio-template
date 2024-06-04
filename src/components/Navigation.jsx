@@ -8,6 +8,7 @@ import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import List from '@mui/material/List';
+import ListIcon from '@mui/icons-material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -15,7 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
-const navItems = [['Home', '/react-portfolio-template'], ['About', '/react-portfolio-template/about'], ['Blog', '/react-portfolio-template/blog'], ['Contact', '/react-portfolio-template/contact']];
+const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
 
 function Navigation() {
 
@@ -44,17 +45,15 @@ function Navigation() {
 
   const drawer = (
     <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <p>MENU</p>
+      <p className="mobile-menu-top"><ListIcon/>Menu</p>
       <Divider />
       <List>
         {navItems.map((item) => (
-          <NavLink className="nav-link" to={item[1]} key={item[0]}>
-            <ListItem key={item[0]} disablePadding>
-              <ListItemButton sx={{ textAlign: 'center' }}>
-                <ListItemText primary={item[0]} />
-              </ListItemButton>
-            </ListItem>
-          </NavLink>
+          <ListItem key={item[0]} disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }} onClick={() => document.getElementById(item[1]).scrollIntoView()}>
+              <ListItemText primary={item[0]} />
+            </ListItemButton>
+          </ListItem>
         ))}
       </List>
     </Box>
@@ -79,11 +78,9 @@ function Navigation() {
           </NavLink>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <NavLink className="nav-link" to={item[1]} key={item[0]}>
-                <Button key={item[0]} sx={{ color: '#fff' }}>
-                  {item[0]}
-                </Button>
-              </NavLink>
+              <Button key={item[0]} onClick={() => document.getElementById(item[1]).scrollIntoView()} sx={{ color: '#fff' }}>
+                {item[0]}
+              </Button>
             ))}
           </Box>
         </Toolbar>

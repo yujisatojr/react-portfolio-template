@@ -1,9 +1,7 @@
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
-export { default as Home } from "./Home";
-export { default as About } from "./About";
+export { default as Main } from "./Main";
+export { default as Timeline } from "./Timeline";
+export { default as Expertise } from "./Expertise";
+export { default as Project } from "./Project";
 export { default as Contact } from "./Contact";
-export { default as Blog } from "./blog/Blog";
-export { default as Posts } from "./blog/Posts";
-export { default as Post } from "./blog/Post";
-export { default as data } from "./blog/data";

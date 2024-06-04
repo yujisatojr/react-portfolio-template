@@ -1,31 +1,3 @@
-@font-face {
-  font-family: 'Courier Prime';
-  src: url('./assets/fonts/Courier Prime/Courier Prime.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Courier Prime';
-  src: url('./assets/fonts/Courier Prime/Courier Prime Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Courier Prime';
-  src: url('./assets/fonts/Courier Prime/Courier Prime Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Courier Prime';
-  src: url('./assets/fonts/Courier Prime/Courier Prime Bold Italic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -34,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1rem !important;
-  background-color: rgb(39, 40, 34) !important;
+  background-color: #0d1116 !important;
 }
 
 code {
@@ -47,35 +19,36 @@ a {
 }
 
 a:hover {
-  color: #FFD300;
+  color: #5000ca;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 p, a, h1, h2, h3, h4, h5, label, button {
   color: white;
-  font-family: 'Courier Prime', monospace;
+  font-family: "Lato", sans-serif;
 }
 
 .navigation-bar {
   justify-content: space-between;
-  background-color: rgb(39, 40, 34);
+  background-color: #0d1116;
 
   button {
     font-size: 1.1rem;
-    font-family: 'Courier Prime', monospace;
+    font-family: "Lato", sans-serif;
+    text-transform: initial;
+    padding: 6px 10px;
   }
 }
 
 .navigation-bar-responsive {
   span, p {
-    color: rgb(39, 40, 34);
-    font-family: 'Courier Prime', monospace;
+    color: #0d1116;
+    font-family: "Lato", sans-serif;
   }
 }
 
 .container {
   margin-top: 64px;
-  padding-top: 5%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -94,16 +67,26 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
-.svg-inline--fa {
-  color: rgb(39, 40, 34);
+.mobile-menu-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
 }
 
 .items-container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 5% 10%;
   text-align: left;
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen {
+  @media (max-width: 768px) {
+    .items-container {
+      padding: 5% 5%;
+    }
+  }
 }
