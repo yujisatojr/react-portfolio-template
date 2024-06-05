@@ -51,33 +51,36 @@ function Expertise() {
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>I've built over 20 web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <p className="flex-chips">Tech stack:
-                    {labelsFirst.map((label, index) => (
-                        <Chip key={index} className='chip' label={label} />
-                    ))}
-                    </p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsFirst.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
                 </div>
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
                     <p>Once the application is built, I help clients setup DevOps testing, CI/CD pipelines, and deployment automation to support the Go-Live events.</p>
-                    <p className="flex-chips">Tech stack: 
-                    {labelsSecond.map((label, index) => (
-                        <Chip key={index} className='chip' label={label} />
-                    ))}
-                    </p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsSecond.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
                 </div>
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>GenAI & LLM</h3>
                     <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <p className="flex-chips">Tech stack:
-                    {labelsThird.map((label, index) => (
-                        <Chip key={index} className='chip' label={label} />
-                    ))}
-                    </p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsThird.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

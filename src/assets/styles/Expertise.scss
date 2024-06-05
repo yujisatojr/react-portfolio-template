@@ -39,6 +39,11 @@
 .flex-chips {
     line-height: 2;
     margin: 0.5;
+
+    .chip-title {
+        color: white;
+        padding-right: 10px;
+    }
 }
 
 .flex-chips .MuiChip-root {
@@ -58,7 +63,7 @@
 @media screen {
     @media (max-width: 768px) {
         .skills-container {
-            display: initial;
+            display: block;
             padding-left: 5%;
             padding-right: 5%;
         }

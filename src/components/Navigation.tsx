@@ -19,12 +19,12 @@ import Toolbar from '@mui/material/Toolbar';
 const drawerWidth = 240;
 const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
 
-function Navigation({parentToChild, modeChange}) {
+function Navigation({parentToChild, modeChange}: any) {
 
   const {mode} = parentToChild;
 
-  const [mobileOpen, setMobileOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState<boolean>(false);
+  const [scrolled, setScrolled] = useState<boolean>(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -46,7 +46,7 @@ function Navigation({parentToChild, modeChange}) {
     };
   }, []);
 
-  const scrollToSection = (section) => {
+  const scrollToSection = (section: string) => {
     console.log(section)
     const expertiseElement = document.getElementById(section);
     if (expertiseElement) {

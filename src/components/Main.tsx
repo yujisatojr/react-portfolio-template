@@ -1,14 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 
 function Main() {
-
-  useEffect(() => {
-    document.title = "Yuji Sato";
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  }, []);
 
   return (
     <div className="container">
