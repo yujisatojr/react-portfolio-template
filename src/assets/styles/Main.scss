@@ -1,3 +1,7 @@
+.dark-mode .about-section {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 .about-section {
     display: flex;
     gap: 30px;
@@ -11,10 +15,6 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-}
-
-.dark-mode .about-section {
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .about-section .content {
