@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio-template/static/css/main.f19fb152.css",
-    "main.js": "/react-portfolio-template/static/js/main.d585dc92.js",
-    "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock10.png": "/react-portfolio-template/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/react-portfolio-template/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/react-portfolio-template/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/react-portfolio-template/static/media/mock04.f7b5679efade992a078c.png",
-    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/react-portfolio-template/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/react-portfolio-template/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/react-portfolio-template/static/media/mock06.ea816617e0d0fa0f63ca.png",
-    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/react-portfolio-template/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/react-portfolio-template/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/react-portfolio-template/static/media/mock03.a4600719e0b5d2a3155b.png",
-    "index.html": "/react-portfolio-template/index.html",
-    "main.f19fb152.css.map": "/react-portfolio-template/static/css/main.f19fb152.css.map",
-    "main.d585dc92.js.map": "/react-portfolio-template/static/js/main.d585dc92.js.map",
-    "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/CalisGL/react-portfolio-template/static/css/main.b04c6234.css",
+    "main.js": "/CalisGL/react-portfolio-template/static/js/main.e9f83954.js",
+    "static/js/453.b05d8aa5.chunk.js": "/CalisGL/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
+    "static/media/CV_Calis_Gerenton-Lafaye.pdf": "/CalisGL/react-portfolio-template/static/media/CV_Calis_Gerenton-Lafaye.0d9e3ae7ce38937cb10d.pdf",
+    "static/media/mock10.png": "/CalisGL/react-portfolio-template/static/media/mock10.2d05b02ba569a430a255.png",
+    "static/media/mock08.png": "/CalisGL/react-portfolio-template/static/media/mock08.13f46873fdbd382f4b76.png",
+    "static/media/mock07.png": "/CalisGL/react-portfolio-template/static/media/mock07.5c5c73530b28d8a4c303.png",
+    "static/media/mock04.png": "/CalisGL/react-portfolio-template/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/bg-light.png": "/CalisGL/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock05.png": "/CalisGL/react-portfolio-template/static/media/mock05.4faafa70d200d1519a34.png",
+    "static/media/mock06.png": "/CalisGL/react-portfolio-template/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/bg-dark.png": "/CalisGL/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock01.png": "/CalisGL/react-portfolio-template/static/media/mock01.61bd486a54bf6e17ee5a.png",
+    "static/media/mock02.png": "/CalisGL/react-portfolio-template/static/media/mock02.bced48ae9cdda3acf1a3.png",
+    "static/media/mock03.png": "/CalisGL/react-portfolio-template/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "static/media/mosquee.webp": "/CalisGL/react-portfolio-template/static/media/mosquee.5a3d96b649acb4c157f8.webp",
+    "index.html": "/CalisGL/react-portfolio-template/index.html",
+    "main.b04c6234.css.map": "/CalisGL/react-portfolio-template/static/css/main.b04c6234.css.map",
+    "main.e9f83954.js.map": "/CalisGL/react-portfolio-template/static/js/main.e9f83954.js.map",
+    "453.b05d8aa5.chunk.js.map": "/CalisGL/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19fb152.css",
-    "static/js/main.d585dc92.js"
+    "static/css/main.b04c6234.css",
+    "static/js/main.e9f83954.js"
   ]
 }
