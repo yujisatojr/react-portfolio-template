@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio-template",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
+  "homepage": "https://yujisatojr.github.io/react-portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",

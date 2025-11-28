@@ -6,7 +6,7 @@
 
 This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+View the [Demo](https://yujisatojr.github.io/react-portfolio/).
 
 **This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
 
@@ -18,27 +18,27 @@ View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
 ✅ Responsive design & mobile-friendly  
 ✅ Supports both dark and light modes  
 ✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)
 
 ## Quick Setup
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
 
-    ```bash
-    node -v
-    ```
+   ```bash
+   node -v
+   ```
 
 2. In the project directory, install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
@@ -54,33 +54,33 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
 1. **Set Up GitHub Repository**
 
-    Create a new repository on GitHub for your portfolio app.
+   Create a new repository on GitHub for your portfolio app.
 
 2. **Configure `package.json`**
 
-    Edit the following properties in your `package.json` file:
+   Edit the following properties in your `package.json` file:
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+   ```json
+   {
+       "homepage": "https://yourusername.github.io/your-repo-name",
+       "scripts": {
+           "predeploy": "npm run build",
+           "deploy": "gh-pages -d build",
+           ...
+       }
+   }
+   ```
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+   Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
 
 3. **Deploy to GitHub Pages**
 
-    Run the following command to deploy your app:
+   Run the following command to deploy your app:
 
-    ```bash
-    npm run deploy
-    ```
+   ```bash
+   npm run deploy
+   ```
 
 4. **Access Your Deployed App**
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+   After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
