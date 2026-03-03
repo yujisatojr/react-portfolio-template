@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2026 - Present"
+            iconStyle={{ background: '#3379a8', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Information System Analyst II</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bureau of Internal Revenue</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Increased operational efficiency by combining advanced technical support with API and database validation, automating repetitive workflows using Python, and supporting large-scale system deployments with structured documentation.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2024 - 2026"
+            iconStyle={{ background: '#3379a8', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Computer Maintenance Technologist II</h3>
+            <h4 className="vertical-timeline-element-subtitle">Philippine Statistics Authority</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Strengthened enterprise system reliability by delivering Tier 1–2 support, validating APIs and databases during testing, supporting national-scale deployments, automating repetitive workflows with Python, and maintaining audit-ready documentation.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2020 - 2024"
+            iconStyle={{ background: '#3379a8', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Information System Analyst I</h3>
+            <h4 className="vertical-timeline-element-subtitle">Philippine Statistics Authority</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Ensured system reliability by monitoring backend operations, leading test validation for deployments, resolving cross-functional application issues, and delivering clear technical documentation and user training.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2019 - 2020"
+            iconStyle={{ background: '#3379a8', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Senior Technical Support Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Competitive Card Solutions Phils. Inc.</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Delivered enterprise technical support, resolved recurring system issues through root cause analysis, and supported QA validation processes.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
