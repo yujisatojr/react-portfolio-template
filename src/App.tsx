@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from "react";
+
+
 import {
   Main,
   Timeline,
@@ -11,15 +13,12 @@ import {
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
+
 function App() {
-    const [mode, setMode] = useState<string>('dark');
+    const [mode, setMode] = useState<string>('light');
 
     const handleModeChange = () => {
-        if (mode === 'dark') {
-            setMode('light');
-        } else {
-            setMode('dark');
-        }
+        setMode(mode === 'light' ? 'dark' : 'light');
     }
 
     useEffect(() => {

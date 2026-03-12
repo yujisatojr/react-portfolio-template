@@ -14,6 +14,22 @@
 .projects-container .projects-grid .project {
     text-align: left;
 }
+
+.projects-container .projects-grid .project .project-image {
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.projects-container .projects-grid .project:nth-child(4n + 1) .project-image,
+.projects-container .projects-grid .project:nth-child(4n + 2) .project-image {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.light-mode .projects-container .projects-grid .project:nth-child(4n + 1) .project-image,
+.light-mode .projects-container .projects-grid .project:nth-child(4n + 2) .project-image {
+    background-color: rgba(0, 0, 0, 0.05);
+}
   
 .project h2:hover {
     text-decoration: underline;
@@ -25,7 +41,7 @@
     transition: transform .2s;
     margin: 0 auto;
 }
-  
+
 .zoom:hover {
     transform: scale(1.05);
 }
@@ -44,6 +60,18 @@
       
         .projects-container .projects-grid .project {
             padding-bottom: 5%;
+        }
+
+        .projects-container .projects-grid .project:nth-child(odd) .project-image {
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+
+        .light-mode .projects-container .projects-grid .project:nth-child(odd) .project-image {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .projects-container .projects-grid .project:nth-child(even) .project-image {
+            background-color: transparent;
         }
     }
 }

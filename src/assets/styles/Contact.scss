@@ -18,8 +18,14 @@
     color: white;
   }
 
-  fieldset {
+  .MuiInputBase-root {
     background-color: white;
+  }
+
+  .MuiInputBase-input,
+  .MuiInputLabel-root,
+  .MuiFormHelperText-root {
+    color: #0d1116;
   }
 }
 
@@ -45,4 +51,14 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+.form-status {
+  margin-top: 10px;
+  color: #0d1116;
+  font-size: 0.95rem;
+}
+
+.dark-mode .form-status {
+  color: white;
 }
