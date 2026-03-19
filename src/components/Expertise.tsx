@@ -52,7 +52,7 @@ function Expertise() {
             <FontAwesomeIcon icon={faReact} size="3x" />
             <h3>Workflow Automation & Integrations</h3>
             <p>
-              I build automations that remove repetitive admin work—like routing
+              I build automations that remove repetitive admin work-like routing
               requests, creating tasks, filing attachments, and updating CRMs.
               I connect tools like Notion, Gmail, Google Sheets, and Slack using
               Zapier/Make, webhooks, and clean automation logic.
@@ -70,7 +70,7 @@ function Expertise() {
             <h3>Python Scripting & Data Automation</h3>
             <p>
               I write Python scripts to automate data workflows—ingestion,
-              transformation, validation, and exports—so teams spend less time in
+              transformation, validation, and exports, so teams spend less time in
               spreadsheets and more time executing. I also handle API testing and
               database checks to ensure outputs are accurate and reliable.
             </p>
