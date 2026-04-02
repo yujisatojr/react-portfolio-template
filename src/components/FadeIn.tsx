@@ -1,9 +1,4 @@
-import React, {
-    JSXElementConstructor,
-    PropsWithChildren,
-    useEffect,
-    useState,
-  } from "react";
+import { Children, useEffect, useState, JSXElementConstructor, PropsWithChildren } from 'react';
   
   interface Props {
     delay?: number;
@@ -25,7 +20,7 @@ import React, {
     const visible = typeof props.visible === "undefined" ? true : props.visible;
   
     useEffect(() => {
-      let count = React.Children.count(props.children);
+      let count = Children.count(props.children);
       if (!visible) {
         // Animate all children out
         count = 0;
@@ -48,7 +43,7 @@ import React, {
       // eslint-disable-next-line
     }, [
       // eslint-disable-next-line
-      React.Children.count(props.children),
+      Children.count(props.children),
       delay,
       maxIsVisible,
       visible,
@@ -57,7 +52,7 @@ import React, {
   
     return (
       <WrapperTag className={props.className}>
-        {React.Children.map(props.children, (child, i) => {
+        {Children.map(props.children, (child: React.ReactNode, i: number) => {
           return (
             <ChildTag
               className={props.childClassName}

@@ -1,22 +1,22 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1rem !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
   font-size: 1rem !important;
 }
 
 .main-container {
   position: relative;
   background-color: #0d1116;
-
 }
 
 a {
@@ -25,10 +25,21 @@ a {
 
 a:hover {
   color: #5000ca;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-p, a, h1, h2, h3, h4, h5, label, button {
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+button {
   color: white;
   font-family: "Lato", sans-serif;
 }
@@ -50,7 +61,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .navigation-bar-responsive {
-  span, p {
+  span,
+  p {
     color: #0d1116;
     font-family: "Lato", sans-serif;
   }
@@ -99,13 +111,24 @@ p, a, h1, h2, h3, h4, h5, label, button {
     background-color: #f8f9fa;
   }
 
-  p, a, h1, h2, h3, h4, h5, label, button {
+  p,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  label,
+  button {
     color: #0d1116;
   }
 
   a:hover {
     color: #5000ca;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition:
+      color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
   }
 
   .navigation-bar svg {
@@ -122,7 +145,10 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
   .chip {
     background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
   .vertical-timeline::before {
@@ -130,10 +156,15 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
-  .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
     color: gray;
   }
 
@@ -143,6 +174,44 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
   .flex-chips .chip-title {
     color: #0d1116;
+  }
+
+  .MuiInputBase-root {
+    color: #0d1116 !important;
+    background-color: white !important;
+  }
+
+  .MuiInputBase-input {
+    color: #0d1116 !important;
+    background-color: transparent !important;
+  }
+
+  .MuiFormLabel-root {
+    color: #0d1116 !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: #0d1116 !important;
+  }
+}
+
+.dark-mode {
+  .MuiInputBase-root {
+    color: white !important;
+    background-color: #0d1116 !important;
+  }
+
+  .MuiInputBase-input {
+    color: white !important;
+    background-color: transparent !important;
+  }
+
+  .MuiFormLabel-root {
+    color: white !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: white !important;
   }
 }
 
