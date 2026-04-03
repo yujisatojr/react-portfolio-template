@@ -47,6 +47,17 @@
         margin-block-start: 0px;
         margin-block-end: 0px;
     }
+
+    .about-me-description {
+        margin-top: 20px;
+        max-width: 600px;
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+    }
 }
 
 .about-section .image-wrapper {

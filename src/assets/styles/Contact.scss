@@ -19,7 +19,7 @@
   }
 
   fieldset {
-    background-color: transparent;
+    background-color: transparentize($color: #989a78, $amount: 0.8);
   }
 }
 
