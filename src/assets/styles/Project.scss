@@ -9,25 +9,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
-}
-  
-.projects-container .projects-grid .project {
-    text-align: left;
-}
-  
-.project h2:hover {
-    text-decoration: underline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-  
-.zoom {
-    border-radius: 5px;
-    transition: transform .2s;
-    margin: 0 auto;
-}
-  
-.zoom:hover {
-    transform: scale(1.05);
+    align-items: start;
 }
 
 @media screen {
@@ -39,11 +21,13 @@
         }
   
         .projects-container .projects-grid {
-            display: block;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
         }
       
-        .projects-container .projects-grid .project {
-            padding-bottom: 5%;
+        .projects-container .projects-grid .project-card-wrapper {
+            padding-bottom: 0;
         }
     }
 }

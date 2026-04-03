@@ -1,0 +1,106 @@
+.project-card-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  min-height: 250px; // Ensure a minimum height for collapsed state
+
+  /* Default (Dark Mode) styles */
+  background-color: #111827;
+  color: white;
+  box-shadow: none;
+
+  .project-thumbnail {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Circular image initially */
+    object-fit: cover;
+    transition:
+      width 0.3s ease-in-out,
+      height 0.3s ease-in-out,
+      border-radius 0.3s ease-in-out;
+  }
+
+  .project-content {
+    h2,
+    p {
+      color: white;
+      transition: color 0.3s ease-in-out;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 15px;
+      text-decoration: none;
+    }
+
+    p {
+      font-size: 1rem;
+      opacity: 0; /* Hidden initially */
+      max-height: 0;
+      overflow: hidden;
+      transition:
+        opacity 0.3s ease-in-out,
+        max-height 0.3s ease-in-out;
+    }
+  }
+
+  /* Hover State */
+  &.hovered {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    min-height: 350px; // Expanded height on hover
+
+    .project-thumbnail {
+      width: 100%; /* Expand to full width */
+      height: 150px; /* Adjust height */
+      border-radius: 8px; /* Rectangular on hover */
+    }
+
+    .project-content {
+      p {
+        opacity: 1; /* Show description on hover */
+        max-height: 100px; /* Allow description to be visible */
+      }
+    }
+  }
+
+  /* Light Mode styles */
+  &.light {
+    background-color: white;
+    color: #0d1116;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .project-content {
+      h2,
+      p {
+        color: #0d1116;
+      }
+    }
+
+    &.hovered {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.project-card-wrapper .project-image-link {
+  text-decoration: none; /* Remove underline from image link */
+}
+
+.project-card-wrapper .project-content a {
+  text-decoration: none; /* Remove underline from title link */
+}
+
+.project-card-wrapper .project-content a:hover h2 {
+  text-decoration: underline; /* Add underline on title hover */
+}
