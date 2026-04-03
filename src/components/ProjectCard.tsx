@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../components/ProjectCard.scss"; // Import component-specific SCSS
 
 interface ProjectCardProps {
@@ -23,11 +23,14 @@ function ProjectCard({
 
   return (
     <div
-      className={`project-card-wrapper ${mode} ${isHovered ? 'hovered' : ''}`}
+      className={`project-card-wrapper ${mode} ${isHovered ? "hovered" : ""}`}
       onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <a href={projectUrl} target="_blank" rel="noreferrer" className="project-image-link">
+      onMouseLeave={handleMouseLeave}>
+      <a
+        href={projectUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="project-image-link">
         <img src={imageSrc} className="project-thumbnail" alt="thumbnail" />
       </a>
       <div className="project-content">
