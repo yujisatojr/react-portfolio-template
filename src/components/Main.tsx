@@ -21,7 +21,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/yujisato/"
+              href="https://www.linkedin.com/in/hamet-anne-036924274/"
               target="_blank"
               rel="noreferrer">
               <LinkedInIcon />
@@ -47,7 +47,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/yujisato/"
+              href="https://www.linkedin.com/in/hamet-anne-036924274/"
               target="_blank"
               rel="noreferrer">
               <LinkedInIcon />
