@@ -1,52 +1,6 @@
-footer {
-  width: var(--container-content);
-  margin: 0 auto;
-  text-align: center;
-  padding: 2.6rem 0 2.4rem;
-  border-top: 1px solid var(--border-soft);
-}
-
-footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-footer a {
-  transition: color 0.22s ease, transform 0.22s ease, background-color 0.22s ease, border-color 0.22s ease;
-}
-
-footer div a {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: 1px solid var(--border-soft);
-  background: transparent;
-  color: var(--text-secondary);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer div a:hover {
-  color: var(--bg-surface);
-  background: var(--text-primary);
-  border-color: var(--text-primary);
-  transform: translateY(-2px);
-}
-
-footer p {
-  margin-top: 0.8rem;
-  color: var(--text-tertiary);
-  font-size: 0.86rem;
-}
-
-footer p a {
-  color: var(--text-secondary);
-  font-weight: 700;
-}
-
-footer p a:hover {
-  color: var(--accent-ink);
-}
+footer { width: var(--container-wide); margin: 0 auto; padding: 2rem 0; border-top: 1px solid var(--border-soft); }
+footer div { display: flex; gap: 0.75rem; }
+footer div a { color: var(--text-secondary); font-size: 1.05rem; }
+footer div a:hover, footer p a:hover { color: var(--accent-ink); }
+footer p { margin: 0.9rem 0 0; color: var(--text-tertiary); font-size: 0.82rem; }
+footer p a { color: var(--text-secondary); font-weight: 700; }

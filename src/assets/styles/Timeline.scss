@@ -1,138 +1,15 @@
-#history .items-container {
-  padding: 0 0 var(--section-space);
-}
-
-#history h1 {
-  padding-top: 1.1rem;
-  border-top: 1px solid var(--border-soft);
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1.1;
-  margin-bottom: 1.6rem;
-}
-
-#history h1:not(:first-child) {
-  margin-top: clamp(3rem, 6vw, 5rem);
-}
-
-/* ── Vertical Timeline ──────────────────────────────────────── */
-
-.vtimeline {
-  position: relative;
-  padding-left: 2.4rem;
-}
-
-.vtimeline__line {
-  position: absolute;
-  left: 0.55rem;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: var(--border-soft);
-}
-
-.vtimeline__item {
-  position: relative;
-  padding-bottom: 2rem;
-}
-
-.vtimeline__item:last-child {
-  padding-bottom: 0;
-}
-
-/* ── Dot (icon on the line) ────────────────────────────────── */
-
-.vtimeline__dot {
-  position: absolute;
-  left: -2.4rem;
-  top: 0.15rem;
-  width: 1.1rem;
-  height: 1.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
-  font-size: 0.45rem;
-  z-index: 1;
-  box-shadow: 0 0 0 3px var(--bg-page), var(--shadow-sm);
-}
-
-/* ── Date pill ─────────────────────────────────────────────── */
-
-.vtimeline__date {
-  display: inline-block;
-  padding: 0.2rem 0.6rem;
-  margin-bottom: 0.55rem;
-  font-family: var(--font-subtle);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: var(--accent-ink);
-  background: var(--accent-soft);
-  border-radius: 999px;
-}
-
-/* ── Card ──────────────────────────────────────────────────── */
-
-.vtimeline__card {
-  padding: 1.2rem 1.3rem 1.3rem;
-  border-radius: var(--radius-lg);
-  background: var(--bg-surface);
-  border: 1px solid var(--border-soft);
-  box-shadow: var(--shadow-sm);
-  transition:
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.vtimeline__card:hover {
-  border-color: var(--accent);
-  box-shadow: var(--shadow-soft);
-}
-
-/* ── Card internals ────────────────────────────────────────── */
-
-.vtimeline__title {
-  font-family: var(--font-subtle);
-  font-size: 1.05rem;
-  line-height: 1.35;
-  color: var(--text-primary);
-  margin: 0;
-}
-
-.vtimeline__subtitle {
-  margin: 0.3rem 0 0;
-  font-family: var(--font-subtle);
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-tertiary);
-}
-
-.vtimeline__details {
-  margin: 0.65rem 0 0;
-  font-size: 0.92rem;
-  line-height: 1.7;
-  color: var(--text-secondary);
-}
-
-.vtimeline__details strong {
-  color: var(--text-primary);
-  font-weight: 700;
-}
-
-/* ── Responsive ────────────────────────────────────────────── */
-
-@media (max-width: 540px) {
-  .vtimeline {
-    padding-left: 2rem;
-  }
-
-  .vtimeline__dot {
-    left: -2rem;
-  }
-
-  .vtimeline__card {
-    padding: 1rem 1.1rem 1.1rem;
-  }
-}
+#history .items-container { padding: var(--section-space) 0; }
+#history h1 { margin-bottom: 1.25rem; font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1; }
+#history h1:not(:first-child) { margin-top: clamp(2.25rem, 4vw, 3.5rem); }
+.vtimeline { position: relative; max-width: 900px; padding-left: 2.4rem; }
+.vtimeline__line { position: absolute; top: 0; bottom: 0; left: 0.55rem; width: 1px; background: var(--border-soft); }
+.vtimeline__item { position: relative; padding-bottom: 1.25rem; }
+.vtimeline__item:last-child { padding-bottom: 0; }
+.vtimeline__dot { position: absolute; top: 1rem; left: -2.4rem; display: grid; width: 1.1rem; height: 1.1rem; place-items: center; border-radius: 50%; background: var(--accent); color: var(--bg-surface); font-size: 0.45rem; }
+.vtimeline__date { display: inline-block; margin-bottom: 0.5rem; color: var(--accent-ink); font-family: var(--font-mono); font-size: 0.72rem; }
+.vtimeline__card { padding: 1.25rem; border: 1px solid var(--border-soft); background: var(--bg-surface); }
+.vtimeline__title { margin-bottom: 0.25rem; font-family: var(--font-body); font-size: 1.1rem; line-height: 1.3; }
+.vtimeline__subtitle { margin: 0; color: var(--text-tertiary); font-family: var(--font-body); font-size: 0.88rem; font-weight: 600; }
+.vtimeline__details { margin: 0.7rem 0 0; color: var(--text-secondary); font-size: 0.93rem; }
+.vtimeline__details strong { color: var(--text-primary); }
+@media (max-width: 540px) { .vtimeline { padding-left: 1.8rem; } .vtimeline__dot { left: -1.8rem; } .vtimeline__card { padding: 1rem; } }

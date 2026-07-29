@@ -1,67 +1,9 @@
-.blogs-container {
-  width: var(--container-content);
-  margin: 0 auto;
-  padding: 0 0 var(--section-space);
-}
-
-.blogs-container h1 {
-  padding-top: 1.1rem;
-  border-top: 1px solid var(--border-soft);
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-}
-
-.articles-list {
-  display: grid;
-  border-top: 1px solid var(--border-soft);
-}
-
-.article-item {
-  border-bottom: 1px solid var(--border-soft);
-  transition: background-color 0.22s ease;
-}
-
-.article-item:hover {
-  background: var(--bg-surface);
-}
-
-.article-item a {
-  display: block;
-  padding: 1.05rem 0.25rem;
-}
-
-.article-item h3 {
-  font-family: var(--font-body);
-  font-size: clamp(1rem, 1.7vw, 1.18rem);
-  font-weight: 600;
-  line-height: 1.5;
-  color: var(--text-primary);
-}
-
-.article-item a:hover h3 {
-  color: var(--accent-ink);
-}
-
-.more-articles {
-  margin-top: 1.4rem;
-}
-
-.more-articles a {
-  display: inline-flex;
-  align-items: center;
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-sm);
-  background: transparent;
-  color: var(--text-primary);
-  font-size: 0.9rem;
-  font-weight: 700;
-  padding: 0.62rem 0.9rem;
-}
-
-.more-articles a:hover {
-  color: var(--bg-surface);
-  background: var(--text-primary);
-  border-color: var(--text-primary);
-  transform: translateY(-2px);
-}
+.blogs-container { width: var(--container-content); margin: 0 auto; padding: var(--section-space) 0; }
+.blogs-container h1 { margin-bottom: 1.25rem; font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1; }
+.articles-list { border-top: 1px solid var(--border-soft); }
+.article-item { border-bottom: 1px solid var(--border-soft); }
+.article-item a { display: block; padding: 1.15rem 0; }
+.article-item h3 { margin: 0; font-family: var(--font-body); font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.45; }
+.article-item a:hover h3 { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 0.2em; }
+.more-articles { margin-top: 1.5rem; }
+.more-articles a { display: inline-block; padding: 0.62rem 0.85rem; border: 1px solid var(--border-strong); color: var(--text-primary); font-size: 0.88rem; font-weight: 700; }

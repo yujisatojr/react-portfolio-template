@@ -1,85 +1,12 @@
-.skills-container {
-  padding: var(--section-space) 0;
-}
-
-.skills-container h1 {
-  padding-top: 1.1rem;
-  border-top: 1px solid var(--border-soft);
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1.1;
-  margin-bottom: clamp(1.6rem, 3.2vw, 2.6rem);
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  border-top: 1px solid var(--border-soft);
-  border-left: 1px solid var(--border-soft);
-}
-
-.skill {
-  min-height: 100%;
-  background: color-mix(in srgb, var(--bg-surface) 74%, transparent);
-  border-right: 1px solid var(--border-soft);
-  border-bottom: 1px solid var(--border-soft);
-  padding: clamp(1.25rem, 2.5vw, 1.75rem);
-  transition: background-color 0.24s ease, transform 0.24s ease;
-}
-
-.skill:hover {
-  background: var(--bg-surface);
-  transform: translateY(-3px);
-}
-
-.skill svg {
-  color: var(--accent-ink);
-  font-size: 1.85rem;
-}
-
-.skill h3 {
-  margin-top: 1.2rem;
-  margin-bottom: 0.65rem;
-  font-size: 1.18rem;
-  line-height: 1.35;
-}
-
-.skill p {
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: 0.96rem;
-  line-height: 1.72;
-}
-
-.flex-chips {
-  margin-top: 1.2rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45rem;
-}
-
-.chip-title {
-  width: 100%;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--text-tertiary);
-}
-
-.chip {
-  display: inline-flex;
-  align-items: center;
-  border-radius: 999px;
-  border: 1px solid var(--border-soft);
-  background: var(--bg-page);
-  color: var(--text-secondary);
-  font-size: 0.79rem;
-  font-weight: 600;
-  line-height: 1;
-  padding: 0.42rem 0.66rem;
-}
-
-@media (max-width: 1050px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-}
+.skills-container { width: var(--container-wide); margin: 0 auto; padding: var(--section-space) 0; }
+.skills-container h1 { margin-bottom: 1.25rem; font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1; }
+.skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--border-soft); border-left: 1px solid var(--border-soft); }
+.skill { padding: clamp(1.25rem, 2.8vw, 2rem); border-right: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft); background: var(--bg-surface); }
+.skill svg { color: var(--accent-ink); font-size: 1.7rem; }
+.skill h3 { margin: 1.1rem 0 0.65rem; font-size: 1.35rem; line-height: 1.2; }
+.skill p { margin: 0; color: var(--text-secondary); font-size: 0.94rem; }
+.flex-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.25rem; }
+.chip-title { width: 100%; color: var(--text-tertiary); font-family: var(--font-mono); font-size: 0.7rem; }
+.chip { padding: 0.24rem 0.46rem; border: 1px solid var(--border-soft); color: var(--text-secondary); font-size: 0.76rem; }
+@media (max-width: 900px) { .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .skills-grid { grid-template-columns: 1fr; } }

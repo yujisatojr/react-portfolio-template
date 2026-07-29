@@ -53,6 +53,12 @@ const career: TimelineItem[] = [
     details:
       "Automated end-to-end intake for GDA Digital Applications using Google Forms, Apps Script, and Jira REST APIs across 13+ request archetypes including SFMC, Data Cloud, Web Tagging, GDPR, and Gigya workflows. Engineered rule-based workflows for Salesforce Marketing Cloud and Data Cloud intakes. Designed a Customer Engagement Dashboard with dynamic filters and responsive UI. Provided AEM Redirects Console (ARC) support in production and authored documentation for the automation suite and Windows setup guides.",
   },
+  {
+    date: "Jul 2026 – Present",
+    title: "Associate Consultant",
+    subtitle: "Oracle Financial Services",
+    details: null,
+  },
 ];
 
 function TimelineSection({ items, icon }: { items: TimelineItem[]; icon: typeof faBriefcase }) {
@@ -68,7 +74,7 @@ function TimelineSection({ items, icon }: { items: TimelineItem[]; icon: typeof 
           <div className="vtimeline__card">
             <h3 className="vtimeline__title">{item.title}</h3>
             <h4 className="vtimeline__subtitle">{item.subtitle}</h4>
-            <p className="vtimeline__details">{item.details}</p>
+            {item.details && <p className="vtimeline__details">{item.details}</p>}
           </div>
         </div>
       ))}

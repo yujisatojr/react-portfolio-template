@@ -98,7 +98,7 @@ function Contact() {
               <textarea
                 id="contact-message"
                 placeholder="Send me any inquiries or questions"
-                rows={8}
+                rows={4}
                 className="body-form"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
