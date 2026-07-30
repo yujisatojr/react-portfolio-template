@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://anne7076.github.io/portfolio",
+    "homepage": "https://anne.is-a.dev",
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
         "@emotion/react": "^11.11.4",
