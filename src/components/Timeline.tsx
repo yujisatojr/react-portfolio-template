@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -16,55 +16,79 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Ene 2025 - Jun 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Alumno Memorista</h3>
+            <h4 className="vertical-timeline-element-subtitle">Compañia Minera Doña Ines de Collahuasi</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Optimización de automatización en planta de molibdeno, identificación de puntos de operación óptimos
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Jun 2024 - Jun 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Centro de Estudiantes Ing. Civil Electrónica</h3>
+            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Representante estudiantil
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Ago 2023 - Dic 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Proyecto Seguimiento Solar UFRO — Asistente de Investigación</h3>
+            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Control automático de seguimiento solar, programación de actuadores
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="Mar 2023 – Dic 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">LIFIC UFRO — Laborante</h3>
+            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Software control inventario, automatización sistema de asistencia
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 2021 – Ago 2021"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Instituto iDEAUFRO — Asistente de Investigación</h3>
+            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <p>
+              Chatbot con IA para página web
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Ago 2020 – Ago 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Facultad de Ingeniería y Ciencias UFRO — Ayudante</h3>
+            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <p>
+              Desarrollo de ayudantías C++/C
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-    </div>
+    </div >
   );
 }
 
