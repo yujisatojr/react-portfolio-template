@@ -3,6 +3,8 @@
 }
 
 .about-section {
+    position: relative;
+    overflow: hidden;
     display: flex;
     gap: 30px;
     justify-content: flex-start;
@@ -10,11 +12,74 @@
     width: 100%;
     padding: 0px 15%;
     min-height: 700px;
+    background-color: #0d1116;
     background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
+    /* Opción 2: Red de constelación geométrica / partículas vectoriales flotantes */
+    &::before {
+        content: '';
+        position: absolute;
+        inset: -20px;
+        background-image: 
+            radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.4), rgba(0,0,0,0)),
+            radial-gradient(2px 2px at 80px 120px, rgba(80, 0, 202, 0.6), rgba(0,0,0,0)),
+            radial-gradient(2px 2px at 150px 70px, rgba(255, 255, 255, 0.5), rgba(0,0,0,0)),
+            radial-gradient(3px 3px at 240px 180px, rgba(0, 180, 216, 0.6), rgba(0,0,0,0)),
+            radial-gradient(2px 2px at 310px 90px, rgba(255, 255, 255, 0.3), rgba(0,0,0,0));
+        background-repeat: repeat;
+        background-size: 350px 350px;
+        animation: constellationDrift 90s linear infinite;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: -50px;
+        background-image: 
+            radial-gradient(circle at 50% 50%, rgba(80, 0, 202, 0.12), transparent 60%),
+            repeating-linear-gradient(60deg, transparent, transparent 80px, rgba(255, 255, 255, 0.015) 81px, transparent 82px);
+        animation: polygonPulse 60s ease-in-out infinite alternate;
+        pointer-events: none;
+        z-index: 1;
+    }
+}
+
+@keyframes constellationDrift {
+    0% { transform: translateY(0px) rotate(0deg); }
+    100% { transform: translateY(-350px) rotate(360deg); }
+}
+
+@keyframes polygonPulse {
+    0% { transform: scale(0.95); opacity: 0.5; }
+    50% { transform: scale(1.05); opacity: 0.9; }
+    100% { transform: scale(0.95); opacity: 0.5; }
+}
+
+@keyframes fluidWave {
+    0% {
+        transform: rotate(0deg) scale(1) translateY(0px);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.15) translateY(-30px);
+    }
+    100% {
+        transform: rotate(360deg) scale(1) translateY(0px);
+    }
+}
+
+@keyframes fluidFlow {
+    0% {
+        transform: translate(0, 0) scale(0.95);
+    }
+    100% {
+        transform: translate(60px, 40px) scale(1.1);
+    }
 }
 
 .about-section .content {
@@ -25,15 +90,48 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        color: white;
 
-        svg {
+        a {
+            color: inherit;
+            display: flex;
+            align-items: center;
+        }
+
+        svg, path {
             font-size: 1.8em;
+            color: inherit;
+            fill: currentColor;
+            transition: color 0.2s ease;
+        }
+
+        a:hover svg, a:hover path {
+            color: #5000ca !important;
+            fill: #5000ca !important;
         }
     }
 
     .mobile_social_icons {
         display: none;
+        flex-direction: row;
+        gap: 10px;
+
+        a {
+            color: inherit;
+            display: flex;
+            align-items: center;
+        }
+
+        svg, path {
+            font-size: 1.8em;
+            color: inherit;
+            fill: currentColor;
+            transition: color 0.2s ease;
+        }
+
+        a:hover svg, a:hover path {
+            color: #5000ca !important;
+            fill: #5000ca !important;
+        }
     }
 
     p {
@@ -51,6 +149,7 @@
 
 .about-section .image-wrapper {
     z-index: 2;
+
     img {
         width: 150px;
         border-radius: 50%;

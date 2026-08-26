@@ -23,8 +23,18 @@ function App() {
     }
 
     useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
+        if ('scrollRestoration' in window.history) {
+            window.history.scrollRestoration = 'manual';
+        }
+        if (window.location.hash) {
+            window.history.replaceState(null, '', window.location.pathname);
+        }
+        window.scrollTo(0, 0);
+        const timer = setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 100);
+        return () => clearTimeout(timer);
+    }, []);
 
     return (
     <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
