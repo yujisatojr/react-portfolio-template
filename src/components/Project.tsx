@@ -6,7 +6,7 @@ import '../assets/styles/Project.scss';
 function Project() {
     return (
         <div className="projects-container" id="projects">
-            <h1>Extra</h1>
+            <h1>Extras</h1>
             <div className="projects-grid">
                 <div className="project">
                     <a href="https://www.ingenieros.cl/mejores-titulados/colegio-de-ingenieros-reconocio-a-los-mejores-titulados-y-al-alumno-integral-2026/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="80%" /></a>

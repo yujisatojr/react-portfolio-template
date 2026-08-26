@@ -21,7 +21,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Alumno Memorista</h3>
-            <h4 className="vertical-timeline-element-subtitle">Compañia Minera Doña Ines de Collahuasi</h4>
+            <h4 className="vertical-timeline-element-subtitle">Compañía Minera Doña Inés de Collahuasi</h4>
             <p>
               Optimización de automatización en planta de molibdeno, identificación de puntos de operación óptimos
             </p>
