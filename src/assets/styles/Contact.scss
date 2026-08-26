@@ -4,45 +4,82 @@
   margin-right: 5px;
 }
 
-.contact-form {
-  padding-top: 20px;
+.email-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 25px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
+  &:hover {
+    border-color: #5000ca;
+    background: rgba(80, 0, 202, 0.15);
+    box-shadow: 0 4px 20px rgba(80, 0, 202, 0.2);
+
+    .email-link {
+      color: #5000ca !important;
+    }
   }
 
-  button:hover {
-    background-color: #5000ca;
-    color: white;
+  .email-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+
+    .email-icon {
+      font-size: 1.3rem;
+      color: #5000ca;
+    }
+
+    span {
+      color: inherit;
+    }
   }
 
-  fieldset {
-    background-color: white;
+  .copy-btn {
+    color: rgba(255, 255, 255, 0.8) !important;
+    padding: 6px;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: white !important;
+      background-color: rgba(255, 255, 255, 0.15);
+    }
   }
 }
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
+/* Soporte para modo día (light-mode) */
+.light-mode {
+  .email-container {
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.12);
 
-.form-flex {
-  display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
-}
+    &:hover {
+      border-color: #5000ca;
+      background: rgba(80, 0, 202, 0.08);
+    }
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
-}
+    .email-link {
+      color: #0d1116 !important;
+    }
 
-form {
-  width: 100% !important;
-}
+    .copy-btn {
+      color: rgba(13, 17, 22, 0.7) !important;
 
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+      &:hover {
+        color: #0d1116 !important;
+        background-color: rgba(0, 0, 0, 0.08);
+      }
+    }
+  }
 }

@@ -30,6 +30,47 @@
     transform: scale(1.05);
 }
 
+.cv-card {
+    border-radius: 12px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: #5000ca;
+        box-shadow: 0 4px 20px rgba(80, 0, 202, 0.15);
+    }
+
+    .cv-icon {
+        font-size: 3rem;
+        color: #5000ca;
+    }
+
+    .cv-buttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+
+        a {
+            text-transform: none;
+            font-weight: 600;
+        }
+    }
+}
+
+.light-mode {
+    .cv-card {
+        background: rgba(0, 0, 0, 0.03);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
 @media screen {
     @media (max-width: 700px) {
         .projects-container {

@@ -3,13 +3,29 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    svg {
-        width: 1.1em !important;
-        height: 1.1em !important;
-        margin-right: 10px;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+
+        svg {
+            font-size: 1.5em !important;
+            width: auto !important;
+            height: auto !important;
+            margin: 0 !important;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        a:hover svg {
+            transform: scale(1.15);
+            color: #5000ca;
+        }
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 0.9em;
+        opacity: 0.8;
     }
 }
