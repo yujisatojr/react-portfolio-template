@@ -1,6 +1,6 @@
 import React from "react";
 import mock01 from '../assets/images/PremioUFRO.jpg';
-import mock02 from '../assets/images/PremioCID.jpeg';
+import mock02 from '../assets/images/PremioCID.jpg';
 import cvPdf from '../assets/images/CV_Andres_Carrasco.pdf';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import DownloadIcon from '@mui/icons-material/Download';
@@ -30,20 +30,20 @@ function Project() {
                         <h2>Curriculum Vitae</h2>
                         <p>Descarga o visualiza mi Curriculum Vitae actualizado en formato PDF.</p>
                         <div className="cv-buttons">
-                            <Button 
-                                variant="contained" 
-                                color="primary" 
-                                href={cvPdf} 
-                                target="_blank" 
+                            <Button
+                                variant="contained"
+                                color="primary"
+                                href={cvPdf}
+                                target="_blank"
                                 rel="noreferrer"
                                 startIcon={<PictureAsPdfIcon />}
                             >
                                 Ver CV
                             </Button>
-                            <Button 
-                                variant="outlined" 
-                                color="primary" 
-                                href={cvPdf} 
+                            <Button
+                                variant="outlined"
+                                color="primary"
+                                href={cvPdf}
                                 download="CV_Andres_Carrasco.pdf"
                                 startIcon={<DownloadIcon />}
                             >
