@@ -15,6 +15,8 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+  max-width: 100%;
+  box-sizing: border-box;
 
   &:hover {
     border-color: #5000ca;
@@ -35,14 +37,18 @@
     font-size: 1.1rem;
     font-weight: 500;
     transition: color 0.2s ease;
+    min-width: 0;
 
     .email-icon {
       font-size: 1.3rem;
       color: #5000ca;
+      flex-shrink: 0;
     }
 
     span {
       color: inherit;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
   }
 
@@ -50,10 +56,22 @@
     color: rgba(255, 255, 255, 0.8) !important;
     padding: 6px;
     transition: color 0.2s ease;
+    flex-shrink: 0;
 
     &:hover {
       color: white !important;
       background-color: rgba(255, 255, 255, 0.15);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .email-container {
+    padding: 10px 16px;
+    border-radius: 25px;
+
+    .email-link {
+      font-size: 0.95rem;
     }
   }
 }
