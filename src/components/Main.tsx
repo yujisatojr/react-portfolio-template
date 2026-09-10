@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from '../assets/images/perfil.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -12,7 +13,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQEC19SIa3yBdw/profile-displayphoto-scale_400_400/B4DZ3fawI8I0Ag-/0/1777569830862?e=1788998400&v=beta&t=A3__hzWJ0KGLEHHNS2zm9t4DUPM3dsFwGie24G_xVq4" alt="Avatar" />
+          <img src={avatar} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
