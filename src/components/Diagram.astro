@@ -1,0 +1,60 @@
+---
+const { kind } = Astro.props;
+---
+{kind === 'eks' && (
+<svg viewBox="0 0 760 320" role="img" aria-label="Architecture: users reach an ALB in an AWS VPC, which routes to the frontend and microservices on EKS. Argo CD syncs from GitHub. Services send telemetry to an OpenTelemetry Collector, which feeds Prometheus, Grafana, Jaeger and OpenSearch. Terraform provisions the infrastructure.">
+  <defs>
+    <marker id="ar1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor" style="color:var(--muted)"/></marker>
+  </defs>
+  <rect class="group" x="150" y="8" width="602" height="304" rx="10"/>
+  <text class="lbl" x="162" y="26">AWS VPC · public/private subnets · NAT</text>
+  <rect class="group" x="296" y="36" width="448" height="268" rx="10" style="stroke:var(--accent);opacity:.5"/>
+  <text class="lbl" x="308" y="54">Amazon EKS · node groups</text>
+
+  <rect class="box" x="10" y="38" width="120" height="44" rx="8"/><text x="70" y="58" text-anchor="middle">Terraform</text><text class="sub" x="70" y="73" text-anchor="middle">S3 state + lock</text>
+  <rect class="box" x="10" y="140" width="120" height="44" rx="8"/><text x="70" y="166" text-anchor="middle">Users</text>
+  <rect class="box" x="10" y="232" width="120" height="44" rx="8"/><text x="70" y="252" text-anchor="middle">GitHub</text><text class="sub" x="70" y="267" text-anchor="middle">Actions CI</text>
+
+  <rect class="box hl" x="168" y="140" width="106" height="44" rx="8"/><text x="221" y="160" text-anchor="middle">ALB</text><text class="sub" x="221" y="175" text-anchor="middle">Ingress / LB Ctrl</text>
+
+  <rect class="box" x="316" y="72" width="116" height="40" rx="8"/><text x="374" y="97" text-anchor="middle">Frontend</text>
+  <rect class="box" x="316" y="140" width="116" height="44" rx="8"/><text x="374" y="160" text-anchor="middle">Microservices</text><text class="sub" x="374" y="175" text-anchor="middle">polyglot</text>
+  <rect class="box hl" x="316" y="232" width="116" height="44" rx="8"/><text x="374" y="252" text-anchor="middle">Argo CD</text><text class="sub" x="374" y="267" text-anchor="middle">GitOps sync</text>
+  <rect class="box" x="478" y="140" width="116" height="44" rx="8"/><text x="536" y="160" text-anchor="middle">OTel</text><text class="sub" x="536" y="175" text-anchor="middle">Collector</text>
+  <rect class="box" x="628" y="72" width="104" height="40" rx="8"/><text x="680" y="97" text-anchor="middle">Prom + Grafana</text>
+  <rect class="box" x="628" y="146" width="104" height="40" rx="8"/><text x="680" y="171" text-anchor="middle">Jaeger</text>
+  <rect class="box" x="628" y="220" width="104" height="40" rx="8"/><text x="680" y="245" text-anchor="middle">OpenSearch</text>
+
+  <line x1="130" y1="62" x2="166" y2="62" marker-end="url(#ar1)"/>
+  <line class="flow" x1="130" y1="162" x2="166" y2="162" marker-end="url(#ar1)"/>
+  <line class="flow" x1="274" y1="162" x2="314" y2="162" marker-end="url(#ar1)"/>
+  <path class="ln" d="M274 150 C 290 150, 296 92, 314 92" marker-end="url(#ar1)"/>
+  <line x1="374" y1="112" x2="374" y2="138" marker-end="url(#ar1)"/>
+  <line x1="130" y1="254" x2="314" y2="254" marker-end="url(#ar1)"/>
+  <text class="lbl" x="170" y="246">image tag → manifests</text>
+  <line x1="432" y1="162" x2="476" y2="162" marker-end="url(#ar1)"/>
+  <path class="ln" d="M594 154 C 612 154, 612 92, 626 92" marker-end="url(#ar1)"/>
+  <line x1="594" y1="164" x2="626" y2="166" marker-end="url(#ar1)"/>
+  <path class="ln" d="M594 174 C 612 174, 612 240, 626 240" marker-end="url(#ar1)"/>
+</svg>
+)}
+{kind === 'cicd' && (
+<svg viewBox="0 0 730 130" role="img" aria-label="Pipeline: git push triggers GitHub Actions, which runs Gitleaks secret scan, multi-version Node.js tests and a Docker build, then pushes the image to Amazon ECR and deploys to Amazon ECS.">
+  <defs>
+    <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor" style="color:var(--muted)"/></marker>
+  </defs>
+  <rect class="group" x="120" y="8" width="360" height="104" rx="10" style="stroke:var(--accent);opacity:.5"/>
+  <text class="lbl" x="132" y="26">GitHub Actions</text>
+  <rect class="box" x="10" y="46" width="90" height="44" rx="8"/><text x="55" y="66" text-anchor="middle">git push</text><text class="sub" x="55" y="81" text-anchor="middle">PR + review</text>
+  <rect class="box hl" x="130" y="46" width="100" height="44" rx="8"/><text x="180" y="66" text-anchor="middle">Gitleaks</text><text class="sub" x="180" y="81" text-anchor="middle">secret scan</text>
+  <rect class="box" x="250" y="46" width="100" height="44" rx="8"/><text x="300" y="66" text-anchor="middle">Test</text><text class="sub" x="300" y="81" text-anchor="middle">Node matrix</text>
+  <rect class="box" x="370" y="46" width="100" height="44" rx="8"/><text x="420" y="66" text-anchor="middle">Build</text><text class="sub" x="420" y="81" text-anchor="middle">Docker image</text>
+  <rect class="box" x="500" y="46" width="100" height="44" rx="8"/><text x="550" y="66" text-anchor="middle">Amazon ECR</text><text class="sub" x="550" y="81" text-anchor="middle">push image</text>
+  <rect class="box hl" x="620" y="46" width="100" height="44" rx="8"/><text x="670" y="66" text-anchor="middle">Amazon ECS</text><text class="sub" x="670" y="81" text-anchor="middle">microservices</text>
+  <line class="flow" x1="100" y1="68" x2="128" y2="68" marker-end="url(#ar2)"/>
+  <line class="flow" x1="230" y1="68" x2="248" y2="68" marker-end="url(#ar2)"/>
+  <line class="flow" x1="350" y1="68" x2="368" y2="68" marker-end="url(#ar2)"/>
+  <line class="flow" x1="470" y1="68" x2="498" y2="68" marker-end="url(#ar2)"/>
+  <line class="flow" x1="600" y1="68" x2="618" y2="68" marker-end="url(#ar2)"/>
+</svg>
+)}

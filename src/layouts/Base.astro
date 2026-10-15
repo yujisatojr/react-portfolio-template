@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import { profile } from '../data/site';
+const title = `${profile.name} | ${profile.role}`;
+const description = 'DevOps Engineer building AWS infrastructure with Terraform, CI/CD with GitHub Actions, and Kubernetes/EKS platforms with full observability.';
+const url = Astro.site?.href ?? 'https://waleedasaf.github.io/';
+---
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0a0e13" />
+    <link rel="canonical" href={url} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url} />
+    <meta property="og:image" content={`${url}og.png`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: profile.name,
+      jobTitle: profile.role,
+      url,
+      email: `mailto:${profile.email}`,
+      sameAs: [profile.github, profile.linkedin],
+    })} />
+    <script is:inline>
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

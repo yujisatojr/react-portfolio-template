@@ -1,0 +1,208 @@
+---
+import Base from '../layouts/Base.astro';
+import Diagram from '../components/Diagram.astro';
+import { profile, metrics, experience, skills, projects, certifications, education, typedLines } from '../data/site';
+const year = new Date().getFullYear();
+---
+<Base>
+  <nav class="top" aria-label="Primary">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Home">waleed<span>@</span>devops</a>
+      <div class="links">
+        <a class="hide-sm" href="#impact">Impact</a>
+        <a href="#experience">Experience</a>
+        <a class="hide-sm" href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme" type="button" aria-label="Toggle light/dark theme">theme</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          {profile.status && (
+            <div class="badge"><span class="dot"></span> {profile.status}</div>
+          )}
+          <h1>{profile.name}</h1>
+          <div class="role">{profile.role}</div>
+          <p class="lead">{profile.summary}</p>
+          <div class="term" aria-hidden="true">
+            <div class="term-bar"><i></i><i></i><i></i></div>
+            <div class="term-body"><span class="prompt">$ </span><span id="typed"></span><span class="cursor"></span></div>
+          </div>
+          <noscript><p class="mono muted">$ {typedLines[0]}</p></noscript>
+          <div class="cta">
+            <a class="btn primary" href={profile.resumeUrl} download>Download resume</a>
+            <a class="btn" href={profile.github} target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href={profile.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <div class="avatar">
+          <img src="/img/profile.jpg" alt="Portrait of Muhammad Waleed Asaf" width="240" height="240" />
+        </div>
+      </div>
+    </section>
+
+    <section id="impact">
+      <div class="wrap reveal">
+        <p class="eyebrow">impact</p>
+        <h2>Results in production</h2>
+        <div class="metrics">
+          {metrics.map((m) => (
+            <div class="tile">
+              <div class="v">{m.value}</div>
+              <div class="l">{m.label}</div>
+              <div class="n">{m.note}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <p class="eyebrow">experience</p>
+        <h2>Work history as a pipeline</h2>
+        {experience.map((j) => (
+          <article class="job reveal">
+            <div class="job-head">
+              <h3>{j.role} · <span class="co">{j.company}</span></h3>
+              <span class="period">{j.period}</span>
+            </div>
+            <div class="muted">{j.place}</div>
+            <div class="pipeline" aria-hidden="true">
+              {j.stages.map((s, i) => (<><span class="stage">{s}</span>{i < j.stages.length - 1 && <span class="arrow">→</span>}</>))}
+            </div>
+            <ul>{j.points.map((p) => <li>{p}</li>)}</ul>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <p class="eyebrow">skills</p>
+        <h2>Service catalog</h2>
+        <div class="skills">
+          {skills.map((s) => (
+            <div class="svc reveal">
+              <h3>{s.group}</h3>
+              <div class="chips">{s.items.map((i) => <span class="chip">{i}</span>)}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <p class="eyebrow">projects</p>
+        <h2>Things I've built</h2>
+        {projects.map((p) => (
+          <article class="proj reveal">
+            <div class="proj-head">
+              <h3>{p.title}</h3>
+              <a class="btn" href={p.link} target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+            <p class="muted">{p.blurb}</p>
+            <div class="diagram"><Diagram kind={p.diagram} /></div>
+            <ul>{p.points.map((pt) => <li>{pt}</li>)}</ul>
+            <div class="chips tags">{p.tags.map((t) => <span class="chip">{t}</span>)}</div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section id="credentials">
+      <div class="wrap two">
+        <div class="card reveal">
+          <p class="eyebrow">certifications</p>
+          {certifications.map((c) => (
+            <div class="cert"><div class="seal">AWS</div><div><strong>{c.name}</strong><div class="muted">{c.level}</div></div></div>
+          ))}
+        </div>
+        <div class="card reveal">
+          <p class="eyebrow">education</p>
+          <div class="cert"><div class="seal">CS</div><div><strong>{education.degree}</strong><div class="muted">{education.school}</div><div class="period">{education.period}</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap reveal">
+        <p class="eyebrow">contact</p>
+        <h2>Let's ship something</h2>
+        <p>Looking for a DevOps / cloud role or have infrastructure to automate? The fastest way to reach me is email.</p>
+        <div class="cta">
+          <a class="btn primary" href={`mailto:${profile.email}`}>{profile.email}</a>
+          <a class="btn" href={`tel:${profile.phone.replace(/\s/g, '')}`}>{profile.phone}</a>
+          <a class="btn" href={profile.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span><span class="pass">●</span> build passing · deployed with GitHub Actions</span>
+      <span>© {year} {profile.name}</span>
+    </div>
+  </footer>
+
+  <script define:vars={{ lines: typedLines }}>
+    // Typing animation (skipped for reduced motion)
+    (function () {
+      var el = document.getElementById('typed');
+      if (!el) return;
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduce) { el.textContent = lines[0]; return; }
+      var li = 0, ci = 0, del = false;
+      function tick() {
+        var s = lines[li];
+        if (!del) { ci++; el.textContent = s.slice(0, ci); if (ci === s.length) { del = true; return setTimeout(tick, 1800); } }
+        else { ci--; el.textContent = s.slice(0, ci); if (ci === 0) { del = false; li = (li + 1) % lines.length; return setTimeout(tick, 400); } }
+        setTimeout(tick, del ? 25 : 55);
+      }
+      tick();
+    })();
+
+    // Scroll reveal
+    (function () {
+      var items = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { items.forEach(function (e) { e.classList.add('in'); }); return; }
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+      }, { threshold: 0.1 });
+      items.forEach(function (e) { io.observe(e); });
+    })();
+
+    // Active nav link
+    (function () {
+      var links = {};
+      document.querySelectorAll('.links a[href^="#"]').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+      if (!('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) {
+          if (e.isIntersecting && links[e.target.id]) {
+            Object.keys(links).forEach(function (k) { links[k].classList.remove('active'); });
+            links[e.target.id].classList.add('active');
+          }
+        });
+      }, { rootMargin: '-40% 0px -55% 0px' });
+      Object.keys(links).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
+    })();
+
+    // Theme toggle
+    (function () {
+      var b = document.getElementById('theme');
+      b.addEventListener('click', function () {
+        var next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+    })();
+  </script>
+</Base>
