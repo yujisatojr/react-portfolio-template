@@ -10,44 +10,44 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Experiencia</h1>
+        <h1>Experiencia Profesional y Académica</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Ene 2025 - Jun 2025"
+            date="Ene 2025 – Jun 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Alumno Memorista</h3>
-            <h4 className="vertical-timeline-element-subtitle">Compañía Minera Doña Inés de Collahuasi</h4>
+            <h3 className="vertical-timeline-element-title">Ingeniero Civil Electrónico – Memoria de Título</h3>
+            <h4 className="vertical-timeline-element-subtitle">Compañía Minera Doña Inés de Collahuasi SCM</h4>
             <p>
-              Optimización de automatización en planta de molibdeno, identificación de puntos de operación óptimos
+              Optimización de la automatización en la planta de molibdeno, identificando y definiendo puntos de operación óptimos para mejorar la eficiencia operativa.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Jun 2024 - Jun 2025"
+            date="Jun 2024 – Jun 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Centro de Estudiantes Ing. Civil Electrónica</h3>
-            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <h3 className="vertical-timeline-element-title">Representante Estudiantil</h3>
+            <h4 className="vertical-timeline-element-subtitle">Centro de Estudiantes de Ingeniería Civil Electrónica – UFRO</h4>
             <p>
-              Representante estudiantil
+              Representación de los intereses estudiantiles ante la dirección de carrera y organización de actividades académicas y extracurriculares.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Ago 2023 - Dic 2024"
+            date="Ago 2023 – Dic 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Proyecto Seguimiento Solar UFRO — Asistente de Investigación</h3>
-            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <h3 className="vertical-timeline-element-title">Ingeniero de Proyectos – Control Automático</h3>
+            <h4 className="vertical-timeline-element-subtitle">Proyecto de Seguimiento Solar – Universidad de La Frontera</h4>
             <p>
-              Control automático de seguimiento solar, programación de actuadores
+              Diseño e implementación del control automático de seguimiento solar y programación de actuadores.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -56,22 +56,22 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">LIFIC UFRO — Laborante</h3>
-            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <h3 className="vertical-timeline-element-title">Ingeniero de Proyectos – Automatización y TI</h3>
+            <h4 className="vertical-timeline-element-subtitle">Línea Integradora de Formación en Ingeniería y Ciencias (LIFIC) – UFRO</h4>
             <p>
-              Software control inventario, automatización sistema de asistencia
+              Desarrollo de software de control de inventario, automatización del sistema de asistencia y mantenimiento informático.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Mar 2021 – Ago 2021"
+            date="Ago 2021 – Dic 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Instituto iDEAUFRO — Asistente de Investigación</h3>
-            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <h3 className="vertical-timeline-element-title">Ayudante de Laboratorio – Sensores y Arduino</h3>
+            <h4 className="vertical-timeline-element-subtitle">Línea Integradora de Formación en Ingeniería y Ciencias (LIFIC) – UFRO</h4>
             <p>
-              Chatbot con IA para página web
+              Ayudantías en sensores y Arduino; control de inventario y diseño en impresión 3D.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -80,10 +80,22 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Facultad de Ingeniería y Ciencias UFRO — Ayudante</h3>
-            <h4 className="vertical-timeline-element-subtitle">Universidad de La Frontera</h4>
+            <h3 className="vertical-timeline-element-title">Ayudante de Cátedra – Programación de Computadores</h3>
+            <h4 className="vertical-timeline-element-subtitle">Facultad de Ingeniería y Ciencias – Universidad de La Frontera</h4>
             <p>
-              Desarrollo de ayudantías C++/C
+              Ayudantías para la asignatura de Programación de Computadores (C/C++).
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 2021 – Ago 2021"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Desarrollador de Software (Chatbot IA)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Instituto iDEAUFRO – Universidad de La Frontera</h4>
+            <p>
+              Desarrollo de un chatbot con inteligencia artificial para la página web institucional.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

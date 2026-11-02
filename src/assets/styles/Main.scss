@@ -89,12 +89,15 @@
     .social_icons {
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 10px;
 
         a {
             color: inherit;
             display: flex;
             align-items: center;
+            justify-content: center;
+            line-height: 1;
         }
 
         svg, path {
@@ -102,6 +105,10 @@
             color: inherit;
             fill: currentColor;
             transition: color 0.2s ease;
+        }
+
+        svg {
+            display: block;
         }
 
         a:hover svg, a:hover path {
@@ -113,12 +120,15 @@
     .mobile_social_icons {
         display: none;
         flex-direction: row;
+        align-items: center;
         gap: 10px;
 
         a {
             color: inherit;
             display: flex;
             align-items: center;
+            justify-content: center;
+            line-height: 1;
         }
 
         svg, path {
@@ -126,6 +136,10 @@
             color: inherit;
             fill: currentColor;
             transition: color 0.2s ease;
+        }
+
+        svg {
+            display: block;
         }
 
         a:hover svg, a:hover path {
@@ -138,6 +152,19 @@
         font-size: 1.5em;
         margin-block-start: 0px;
         margin-block-end: 0px;
+    }
+
+    .headline {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .tagline {
+        margin-top: 10px;
+        font-size: 1.1em;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        opacity: 0.9;
     }
 
     h1 {

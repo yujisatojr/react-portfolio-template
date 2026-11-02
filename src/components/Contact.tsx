@@ -21,7 +21,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contacto</h1>
-          <p>¿Tienes un proyecto o consulta? Escríbeme directamente:</p>
+          <p>¿Buscas colaborar o tienes alguna consulta? Escríbeme directamente:</p>
 
           <div className="email-container">
             <a href={`mailto:${email}`} className="email-link">

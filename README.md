@@ -84,3 +84,16 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 4. **Access Your Deployed App**
 
     After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+
+## Cloudflare Pages
+
+This portfolio is a static React SPA and can be deployed on the Cloudflare Pages free tier without Workers or Functions.
+
+- **Build command:** `npm run build`
+- **Build output directory:** `build`
+- **Node version:** `20` (recommended for `react-scripts` 5)
+- **SPA fallback:** keep `public/_redirects` with `/* /index.html 200`
+
+The build is fully static: no server-side rendering, API routes, or edge functions are required. The current output is well within the free-tier limits of 20,000 files and 25 MiB per file.
+
+Optionally, set `GENERATE_SOURCEMAP=false` as a build environment variable to reduce the deployment size.

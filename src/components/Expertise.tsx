@@ -8,12 +8,12 @@ import '../assets/styles/Expertise.scss';
 const labelsAutomation = [
     "PLC",
     "DCS",
-    "Control Automático",
-    "Instrumentación",
-    "Sensores Industrial",
+    "Control PID",
+    "Instrumentación industrial",
+    "Sensores industriales",
     "Arduino",
-    "PID Control",
-    "IoT Industrial"
+    "IoT industrial",
+    "Automatización de procesos"
 ];
 
 const labelsSoftware = [
@@ -24,14 +24,15 @@ const labelsSoftware = [
     "JavaScript",
     "HTML5 / CSS3",
     "Flask",
-    "SQL"
+    "SQL",
+    "Análisis de datos"
 ];
 
 const labelsInfraAI = [
     "Docker",
     "Linux",
     "Git",
-    "object Detection",
+    "Detección de objetos",
     "LLM",
     "Streamlit",
     "Impresión 3D"
@@ -41,14 +42,14 @@ function Expertise() {
     return (
         <div className="container" id="expertise">
             <div className="skills-container">
-                <h1>Habilidades</h1>
+                <h1>Competencias Técnicas</h1>
                 <div className="skills-grid">
                     <div className="skill">
                         <FontAwesomeIcon icon={faGears} size="3x" />
-                        <h3>Control Automático & Automatización Industrial</h3>
-                        <p>Diseño e implementación de sistemas de control, programación de PLC, DCS, instrumentación electrónica y prototipado con microcontroladores.</p>
+                        <h3>Automatización y Control Industrial</h3>
+                        <p>Diseño e implementación de sistemas de control, programación de PLC y DCS, instrumentación industrial y prototipado con microcontroladores.</p>
                         <div className="flex-chips">
-                            <span className="chip-title">Tech stack:</span>
+                            <span className="chip-title">Tecnologías:</span>
                             {labelsAutomation.map((label, index) => (
                                 <Chip key={index} className='chip' label={label} />
                             ))}
@@ -57,10 +58,10 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faCode} size="3x" />
-                        <h3>Desarrollo de Software & Programación</h3>
-                        <p>Desarrollo de software en C/C++ y Python, construcción de aplicaciones web interactivas en React y TypeScript, consumo de APIs y gestión de bases de datos.</p>
+                        <h3>Desarrollo de Software</h3>
+                        <p>Desarrollo de software en C/C++ y Python, aplicaciones web con React y TypeScript, consumo de APIs y gestión de bases de datos.</p>
                         <div className="flex-chips">
-                            <span className="chip-title">Tech stack:</span>
+                            <span className="chip-title">Tecnologías:</span>
                             {labelsSoftware.map((label, index) => (
                                 <Chip key={index} className='chip' label={label} />
                             ))}
@@ -69,10 +70,10 @@ function Expertise() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faServer} size="3x" />
-                        <h3>Infraestructura, IA & Herramientas</h3>
-                        <p>Despliegue de contenedores, administración en entornos Linux, automatización de flujos CI/CD, desarrollo de soluciones con Inteligencia Artificial e impresión 3D.</p>
+                        <h3>Infraestructura, IA y Herramientas</h3>
+                        <p>Despliegue de contenedores, administración de entornos Linux, control de versiones con Git, desarrollo de soluciones con inteligencia artificial e impresión 3D.</p>
                         <div className="flex-chips">
-                            <span className="chip-title">Tech stack:</span>
+                            <span className="chip-title">Tecnologías:</span>
                             {labelsInfraAI.map((label, index) => (
                                 <Chip key={index} className='chip' label={label} />
                             ))}
