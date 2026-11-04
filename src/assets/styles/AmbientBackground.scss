@@ -1,0 +1,261 @@
+.ambient {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--bg);
+}
+
+.ambient__base {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      120% 78% at 50% -14%,
+      var(--ambient-horizon) 0%,
+      transparent 62%
+    ),
+    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 34%, var(--bg) 100%);
+}
+
+.ambient__orb {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.95;
+  will-change: transform;
+}
+
+.ambient__orb--one {
+  width: min(78vw, 1080px);
+  aspect-ratio: 1;
+  top: -24%;
+  left: -16%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    var(--ambient-1) 0%,
+    transparent 67%
+  );
+  animation: ambient-drift-one 56s var(--ease-soft) infinite alternate;
+}
+
+.ambient__orb--two {
+  width: min(62vw, 900px);
+  aspect-ratio: 1;
+  top: 18%;
+  right: -22%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    var(--ambient-2) 0%,
+    transparent 68%
+  );
+  animation: ambient-drift-two 68s var(--ease-soft) infinite alternate;
+}
+
+.ambient__orb--three {
+  width: min(52vw, 760px);
+  aspect-ratio: 1;
+  bottom: -20%;
+  left: 18%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    var(--ambient-3) 0%,
+    transparent 70%
+  );
+  animation: ambient-drift-three 60s var(--ease-soft) infinite alternate;
+}
+
+.ambient__grid {
+  position: absolute;
+  inset: -40px;
+  background-image: linear-gradient(
+      to right,
+      var(--grid-color) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+  background-size: 88px 88px;
+  opacity: var(--grid-opacity);
+  -webkit-mask-image: radial-gradient(
+    ellipse 82% 62% at 50% 18%,
+    #000 0%,
+    transparent 78%
+  );
+  mask-image: radial-gradient(
+    ellipse 82% 62% at 50% 18%,
+    #000 0%,
+    transparent 78%
+  );
+  animation: ambient-grid-drift 130s var(--ease-soft) infinite alternate;
+  will-change: transform;
+}
+
+.ambient__sweep {
+  position: absolute;
+  top: -32%;
+  left: -26%;
+  width: 58vw;
+  height: 168vh;
+  background: linear-gradient(
+    102deg,
+    transparent 22%,
+    rgba(169, 198, 234, 0.065) 46%,
+    rgba(255, 255, 255, 0.035) 52%,
+    transparent 72%
+  );
+  transform: rotate(17deg) translate3d(0, 0, 0);
+  opacity: 0.7;
+  animation: ambient-sweep 36s var(--ease-soft) infinite alternate;
+  will-change: transform, opacity;
+}
+
+.ambient__sweep--reverse {
+  top: auto;
+  right: -28%;
+  bottom: -34%;
+  left: auto;
+  width: 52vw;
+  height: 158vh;
+  background: linear-gradient(
+    78deg,
+    transparent 24%,
+    rgba(125, 162, 206, 0.055) 48%,
+    rgba(255, 255, 255, 0.025) 54%,
+    transparent 74%
+  );
+  transform: rotate(-14deg) translate3d(0, 0, 0);
+  opacity: 0.55;
+  animation: ambient-sweep-reverse 44s var(--ease-soft) infinite alternate;
+}
+
+.ambient__grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: soft-light;
+}
+
+@keyframes ambient-drift-one {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(5vw, 6vh, 0) scale(1.07);
+  }
+  100% {
+    transform: translate3d(9vw, 3vh, 0) scale(1.03);
+  }
+}
+
+@keyframes ambient-drift-two {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1.02);
+  }
+  50% {
+    transform: translate3d(-6vw, 5vh, 0) scale(0.97);
+  }
+  100% {
+    transform: translate3d(-3vw, -6vh, 0) scale(1.05);
+  }
+}
+
+@keyframes ambient-drift-three {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(4vw, -5vh, 0) scale(1.06);
+  }
+  100% {
+    transform: translate3d(-5vw, 3vh, 0) scale(1.02);
+  }
+}
+
+@keyframes ambient-grid-drift {
+  0% {
+    transform: translate3d(-10px, -12px, 0);
+  }
+  100% {
+    transform: translate3d(14px, 10px, 0);
+  }
+}
+
+@keyframes ambient-sweep {
+  0% {
+    transform: rotate(17deg) translate3d(-6vw, -3vh, 0);
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: rotate(17deg) translate3d(22vw, 4vh, 0);
+    opacity: 0.55;
+  }
+}
+
+@keyframes ambient-sweep-reverse {
+  0% {
+    transform: rotate(-14deg) translate3d(8vw, 4vh, 0);
+    opacity: 0.32;
+  }
+  50% {
+    opacity: 0.65;
+  }
+  100% {
+    transform: rotate(-14deg) translate3d(-14vw, -4vh, 0);
+    opacity: 0.42;
+  }
+}
+
+@media (max-width: 768px) {
+  .ambient__orb--one {
+    width: 128vw;
+    top: -18%;
+    left: -46%;
+  }
+
+  .ambient__orb--two {
+    width: 110vw;
+    top: 28%;
+    right: -52%;
+  }
+
+  .ambient__orb--three {
+    width: 96vw;
+    bottom: -16%;
+    left: -10%;
+  }
+
+  .ambient__grid {
+    background-size: 64px 64px;
+  }
+
+  .ambient__sweep {
+    width: 90vw;
+    height: 140vh;
+  }
+
+  .ambient__sweep--reverse {
+    width: 100vw;
+    height: 130vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient__orb,
+  .ambient__grid,
+  .ambient__sweep {
+    animation: none !important;
+  }
+
+  .ambient__sweep {
+    opacity: 0.55;
+  }
+
+  .ambient__sweep--reverse {
+    opacity: 0.4;
+  }
+}

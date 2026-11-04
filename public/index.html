@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0d1116" />
+    <meta name="theme-color" content="#070a0f" />
+    <meta name="color-scheme" content="dark light" />
     <meta name="author" content="Andrés Carrasco Inostroza" />
     <meta
       name="description"
@@ -26,6 +27,19 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Andrés Carrasco | Ingeniero Civil Electrónico</title>
+    <script>
+      (function () {
+        try {
+          var saved = window.localStorage.getItem("portfolio-theme");
+          var light = saved === "light";
+          var root = document.documentElement;
+          root.style.background = light ? "#edf1f5" : "#070a0f";
+          root.style.colorScheme = light ? "light" : "dark";
+        } catch (error) {
+          /* ignore */
+        }
+      })();
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

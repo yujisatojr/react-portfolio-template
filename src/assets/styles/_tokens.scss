@@ -1,0 +1,178 @@
+/* --------------------------------------------------------------------------
+   Fonts (self-hosted, latin subset)
+   -------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("../fonts/manrope-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("../fonts/inter-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/ibm-plex-mono-400-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/ibm-plex-mono-500-latin.woff2") format("woff2");
+}
+
+/* --------------------------------------------------------------------------
+   Design tokens
+   -------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: dark;
+
+  --bg: #070a0f;
+  --bg-elevated: #0c131b;
+  --bg-deep: #05080c;
+
+  --text-primary: #e9eef4;
+  --text-secondary: #93a2b2;
+  --text-tertiary: #6f7e8e;
+
+  --accent: #7da2ce;
+  --accent-bright: #a9c6ea;
+  --accent-deep: #4d76a4;
+  --accent-soft: rgba(125, 162, 206, 0.14);
+  --accent-line: rgba(125, 162, 206, 0.35);
+
+  --hairline: rgba(255, 255, 255, 0.1);
+  --hairline-strong: rgba(255, 255, 255, 0.18);
+
+  --glass-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.075) 0%,
+    rgba(255, 255, 255, 0.035) 45%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  --glass-solid: rgba(17, 25, 35, 0.92);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-border-strong: rgba(255, 255, 255, 0.26);
+  --glass-highlight: rgba(255, 255, 255, 0.16);
+  --glass-shadow: 0 24px 70px rgba(0, 0, 0, 0.38),
+    0 2px 10px rgba(0, 0, 0, 0.18);
+  --glass-blur: 18px;
+  --glass-saturate: 140%;
+
+  --ambient-1: rgba(94, 137, 187, 0.2);
+  --ambient-2: rgba(92, 148, 158, 0.11);
+  --ambient-3: rgba(150, 143, 128, 0.07);
+  --ambient-horizon: rgba(169, 198, 234, 0.08);
+  --grid-color: rgba(255, 255, 255, 0.028);
+  --grid-opacity: 1;
+  --grain-opacity: 0.045;
+
+  --font-display: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --page-max: 1120px;
+  --page-gutter: clamp(20px, 4vw, 40px);
+  --section-space: clamp(84px, 11vw, 144px);
+  --nav-height: 72px;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 160ms;
+  --duration-base: 240ms;
+  --duration-slow: 560ms;
+}
+
+.main-container.light-mode {
+  color-scheme: light;
+
+  --bg: #edf1f5;
+  --bg-elevated: #f7f9fb;
+  --bg-deep: #e3e9ef;
+
+  --text-primary: #0c141d;
+  --text-secondary: #536273;
+  --text-tertiary: #5f6e7d;
+
+  --accent: #2e5e96;
+  --accent-bright: #4a7fb5;
+  --accent-deep: #1f446e;
+  --accent-soft: rgba(46, 94, 150, 0.1);
+  --accent-line: rgba(46, 94, 150, 0.28);
+
+  --hairline: rgba(12, 20, 29, 0.1);
+  --hairline-strong: rgba(12, 20, 29, 0.18);
+
+  --glass-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.78) 0%,
+    rgba(255, 255, 255, 0.56) 48%,
+    rgba(255, 255, 255, 0.42) 100%
+  );
+  --glass-solid: rgba(248, 250, 252, 0.94);
+  --glass-border: rgba(255, 255, 255, 0.9);
+  --glass-border-strong: rgba(255, 255, 255, 1);
+  --glass-highlight: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 24px 60px rgba(35, 52, 70, 0.1),
+    0 2px 8px rgba(35, 52, 70, 0.06);
+  --glass-blur: 20px;
+  --glass-saturate: 120%;
+
+  --ambient-1: rgba(111, 150, 196, 0.16);
+  --ambient-2: rgba(121, 170, 177, 0.09);
+  --ambient-3: rgba(173, 166, 151, 0.08);
+  --ambient-horizon: rgba(255, 255, 255, 0.55);
+  --grid-color: rgba(12, 20, 29, 0.035);
+  --grid-opacity: 0.8;
+  --grain-opacity: 0.035;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --glass-blur: 12px;
+  }
+
+  .main-container.light-mode {
+    --glass-blur: 14px;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --glass-gradient: linear-gradient(
+      135deg,
+      rgba(17, 25, 35, 0.97),
+      rgba(12, 19, 27, 0.97)
+    );
+    --glass-blur: 0px;
+  }
+
+  .main-container.light-mode {
+    --glass-gradient: linear-gradient(
+      135deg,
+      rgba(250, 252, 253, 0.98),
+      rgba(240, 244, 248, 0.98)
+    );
+    --glass-blur: 0px;
+  }
+}

@@ -1,88 +1,107 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGears, faCode, faServer } from '@fortawesome/free-solid-svg-icons';
-import Chip from '@mui/material/Chip';
-import '../assets/styles/Expertise.scss';
+import "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGears, faCode, faServer } from "@fortawesome/free-solid-svg-icons";
+import "../assets/styles/Expertise.scss";
 
-const labelsAutomation = [
-    "PLC",
-    "DCS",
-    "Control PID",
-    "Instrumentación industrial",
-    "Sensores industriales",
-    "Arduino",
-    "IoT industrial",
-    "Automatización de procesos"
-];
-
-const labelsSoftware = [
-    "Python",
-    "C / C++",
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5 / CSS3",
-    "Flask",
-    "SQL",
-    "Análisis de datos"
-];
-
-const labelsInfraAI = [
-    "Docker",
-    "Linux",
-    "Git",
-    "Detección de objetos",
-    "LLM",
-    "Streamlit",
-    "Impresión 3D"
+const skillGroups = [
+  {
+    icon: faGears,
+    title: "Automatización y Control Industrial",
+    description:
+      "Diseño e implementación de sistemas de control, programación de PLC y DCS, instrumentación industrial y prototipado con microcontroladores.",
+    labels: [
+      "PLC",
+      "DCS",
+      "Control PID",
+      "Instrumentación industrial",
+      "Sensores industriales",
+      "Arduino",
+      "IoT industrial",
+      "Automatización de procesos",
+    ],
+  },
+  {
+    icon: faCode,
+    title: "Desarrollo de Software",
+    description:
+      "Desarrollo de software en C/C++ y Python, aplicaciones web con React y TypeScript, consumo de APIs y gestión de bases de datos.",
+    labels: [
+      "Python",
+      "C / C++",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5 / CSS3",
+      "Flask",
+      "SQL",
+      "Análisis de datos",
+    ],
+  },
+  {
+    icon: faServer,
+    title: "Infraestructura, IA y Herramientas",
+    description:
+      "Despliegue de contenedores, administración de entornos Linux, control de versiones con Git, desarrollo de soluciones con inteligencia artificial e impresión 3D.",
+    labels: [
+      "Docker",
+      "Linux",
+      "Git",
+      "Detección de objetos",
+      "LLM",
+      "Streamlit",
+      "Impresión 3D",
+    ],
+  },
 ];
 
 function Expertise() {
-    return (
-        <div className="container" id="expertise">
-            <div className="skills-container">
-                <h1>Competencias Técnicas</h1>
-                <div className="skills-grid">
-                    <div className="skill">
-                        <FontAwesomeIcon icon={faGears} size="3x" />
-                        <h3>Automatización y Control Industrial</h3>
-                        <p>Diseño e implementación de sistemas de control, programación de PLC y DCS, instrumentación industrial y prototipado con microcontroladores.</p>
-                        <div className="flex-chips">
-                            <span className="chip-title">Tecnologías:</span>
-                            {labelsAutomation.map((label, index) => (
-                                <Chip key={index} className='chip' label={label} />
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="skill">
-                        <FontAwesomeIcon icon={faCode} size="3x" />
-                        <h3>Desarrollo de Software</h3>
-                        <p>Desarrollo de software en C/C++ y Python, aplicaciones web con React y TypeScript, consumo de APIs y gestión de bases de datos.</p>
-                        <div className="flex-chips">
-                            <span className="chip-title">Tecnologías:</span>
-                            {labelsSoftware.map((label, index) => (
-                                <Chip key={index} className='chip' label={label} />
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="skill">
-                        <FontAwesomeIcon icon={faServer} size="3x" />
-                        <h3>Infraestructura, IA y Herramientas</h3>
-                        <p>Despliegue de contenedores, administración de entornos Linux, control de versiones con Git, desarrollo de soluciones con inteligencia artificial e impresión 3D.</p>
-                        <div className="flex-chips">
-                            <span className="chip-title">Tecnologías:</span>
-                            {labelsInfraAI.map((label, index) => (
-                                <Chip key={index} className='chip' label={label} />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <section className="section" id="expertise">
+      <div className="section__inner">
+        <div className="section-heading">
+          <p className="eyebrow">01 / Competencias</p>
+          <h2>Competencias técnicas</h2>
+          <p>
+            Automatización, desarrollo de software e infraestructura: las áreas
+            donde concentro mi experiencia profesional.
+          </p>
         </div>
-    );
+
+        <div className="skills-grid">
+          {skillGroups.map((group, index) => (
+            <article
+              className="skill glass glass--interactive"
+              key={group.title}
+            >
+              <div className="skill__head">
+                <span className="skill__icon">
+                  <FontAwesomeIcon icon={group.icon} />
+                </span>
+                <span className="skill__index">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+              </div>
+
+              <h3>{group.title}</h3>
+              <p>{group.description}</p>
+
+              <div className="skill__tech">
+                <span className="chip-title">Tecnologías</span>
+                <div className="chips">
+                  {group.labels.map((label) => (
+                    <span className="chip" key={label}>
+                      {label}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Expertise;

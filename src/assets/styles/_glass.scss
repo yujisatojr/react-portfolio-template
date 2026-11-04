@@ -1,0 +1,167 @@
+/* --------------------------------------------------------------------------
+   Liquid glass surface system
+   -------------------------------------------------------------------------- */
+
+.glass {
+  position: relative;
+  background: var(--glass-gradient);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  isolation: isolate;
+}
+
+/* Specular hairline, only the border is painted. */
+.glass::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    142deg,
+    var(--glass-border-strong) 0%,
+    rgba(255, 255, 255, 0.03) 34%,
+    rgba(255, 255, 255, 0) 58%,
+    var(--accent-line) 100%
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.glass > * {
+  position: relative;
+  z-index: 2;
+}
+
+.glass--interactive {
+  overflow: hidden;
+  transition: transform var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out),
+    background-color var(--duration-base) var(--ease-out);
+}
+
+.glass--interactive::after {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  z-index: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 38%,
+    rgba(255, 255, 255, 0.09) 48%,
+    transparent 58%
+  );
+  transform: translateX(-55%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 720ms var(--ease-soft), opacity 240ms ease;
+}
+
+.glass--interactive:hover {
+  transform: translateY(-3px);
+  border-color: var(--glass-border-strong);
+  box-shadow: inset 0 1px 0 var(--glass-highlight),
+    0 30px 80px rgba(0, 0, 0, 0.42), 0 0 0 1px var(--accent-soft);
+}
+
+.glass--interactive:hover::after {
+  transform: translateX(55%);
+  opacity: 1;
+}
+
+.glass--pill {
+  border-radius: var(--radius-pill);
+}
+
+.glass-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55em;
+  min-height: 44px;
+  padding: 0.72rem 1.2rem;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+  background: var(--glass-gradient);
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.glass-button:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent-line);
+  box-shadow: inset 0 1px 0 var(--glass-highlight),
+    0 10px 30px rgba(0, 0, 0, 0.24);
+}
+
+.glass-button:active {
+  transform: translateY(0);
+}
+
+.glass-button--accent {
+  border-color: rgba(169, 198, 234, 0.55);
+  background: linear-gradient(
+    135deg,
+    var(--accent-bright) 0%,
+    var(--accent) 55%,
+    var(--accent-deep) 100%
+  );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 12px 40px rgba(77, 118, 164, 0.28);
+  color: #06101b;
+}
+
+.glass-button--accent:hover {
+  border-color: var(--accent-bright);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 16px 46px rgba(77, 118, 164, 0.38);
+  color: #06101b;
+}
+
+.light-mode .glass-button--accent {
+  background: linear-gradient(135deg, #3a6d9f 0%, #2e5e96 55%, #1f446e 100%);
+  color: #f7fbff;
+}
+
+.glass-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--hairline) 12%,
+    var(--hairline) 88%,
+    transparent
+  );
+}
+
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  .glass,
+  .glass-button {
+    background: var(--glass-solid);
+  }
+}

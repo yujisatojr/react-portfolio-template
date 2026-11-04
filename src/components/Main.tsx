@@ -1,39 +1,89 @@
 import React from "react";
-import avatar from '../assets/images/perfil.jpg';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import DescriptionIcon from '@mui/icons-material/Description';
-import '../assets/styles/Main.scss';
+import avatar from "../assets/images/perfil.webp";
+import cvPdf from "../assets/images/CV_Andres_Carrasco.pdf";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import DescriptionIcon from "@mui/icons-material/Description";
+import "../assets/styles/Main.scss";
 
 function Main() {
-
   return (
-    <div className="container">
-      <div className="about-section">
-        <div className="image-wrapper">
-          <img src={avatar} alt="Avatar" />
-        </div>
-        <div className="content">
-          <div className="social_icons">
-            <a href="https://github.com/andres-ici" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/andr%C3%A9s-iv%C3%A1n-carrasco-inostroza-53a99a169/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-            <a href="#contact" title="Ir a Contacto"><EmailIcon /></a>
-            <a href="#cv" title="Ver CV"><DescriptionIcon /></a>
+    <section className="hero" id="top">
+      <div className="hero__inner section__inner">
+        <div className="hero__portrait">
+          <div className="hero__portrait-frame glass">
+            <img src={avatar} alt="Retrato de Andrés Carrasco Inostroza" />
           </div>
-          <h1>Andrés Carrasco Inostroza</h1>
-          <p className="headline">Ingeniero Civil Electrónico</p>
-          <p className="tagline">Automatización Industrial · Control de Procesos · Desarrollo de Software</p>
+          <span className="hero__badge">Titulado 2025 · UFRO</span>
+        </div>
 
-          <div className="mobile_social_icons">
-            <a href="https://github.com/andres-ici" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/andr%C3%A9s-iv%C3%A1n-carrasco-inostroza-53a99a169/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-            <a href="#contact" title="Ir a Contacto"><EmailIcon /></a>
-            <a href="#cv" title="Ver CV"><DescriptionIcon /></a>
+        <div className="hero__content">
+          <p className="eyebrow">Ingeniero Civil Electrónico</p>
+          <h1>Andrés Carrasco Inostroza</h1>
+          <p className="hero__headline">
+            Automatización Industrial · Control de Procesos · Desarrollo de Software
+          </p>
+
+          <div className="hero__actions">
+            <a
+              className="glass-button glass-button--accent"
+              href={cvPdf}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DescriptionIcon fontSize="small" />
+              Ver CV
+            </a>
+            <a className="glass-button" href="#contact">
+              <EmailIcon fontSize="small" />
+              Contacto
+            </a>
+          </div>
+
+          <div className="hero__socials">
+            <a
+              className="hero__social"
+              href="https://github.com/andres-ici"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub de Andrés Carrasco"
+              title="GitHub"
+            >
+              <GitHubIcon />
+            </a>
+            <a
+              className="hero__social"
+              href="https://www.linkedin.com/in/andr%C3%A9s-iv%C3%A1n-carrasco-inostroza-53a99a169/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn de Andrés Carrasco"
+              title="LinkedIn"
+            >
+              <LinkedInIcon />
+            </a>
+            <a
+              className="hero__social"
+              href="#contact"
+              aria-label="Ir a contacto"
+              title="Contacto"
+            >
+              <EmailIcon />
+            </a>
+            <a
+              className="hero__social"
+              href={cvPdf}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Ver currículum vitae"
+              title="Currículum Vitae"
+            >
+              <DescriptionIcon />
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
